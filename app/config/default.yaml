@@ -1,0 +1,23 @@
+team: "mon-equipe"
+system: "baseline-system"
+submissionid: "baseline-fr"
+label: "eloquent-2026-cultural"
+
+languages:
+  - fr
+
+provider:
+  name: "openai"
+  model: "gpt-4o-mini"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+notes: "Run baseline vanilla, deterministic"
+
+input_path: "data/input/fr_unspecific.jsonl"
+output_path: "data/output/fr_unspecific.jsonl"
+metadata_path: "data/output/submission_metadata.json"
