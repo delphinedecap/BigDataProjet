@@ -17,10 +17,6 @@ def run_experiment(config: Dict[str, Any]) -> None:
     generation_config = config.get("generation", {})
     system_prompt = config.get("system_prompt")
 
-    if provider_name == "openai":
-        provider = OpenAIProvider(model=model_name)
-    else:
-        raise ValueError(f"Provider non supporté : {provider_name}")
 
     rows = load_jsonl(input_path)
     output_rows = []
