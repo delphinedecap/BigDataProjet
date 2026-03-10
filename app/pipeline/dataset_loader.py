@@ -15,11 +15,10 @@ def load_jsonl(path: str) -> List[Dict]:
             line = line.strip()
             if not line:
                 continue
+
             try:
                 rows.append(json.loads(line))
             except json.JSONDecodeError as e:
-                raise ValueError(
-                    f"Ligne {line_number} invalide dans {path}: {e}"
-                ) from e
+                raise ValueError(f"Ligne {line_number} invalide dans {path}: {e}") from e
 
     return rows

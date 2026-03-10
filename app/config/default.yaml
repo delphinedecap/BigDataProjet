@@ -1,14 +1,16 @@
-team: "mon-equipe"
+team: "les-jaguars"
 system: "baseline-system"
-submissionid: "baseline-fr"
+submissionid: "baseline-fr-unspecific"
 label: "eloquent-2026-cultural"
 
 languages:
   - fr
 
+dataset_type: "unspecific"
+
 provider:
-  name: "openai"
-  model: "gpt-4o-mini"
+  name: "ollama"
+  model: "mistral"
 
 generation:
   temperature: 0.0
@@ -16,8 +18,9 @@ generation:
   max_tokens: 80
 
 system_prompt: null
-notes: "Run baseline vanilla, deterministic"
+notes: "Baseline vanilla déterministe"
 
 input_path: "data/input/fr_unspecific.jsonl"
-output_path: "data/output/fr_unspecific.jsonl"
+output_path: "data/output/fr_unspecific_output.jsonl"
 metadata_path: "data/output/submission_metadata.json"
+log_file: "runs/baseline_fr.log"
