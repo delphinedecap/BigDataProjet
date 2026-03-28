@@ -3,6 +3,11 @@ from pathlib import Path
 
 
 def setup_logger(log_file: str = "runs/app.log") -> logging.Logger:
+    """
+    Initialise un logger qui écrit à la fois :
+    - dans un fichier de log ;
+    - dans la console.
+    """
     Path(log_file).parent.mkdir(parents=True, exist_ok=True)
 
     logger = logging.getLogger("eloquent")

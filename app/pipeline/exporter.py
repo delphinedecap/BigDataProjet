@@ -4,6 +4,10 @@ from typing import Dict, List
 
 
 def save_jsonl(rows: List[Dict], path: str) -> None:
+    """
+    Sauvegarde une liste de dictionnaires dans un fichier JSONL.
+    Une ligne = un objet JSON.
+    """
     file_path = Path(path)
     file_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -13,6 +17,9 @@ def save_jsonl(rows: List[Dict], path: str) -> None:
 
 
 def save_metadata(metadata: Dict, path: str) -> None:
+    """
+    Sauvegarde les métadonnées du run au format JSON.
+    """
     file_path = Path(path)
     file_path.parent.mkdir(parents=True, exist_ok=True)
 

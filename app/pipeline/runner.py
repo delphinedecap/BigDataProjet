@@ -3,21 +3,20 @@ from typing import Any, Dict
 
 from app.pipeline.dataset_loader import load_jsonl
 from app.pipeline.exporter import save_jsonl, save_metadata
-from app.providers.ollama_provider import OllamaProvider
+from app.providers.provider_factory import create_provider
 from app.utils.logger import setup_logger
 
 
-def build_provider(provider_config: Dict[str, Any]):
-    provider_name = provider_config["name"]
-    model_name = provider_config["model"]
-
-    if provider_name == "ollama":
-        return OllamaProvider(model=model_name)
-
-    raise ValueError(f"Provider non supporté : {provider_name}")
-
-
 def run_experiment(config: Dict[str, Any]) -> None:
+    """
+    Lance un run complet à partir d'une configuration YAML :
+    - initialisation du logger ;
+    - création du provider ;
+    - vérification du provider ;
+    - chargement du dataset ;
+    - génération des réponses ;
+    - sauvegarde des résultats et métadonnées.
+    """
     logger = setup_logger(config.get("log_file", "runs/app.log"))
 
     input_path = config["input_path"]
@@ -27,7 +26,32 @@ def run_experiment(config: Dict[str, Any]) -> None:
     generation_config = config.get("generation", {})
     system_prompt = config.get("system_prompt")
 
-    provider = build_provider(config["provider"])
+    provider = create_provider(config["provider"])
+    model_name = config["provider"]["model"]
+
+    try:
+        logger.info("Vérification de la connexion au provider...")
+        provider.check_connection()
+
+        logger.info("Récupération des modèles disponibles...")
+        available_models = provider.list_models()
+        logger.info("Modèles disponibles : %s", available_models)
+
+        if model_name not in available_models:
+            raise ValueError(
+                f"Le modèle '{model_name}' n'est pas disponible. "
+                f"Modèles disponibles : {available_models}"
+            )
+
+        logger.info("Préchargement du modèle : %s", model_name)
+        try:
+            provider.preload_model(model_name)
+        except Exception as e:
+            logger.warning("Préchargement ignoré : %s", str(e))
+
+    except Exception as e:
+        logger.error("Impossible d'initialiser le provider : %s", str(e))
+        raise
 
     logger.info("Chargement du dataset : %s", input_path)
     rows = load_jsonl(input_path)

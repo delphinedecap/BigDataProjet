@@ -4,6 +4,10 @@ from typing import List, Dict
 
 
 def load_jsonl(path: str) -> List[Dict]:
+    """
+    Charge un fichier JSONL et retourne son contenu
+    sous forme d'une liste de dictionnaires.
+    """
     file_path = Path(path)
 
     if not file_path.exists():

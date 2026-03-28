@@ -1,3 +1,4 @@
+import sys
 import yaml
 
 from app.pipeline.runner import run_experiment
@@ -9,5 +10,10 @@ def load_config(path: str) -> dict:
 
 
 if __name__ == "__main__":
-    config = load_config("app/config/default.yaml")
+    config_path = "app/config/default.yaml"
+
+    if len(sys.argv) > 1:
+        config_path = sys.argv[1]
+
+    config = load_config(config_path)
     run_experiment(config)

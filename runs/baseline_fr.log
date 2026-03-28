@@ -221,3 +221,43 @@
 2026-03-10 16:29:40,669 - INFO - Sauvegarde des résultats dans : data/output/fr_unspecific_output.jsonl
 2026-03-10 16:29:40,672 - INFO - Sauvegarde des métadonnées dans : data/output/submission_metadata.json
 2026-03-10 16:29:40,673 - INFO - Run terminé.
+2026-03-28 13:45:45,270 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:45:47,369 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:45:49,425 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:45:49,425 - ERROR - Impossible d'initialiser le provider : Le modèle 'mistral' n'est pas disponible. Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:47:46,578 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:47:48,638 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:47:50,726 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:47:50,726 - INFO - Préchargement du modèle : mistral:latest
+2026-03-28 13:47:52,789 - ERROR - Impossible d'initialiser le provider : 400 Client Error: Bad Request for url: http://localhost:11434/api/generate
+2026-03-28 13:50:15,753 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:50:17,814 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:50:19,877 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:50:19,878 - INFO - Préchargement du modèle : mistral:latest
+2026-03-28 13:50:21,946 - ERROR - Impossible d'initialiser le provider : Erreur preload Ollama 400 : {"error":"time: missing unit in duration \"-1\""}
+2026-03-28 13:50:49,270 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:50:51,364 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:50:53,435 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:50:53,435 - INFO - Préchargement du modèle : mistral:latest
+2026-03-28 13:50:55,496 - ERROR - Impossible d'initialiser le provider : Erreur preload Ollama 400 : {"error":"time: missing unit in duration \"-1\""}
+2026-03-28 13:52:35,317 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:52:37,379 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:52:39,449 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:52:39,449 - INFO - Préchargement du modèle : mistral:latest
+2026-03-28 13:52:41,489 - WARNING - Préchargement ignoré : Erreur preload Ollama 400 : {"error":"time: missing unit in duration \"-1\""}
+2026-03-28 13:52:41,490 - INFO - Chargement du dataset : data/input/fr_unspecific.jsonl
+2026-03-28 13:52:41,492 - INFO - Nombre de prompts chargés : 101
+2026-03-28 13:52:56,058 - INFO - [1/101] Succès
+2026-03-28 13:53:19,682 - INFO - [2/101] Succès
+2026-03-28 13:53:37,323 - INFO - [3/101] Succès
+2026-03-28 13:53:53,083 - INFO - [4/101] Succès
+2026-03-28 13:54:12,617 - INFO - [5/101] Succès
+2026-03-28 13:54:30,374 - INFO - [6/101] Succès
+2026-03-28 13:54:45,974 - INFO - [7/101] Succès
+2026-03-28 13:55:48,302 - INFO - Vérification de la connexion au provider...
+2026-03-28 13:55:50,364 - INFO - Récupération des modèles disponibles...
+2026-03-28 13:55:52,433 - INFO - Modèles disponibles : ['mistral:latest', 'gemma3:4b']
+2026-03-28 13:55:52,434 - INFO - Préchargement du modèle : mistral:latest
+2026-03-28 13:55:54,572 - INFO - Chargement du dataset : data/input/fr_unspecific.jsonl
+2026-03-28 13:55:54,574 - INFO - Nombre de prompts chargés : 101
+2026-03-28 13:56:08,878 - INFO - [1/101] Succès
