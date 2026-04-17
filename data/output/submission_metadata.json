@@ -3,14 +3,14 @@
   "system": "baseline-system",
   "submissionid": "baseline-fr-unspecific",
   "label": "eloquent-2026-cultural",
-  "date": "2026-03-10",
+  "date": "2026-04-12",
   "languages": [
     "fr"
   ],
   "dataset_type": "unspecific",
   "provider": {
     "name": "ollama",
-    "model": "mistral"
+    "model": "mistral:latest"
   },
   "generation": {
     "temperature": 0.0,
