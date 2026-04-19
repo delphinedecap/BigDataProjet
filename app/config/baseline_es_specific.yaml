@@ -1,0 +1,26 @@
+team: "les-jaguars"
+system: "baseline-system"
+submissionid: "baseline-es-specific"
+label: "eloquent-2026-cultural"
+
+languages:
+  - es
+
+dataset_type: "specific"
+
+provider:
+  name: "ollama"
+  model: "mistral:latest"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+notes: "Baseline vanilla déterministe"
+
+input_path: "data/input/es_specific.jsonl"
+output_path: "data/output/es_specific_output.jsonl"
+metadata_path: "data/output/submission_metadata_es_specific.json"
+log_file: "runs/baseline_es_specific.log"

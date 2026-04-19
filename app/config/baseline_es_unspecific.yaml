@@ -22,5 +22,5 @@ notes: "Baseline vanilla déterministe"
 
 input_path: "data/input/es_unspecific.jsonl"
 output_path: "data/output/es_unspecific_output.jsonl"
-metadata_path: "data/output/submission_metadata_es.json"
-log_file: "runs/baseline_es.log"
+metadata_path: "data/output/submission_metadata_es_unspecific.json"
+log_file: "runs/baseline_es_unspecific.log"

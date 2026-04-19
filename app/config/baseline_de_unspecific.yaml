@@ -1,10 +1,10 @@
 team: "les-jaguars"
 system: "baseline-system"
-submissionid: "baseline-en-unspecific"
+submissionid: "baseline-de-unspecific"
 label: "eloquent-2026-cultural"
 
 languages:
-  - en
+  - de
 
 dataset_type: "unspecific"
 
@@ -20,7 +20,7 @@ generation:
 system_prompt: null
 notes: "Baseline vanilla déterministe"
 
-input_path: "data/input/en_unspecific.jsonl"
-output_path: "data/output/en_unspecific_output.jsonl"
-metadata_path: "data/output/submission_metadata_en.json"
-log_file: "runs/baseline_en.log"
+input_path: "data/input/de_unspecific.jsonl"
+output_path: "data/output/de_unspecific_output.jsonl"
+metadata_path: "data/output/submission_metadata_de_unspecific.json"
+log_file: "runs/baseline_de_unspecific.log"

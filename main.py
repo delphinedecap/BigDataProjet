@@ -10,7 +10,7 @@ def load_config(path: str) -> dict:
 
 
 if __name__ == "__main__":
-    config_path = "app/config/default.yaml"
+    config_path = "app/config/baseline_fr_unspecific.yaml"
 
     if len(sys.argv) > 1:
         config_path = sys.argv[1]
