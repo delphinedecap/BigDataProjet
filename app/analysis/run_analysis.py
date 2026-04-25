@@ -6,7 +6,6 @@ from embeddings import compute_similarity
 from qualitative import extract_extreme_cases
 
 
-# 🔹 Remonter à la racine du projet
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "output")
 
@@ -21,41 +20,39 @@ def run_multiple_analysis(paths):
     results = {}
 
     for name, path in paths.items():
-        print(f"\n===== ANALYSIS: {name} =====")
+        print(f"\n===== ANALYSE: {name} =====")
 
         df = load_jsonl(path)
 
-        # sécurité
         if "answer" not in df.columns:
             raise ValueError(f"Le fichier {name} ne contient pas de colonne 'answer'")
 
         df["answer"] = df["answer"].fillna("")
 
-        # 🔹 Stats
+        # Statistiques
         stats, df = compute_basic_stats(df)
 
-        # 🔹 Similarité
+        # Similarité
         sim_matrix = compute_similarity(df)
         avg_similarity = sim_matrix.mean()
 
-        # 🔹 Qualitatif
+        # Analyse qualitative
         qualitative = extract_extreme_cases(df, sim_matrix)
 
-        # 🔹 Print détaillé
-        print("\n--- STATS ---")
+        print("\n--- Statistiques ---")
         print(stats)
 
-        print("\n--- SIMILARITY ---")
+        print("\n--- Similarité ---")
         print("Matrix shape:", sim_matrix.shape)
         print("Average similarity:", avg_similarity)
 
-        print("\n--- QUALITATIVE ---")
+        print("\n--- Analyse qualitative ---")
         print(qualitative)
 
-        print("\n--- SAMPLE ANSWERS ---")
+        print("\n--- Réponses  ---")
         print(df["answer"].head(3))
 
-        # 🔹 Stockage pour comparaison
+        # Stockage pour comparaison
         results[name] = {
             "avg_word_count": stats["avg_word_count"],
             "avg_char_length": stats["avg_char_length"],
@@ -68,7 +65,6 @@ def run_multiple_analysis(paths):
 if __name__ == "__main__":
     print("Current working dir:", os.getcwd())
 
-    # 🔥 Mets ici tous tes fichiers générés
     paths = {
         "fr_unspecific": os.path.join(DATA_DIR, "fr_unspecific_output.jsonl"),
         "fr_specific": os.path.join(DATA_DIR, "fr_specific_output.jsonl"),
@@ -78,8 +74,8 @@ if __name__ == "__main__":
 
     results = run_multiple_analysis(paths)
 
-    # 🔥 COMPARAISON FINALE (IMPORTANT POUR LE RAPPORT)
-    print("\n\n===== FINAL COMPARISON =====")
+    # Comparaison finale
+    print("\n\n===== Comparaison finale =====")
 
     for name, metrics in results.items():
         print(f"\n{name}")
