@@ -1,9 +1,22 @@
 class RewriteVariant:
 
+
+    """ 
+    Variant de réecriture :
+
+    permet de modifier le prompt envoyé au modèle,
+    en ajoutant une contrainte de réponse,
+    à l'aide d'un préfixe : réponse en une phrase courte
+    à """
+
     name = "rewrite"
 
     def build_prompt(self, question: str, **kwargs) -> dict:
-        rewritten = f"Answer clearly in one short sentence: {question}"
+        rewritten = (
+            "Task: Answer in one short sentence.\n"
+            "Requirement: Be practical and clear.\n"
+            f"Question: {question}"
+        )
 
         return {
             "system": None,
@@ -11,8 +24,8 @@ class RewriteVariant:
             "meta": {
                 "variant": self.name,
                 "transformed": True,
-                "original_question": question,
-                "rewritten_question": rewritten,
-                "description": "Simple manual rewrite adding instruction.",
+                "description": "Prompt structuré, clair et concis.",
             },
         }
+
+    

@@ -1,6 +1,11 @@
 class VanillaPrompt:
 
-    """retourne le prompt original sans modification"""
+    """
+    Variant vanilla:
+    retourne le prompt original sans modification
+    sert de baseline de comparaison avec les variants de prompting
+    
+    """
 
     name = "vanilla"
 
@@ -11,6 +16,6 @@ class VanillaPrompt:
             "meta": {
                 "variant": self.name,
                 "transformed": False,
-                "description": "Raw question, no transformation applied. #Vanilla ",
+                "description": "Aucune transformation #Vanilla .",
             },
         }
