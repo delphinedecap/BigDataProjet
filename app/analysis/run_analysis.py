@@ -6,11 +6,13 @@ from embeddings import compute_similarity
 from qualitative import extract_extreme_cases
 
 
+# Chemins de base du projet
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "output")
 
 
 def load_jsonl(path):
+    # Vérifie que le fichier existe
     if not os.path.exists(path):
         raise FileNotFoundError(f"Fichier introuvable: {path}")
     return pd.read_json(path, lines=True)
@@ -24,19 +26,20 @@ def run_multiple_analysis(paths):
 
         df = load_jsonl(path)
 
+        # Vérifie la présence de la colonne attendue
         if "answer" not in df.columns:
             raise ValueError(f"Le fichier {name} ne contient pas de colonne 'answer'")
 
         df["answer"] = df["answer"].fillna("")
 
-        # Statistiques
+        # Statistiques de base
         stats, df = compute_basic_stats(df)
 
-        # Similarité
+        # Calcul de similarité
         sim_matrix = compute_similarity(df)
         avg_similarity = sim_matrix.mean()
 
-        # Analyse qualitative
+        # Seuils pour analyse qualitative
         qualitative = extract_extreme_cases(df, sim_matrix)
 
         print("\n--- Statistiques ---")
@@ -49,10 +52,10 @@ def run_multiple_analysis(paths):
         print("\n--- Analyse qualitative ---")
         print(qualitative)
 
-        print("\n--- Réponses  ---")
+        print("\n--- Réponses ---")
         print(df["answer"].head(3))
 
-        # Stockage pour comparaison
+        # Stockage pour comparaison finale
         results[name] = {
             "avg_word_count": stats["avg_word_count"],
             "avg_char_length": stats["avg_char_length"],
@@ -65,6 +68,7 @@ def run_multiple_analysis(paths):
 if __name__ == "__main__":
     print("Current working dir:", os.getcwd())
 
+    # Fichiers à analyser
     paths = {
         "fr_unspecific": os.path.join(DATA_DIR, "fr_unspecific_output.jsonl"),
         "fr_specific": os.path.join(DATA_DIR, "fr_specific_output.jsonl"),
@@ -74,7 +78,7 @@ if __name__ == "__main__":
 
     results = run_multiple_analysis(paths)
 
-    # Comparaison finale
+    # Comparaison globale
     print("\n\n===== Comparaison finale =====")
 
     for name, metrics in results.items():
