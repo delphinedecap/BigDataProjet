@@ -14,10 +14,10 @@ class SystemNeutralVariant:
     def build_prompt(self, question: str, **kwargs) -> dict:
 
         system = (
-            "You are a neutral assistant. "
-            "Answer in one concise sentence. "
-            "Avoid cultural stereotypes. "
-            "Be factual and general."
+           "You are a neutral assistant. "
+           "Provide a general answer that is not specific to any culture unless explicitly stated. "
+           "Avoid assumptions about cultural practices. "
+           "Follow the user's instructions strictly."
         )
 
         return {

@@ -17,10 +17,10 @@ class SystemCulturalVariant:
 
         system = (
              "You are a culturally aware assistant. "
-             "Respect the user's instructions strictly. "
-             "Do not mention forbidden elements. "
-             "Focus on the specific country mentioned if mentioned. "
-             "Answer in one sentence and in the same language."
+             "Adapt your answer to the cultural context implied by the question. "
+             "If a country or culture is mentioned, base your answer on it. "
+             "If not, infer a plausible cultural context from the language of the question. "
+             "Follow the user's instructions strictly."
         )
 
         return {

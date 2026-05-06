@@ -5,6 +5,7 @@ from app.pipeline.dataset_loader import load_jsonl
 from app.pipeline.exporter import save_jsonl, save_metadata
 from app.providers.provider_factory import create_provider
 from app.utils.logger import setup_logger
+from app.prompts.variant_factory import create_variant
 
 
 def run_experiment(config: Dict[str, Any]) -> None:
@@ -25,6 +26,11 @@ def run_experiment(config: Dict[str, Any]) -> None:
 
     generation_config = config.get("generation", {})
     system_prompt = config.get("system_prompt")
+
+    variant_name = config.get("variant", "vanilla")
+    variant = create_variant(variant_name)
+    
+    logger.info("Variant utilisé : %s", variant_name)
 
     provider = create_provider(config["provider"])
     model_name = config["provider"]["model"]
@@ -70,12 +76,21 @@ def run_experiment(config: Dict[str, Any]) -> None:
             continue
 
         try:
+            built = variant.build_prompt(prompt)
+            
+            final_prompt = built.get("user")
+            final_system = built.get("system") or system_prompt
+            
             answer = provider.generate(
-                prompt=prompt,
-                system_prompt=system_prompt,
+                prompt=final_prompt,
+                system_prompt=final_system,
                 config=generation_config,
             )
+
             row["answer"] = answer
+            row["variant"] = variant_name
+            row["transformed_prompt"] = final_prompt
+            row["system_prompt_used"] = final_system
             logger.info("[%s/%s] Succès", index, len(rows))
 
         except Exception as e:
@@ -100,6 +115,7 @@ def run_experiment(config: Dict[str, Any]) -> None:
         "generation": generation_config,
         "system_prompt": system_prompt,
         "notes": config.get("notes", ""),
+        "variant": variant_name
     }
 
     logger.info("Sauvegarde des métadonnées dans : %s", metadata_path)
