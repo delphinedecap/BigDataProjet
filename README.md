@@ -76,7 +76,7 @@ ollama serve
 
 ## Lancer un run
 
-Run par défaut :
+Run par défaut (fr unspecific):
 
 ```bash
 python main.py

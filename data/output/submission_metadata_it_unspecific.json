@@ -1,0 +1,22 @@
+{
+  "team": "les-jaguars",
+  "system": "baseline-system",
+  "submissionid": "baseline-it-unspecific",
+  "label": "eloquent-2026-cultural",
+  "date": "2026-05-04",
+  "languages": [
+    "it"
+  ],
+  "dataset_type": "unspecific",
+  "provider": {
+    "name": "ollama",
+    "model": "mistral:latest"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "notes": "Baseline vanilla déterministe"
+}

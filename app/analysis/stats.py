@@ -1,9 +1,11 @@
 import pandas as pd
 
 def compute_basic_stats(df):
+    # Longueur en caractères et en mots
     df["char_length"] = df["answer"].str.len()
     df["word_count"] = df["answer"].str.split().str.len()
 
+    # Statistiques globales
     stats = {
         "avg_char_length": df["char_length"].mean(),
         "avg_word_count": df["word_count"].mean(),

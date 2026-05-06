@@ -1,12 +1,12 @@
 team: "les-jaguars"
 system: "baseline-system"
-submissionid: "baseline-it-unspecific"
+submissionid: "baseline-it-specific"
 label: "eloquent-2026-cultural"
 
 languages:
   - it
 
-dataset_type: "unspecific"
+dataset_type: "specific"
 
 provider:
   name: "ollama"
@@ -20,7 +20,7 @@ generation:
 system_prompt: null
 notes: "Baseline vanilla déterministe"
 
-input_path: "data/input/it_unspecific.jsonl"
-output_path: "data/output/it_unspecific_output.jsonl"
-metadata_path: "data/output/submission_metadata_it.json"
-log_file: "runs/baseline_it.log"
+input_path: "data/input/it_specific.jsonl"
+output_path: "data/output/it_specific_output.jsonl"
+metadata_path: "data/output/submission_metadata_it_specific.json"
+log_file: "runs/baseline_it_specific.log"
