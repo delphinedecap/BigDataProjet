@@ -1,13 +1,17 @@
 {
   "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
   "system": "baseline-system",
-  "submissionid": "baseline-fr-unspecific",
+  "submissionid": "baseline-mistral-ollama",
   "label": "Master MIAGE Toulouse",
-  "date": "2026-04-18",
+  "date": "2026-05-07",
   "languages": [
-    "fr"
+    "fr",
+    "de",
+    "it",
+    "es",
+    "en"
   ],
-  "dataset_type": "unspecific",
+  "dataset_type": ["unspecific", "specific"],
   "provider": {
     "name": "ollama",
     "model": "mistral:latest"
