@@ -18,5 +18,6 @@
     "max_tokens": 80
   },
   "system_prompt": null,
-  "notes": "Baseline vanilla déterministe"
+  "notes": "Baseline vanilla déterministe",
+  "NOTE": "Ce fichier a été renommé de submission_metadata_fr_specific.json à submission_metadata.json pour être utilisé comme référence dans les autres fichiers de métadonnées."
 }
