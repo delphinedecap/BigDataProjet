@@ -41,11 +41,10 @@ app/
 │   ├── ollama_provider.py
 │   ├── openai_compatible_provider.py
 │   └── provider_factory.py
-├── scripts/
-│   ├── run_all_baselines.py
 └── utils/
     └── logger.py
-
+ scripts/
+└── run_all_baselines.py
 data/
 ├── input/
 └── output/
