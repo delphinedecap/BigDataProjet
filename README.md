@@ -22,11 +22,16 @@ Le backend est conçu pour être utilisé ensuite par :
 ```text
 app/
 ├── config/
-│   ├── default.yaml
-│   ├── baseline_en.yaml
-│   ├── baseline_es.yaml
-│   ├── baseline_de.yaml
-│   └── baseline_it.yaml
+│   ├── baseline_de_specific.yaml
+│   ├── baseline_de_unspecific.yaml
+│   ├── baseline_en_specific.yaml
+│   ├── baseline_en_unspecific.yaml
+│   ├── baseline_es_specific.yaml
+│   ├── baseline_es_unspecific.yaml
+│   ├── baseline_fr_specific.yaml
+│   ├── baseline_fr_unspecific.yaml
+│   ├── baseline_it_specific.yaml
+│   └── baseline_it_unspecific.yaml
 ├── pipeline/
 │   ├── dataset_loader.py
 │   ├── exporter.py
@@ -36,6 +41,8 @@ app/
 │   ├── ollama_provider.py
 │   ├── openai_compatible_provider.py
 │   └── provider_factory.py
+├── scripts/
+│   ├── run_all_baselines.py
 └── utils/
     └── logger.py
 
@@ -76,7 +83,7 @@ ollama serve
 
 ## Lancer un run
 
-Run par défaut (fr unspecific):
+Run par défaut, français unspecific:
 
 ```bash
 python main.py
@@ -85,7 +92,14 @@ python main.py
 Run avec une configuration spécifique :
 
 ```bash
-python main.py app/config/baseline_it.yaml
+python main.py app/config/baseline_it_specific.yaml
+python main.py app/config/baseline_en_unspecific.yaml
+```
+
+Run avec toute la baseline :
+
+```bash
+python scripts/run_all_baselines.py
 ```
 
 ## Fichiers générés

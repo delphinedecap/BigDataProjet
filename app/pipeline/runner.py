@@ -89,13 +89,20 @@ def run_experiment(config: Dict[str, Any]) -> None:
     save_jsonl(output_rows, output_path)
 
     metadata = {
-        "team": config.get("team", "mon-equipe"),
+        "team": config.get("team", "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD"),
         "system": config.get("system", "baseline-system"),
         "submissionid": config.get("submissionid", "baseline-run"),
-        "label": config.get("label", "eloquent-2026-cultural"),
-        "date": datetime.now().strftime("%Y-%m-%d"),
+        "label": config.get("label", "Master MIAGE Toulouse"),
+        "date": datetime.now().isoformat(timespec="seconds"),
+        "config_file": config.get("config_file"),
         "languages": config.get("languages", []),
         "dataset_type": config.get("dataset_type"),
+        "input_path": input_path,
+        "output_path": output_path,
+        "metadata_path": metadata_path,
+        "prompt_count": len(rows),
+        "success_count": sum(1 for row in output_rows if row.get("answer")),
+        "error_count": sum(1 for row in output_rows if row.get("error")),
         "provider": config["provider"],
         "generation": generation_config,
         "system_prompt": system_prompt,
