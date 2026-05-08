@@ -1,0 +1,31 @@
+team: "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD"
+system: "variant-system-prompt"
+submissionid: "variant-system-prompt-en-specific"
+label: "Master MIAGE Toulouse"
+
+languages:
+  - en
+
+dataset_type: "specific"
+
+provider:
+  name: "ollama"
+  model: "mistral:latest"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+
+prompt_variant:
+  name: "system_prompt"
+  system_prompt: "Answer briefly, neutrally and with cultural caution in a single sentence. Avoid stereotypes and excessive generalizations."
+
+notes: "Variante C1 : ajout d'un system prompt de neutralité, concision et prudence culturelle."
+
+input_path: "data/input/en_specific.jsonl"
+output_path: "data/output/variant_system_prompt_en_specific_output.jsonl"
+metadata_path: "data/output/variant_system_prompt_en_specific_metadata.json"
+log_file: "runs/variant_system_prompt_en_specific.log"

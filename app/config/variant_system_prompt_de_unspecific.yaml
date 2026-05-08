@@ -1,0 +1,31 @@
+team: "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD"
+system: "variant-system-prompt"
+submissionid: "variant-system-prompt-de-unspecific"
+label: "Master MIAGE Toulouse"
+
+languages:
+  - de
+
+dataset_type: "unspecific"
+
+provider:
+  name: "ollama"
+  model: "mistral:latest"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+
+prompt_variant:
+  name: "system_prompt"
+  system_prompt: "Antworte kurz, neutral und kulturell vorsichtig in einem einzigen Satz. Vermeide Stereotype und übermäßige Verallgemeinerungen."
+
+notes: "Variante C1 : ajout d'un system prompt de neutralité, concision et prudence culturelle."
+
+input_path: "data/input/de_unspecific.jsonl"
+output_path: "data/output/variant_system_prompt_de_unspecific_output.jsonl"
+metadata_path: "data/output/variant_system_prompt_de_unspecific_metadata.json"
+log_file: "runs/variant_system_prompt_de_unspecific.log"

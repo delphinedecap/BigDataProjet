@@ -1,31 +1,43 @@
-class RewriteVariant:
+from typing import Any, Dict
+
+from app.prompts.base import PromptVariant
 
 
-    """ 
-    Variant de réecriture :
-
-    permet de modifier le prompt envoyé au modèle,
-    en ajoutant une contrainte de réponse,
-    à l'aide d'un préfixe : réponse en une phrase courte
-    à """
+class RewriteVariant(PromptVariant):
+    """
+    Variante déterministe de reformulation légère.
+    Elle ajoute une consigne explicite autour du prompt original.
+    """
 
     name = "rewrite"
 
-    def build_prompt(self, question: str, **kwargs) -> dict:
-        rewritten = (
-            "Task: Answer in one short sentence.\n"
-            "Requirement: Be practical and clear.\n"
-            f"Question: {question}"
-        )
+    def __init__(self, prefix: str = "", suffix: str = "") -> None:
+        self.prefix = prefix.strip()
+        self.suffix = suffix.strip()
+
+    def build_prompt(self, question: str, **kwargs) -> Dict[str, Any]:
+        parts = []
+
+        if self.prefix:
+            parts.append(self.prefix)
+
+        parts.append(question.strip())
+
+        if self.suffix:
+            parts.append(self.suffix)
+
+        rewritten_prompt = "\n\n".join(parts)
 
         return {
             "system": None,
-            "user": rewritten,
+            "user": rewritten_prompt,
             "meta": {
                 "variant": self.name,
                 "transformed": True,
-                "description": "Prompt structuré, clair et concis.",
+                "description": "Reformulation déterministe par ajout d'un préfixe et/ou d'un suffixe.",
+                "parameters": {
+                    "prefix": self.prefix,
+                    "suffix": self.suffix,
+                },
             },
         }
-
-    

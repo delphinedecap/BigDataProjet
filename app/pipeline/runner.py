@@ -5,6 +5,7 @@ from app.pipeline.dataset_loader import load_jsonl
 from app.pipeline.exporter import save_jsonl, save_metadata
 from app.providers.provider_factory import create_provider
 from app.utils.logger import setup_logger
+from app.prompts.prompt_factory import create_prompt_variant
 
 
 def run_experiment(config: Dict[str, Any]) -> None:
@@ -25,6 +26,7 @@ def run_experiment(config: Dict[str, Any]) -> None:
 
     generation_config = config.get("generation", {})
     system_prompt = config.get("system_prompt")
+    prompt_variant = create_prompt_variant(config.get("prompt_variant"))
 
     provider = create_provider(config["provider"])
     model_name = config["provider"]["model"]
@@ -70,12 +72,19 @@ def run_experiment(config: Dict[str, Any]) -> None:
             continue
 
         try:
+            built_prompt = prompt_variant.build_prompt(prompt)
+
             answer = provider.generate(
-                prompt=prompt,
-                system_prompt=system_prompt,
+                prompt=built_prompt["user"],
+                system_prompt=built_prompt["system"] or system_prompt,
                 config=generation_config,
             )
+
+            row["original_prompt"] = prompt
+            row["prompt_variant"] = built_prompt["meta"]
+            row["transformed_prompt"] = built_prompt["user"]
             row["answer"] = answer
+
             logger.info("[%s/%s] Succès", index, len(rows))
 
         except Exception as e:
@@ -106,6 +115,7 @@ def run_experiment(config: Dict[str, Any]) -> None:
         "provider": config["provider"],
         "generation": generation_config,
         "system_prompt": system_prompt,
+        "prompt_variant": config.get("prompt_variant", {"name": "vanilla"}),
         "notes": config.get("notes", ""),
     }
 

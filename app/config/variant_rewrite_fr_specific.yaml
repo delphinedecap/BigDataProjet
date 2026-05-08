@@ -1,0 +1,32 @@
+team: "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD"
+system: "variant-rewrite"
+submissionid: "variant-rewrite-fr-specific"
+label: "Master MIAGE Toulouse"
+
+languages:
+  - fr
+
+dataset_type: "specific"
+
+provider:
+  name: "ollama"
+  model: "mistral:latest"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+
+prompt_variant:
+  name: "rewrite"
+  prefix: "Réponds de manière concise, factuelle et culturellement prudente."
+  suffix: "La réponse doit tenir en une seule phrase."
+
+notes: "Variante C2 : reformulation déterministe par ajout d'un préfixe et d'un suffixe au prompt utilisateur."
+
+input_path: "data/input/fr_specific.jsonl"
+output_path: "data/output/variant_rewrite_fr_specific_output.jsonl"
+metadata_path: "data/output/variant_rewrite_fr_specific_metadata.json"
+log_file: "runs/variant_rewrite_fr_specific.log"
