@@ -27,5 +27,5 @@ notes: "Variante C1 : ajout d'un system prompt de neutralité, concision et prud
 
 input_path: "data/input/es_specific.jsonl"
 output_path: "data/output/variant_system_prompt_es_specific_output.jsonl"
-metadata_path: "data/output/variant_system_prompt_es_specific_metadata.json"
+metadata_path: "data/output/submission_metadata_variant_system_prompt_es_specific.json"
 log_file: "runs/variant_system_prompt_es_specific.log"

@@ -28,5 +28,5 @@ notes: "Variante C2 : reformulation déterministe par ajout d'un préfixe et d'u
 
 input_path: "data/input/es_specific.jsonl"
 output_path: "data/output/variant_rewrite_es_specific_output.jsonl"
-metadata_path: "data/output/variant_rewrite_es_specific_metadata.json"
+metadata_path: "data/output/submission_metadata_variant_rewrite_es_specific.json"
 log_file: "runs/variant_rewrite_es_specific.log"
