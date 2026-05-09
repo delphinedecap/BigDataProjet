@@ -1,0 +1,34 @@
+{
+  "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
+  "system": "variant-rewrite",
+  "submissionid": "variant-rewrite-en-specific",
+  "label": "Master MIAGE Toulouse",
+  "date": "2026-05-09T22:29:50",
+  "config_file": "C:\\Users\\DelphineDecap\\BigDataProjet-1\\app\\config\\variant_rewrite_en_specific.yaml",
+  "languages": [
+    "en"
+  ],
+  "dataset_type": "specific",
+  "input_path": "data/input/en_specific.jsonl",
+  "output_path": "data/output/variant_rewrite_en_specific_output.jsonl",
+  "metadata_path": "data/output/submission_metadata_variant_rewrite_en_specific.json",
+  "prompt_count": 4140,
+  "success_count": 4140,
+  "error_count": 0,
+  "provider": {
+    "name": "ollama",
+    "model": "mistral:latest"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "prompt_variant": {
+    "name": "rewrite",
+    "prefix": "Answer concisely, factually and with cultural caution.",
+    "suffix": "The answer must be a single sentence."
+  },
+  "notes": "Variante C2 : reformulation déterministe par ajout d'un préfixe et d'un suffixe au prompt utilisateur."
+}
