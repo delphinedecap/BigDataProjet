@@ -85,6 +85,8 @@ def run_experiment(config: Dict[str, Any]) -> None:
             row["transformed_prompt"] = built_prompt["user"]
             row["answer"] = answer
 
+            output_rows.append(row)
+
             logger.info("[%s/%s] Succès", index, len(rows))
 
         except Exception as e:
