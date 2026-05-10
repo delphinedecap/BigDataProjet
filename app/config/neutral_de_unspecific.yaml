@@ -1,0 +1,23 @@
+team: Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD
+system: neutral-system
+submissionid: neutral-de-unspecific
+label: Master MIAGE Toulouse
+languages:
+- de
+dataset_type: unspecific
+provider:
+  name: ollama
+  model: mistral:latest
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+system_prompt: null
+prompt_variant:
+  name: neutral
+notes: 'Variante neutral : réponse factuelle, prudente, sans supposition culturelle
+  implicite.'
+input_path: data/input/de_unspecific.jsonl
+output_path: data/output/de_unspecific_neutral_output.jsonl
+metadata_path: data/output/submission_metadata_de_unspecific_neutral.json
+log_file: runs/neutral_de_unspecific.log
