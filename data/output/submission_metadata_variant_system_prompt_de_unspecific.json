@@ -1,0 +1,33 @@
+{
+  "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
+  "system": "variant-system-prompt",
+  "submissionid": "variant-system-prompt-de-unspecific",
+  "label": "Master MIAGE Toulouse",
+  "date": "2026-05-12T19:25:35",
+  "config_file": "C:\\Users\\AnaisSoutric\\Documents\\BigData\\app\\config\\variant_system_prompt_de_unspecific.yaml",
+  "languages": [
+    "de"
+  ],
+  "dataset_type": "unspecific",
+  "input_path": "data/input/de_unspecific.jsonl",
+  "output_path": "data/output/variant_system_prompt_de_unspecific_output.jsonl",
+  "metadata_path": "data/output/submission_metadata_variant_system_prompt_de_unspecific.json",
+  "prompt_count": 101,
+  "success_count": 202,
+  "error_count": 0,
+  "provider": {
+    "name": "ollama",
+    "model": "mistral:latest"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "prompt_variant": {
+    "name": "system_prompt",
+    "system_prompt": "Antworte kurz, neutral und kulturell vorsichtig in einem einzigen Satz. Vermeide Stereotype und übermäßige Verallgemeinerungen."
+  },
+  "notes": "Variante C1 : ajout d'un system prompt de neutralité, concision et prudence culturelle."
+}
