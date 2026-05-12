@@ -1,0 +1,23 @@
+team: Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD
+system: cultural-system
+submissionid: cultural-es-unspecific
+label: Master MIAGE Toulouse
+languages:
+- es
+dataset_type: unspecific
+provider:
+  name: ollama
+  model: mistral:latest
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+system_prompt: null
+prompt_variant:
+  name: cultural
+notes: 'Variante cultural : réponse tenant compte du contexte culturel implicite ou
+  explicite.'
+input_path: data/input/es_unspecific.jsonl
+output_path: data/output/es_unspecific_cultural_output.jsonl
+metadata_path: data/output/submission_metadata_es_unspecific_cultural.json
+log_file: runs/cultural_es_unspecific.log

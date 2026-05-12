@@ -1,5 +1,7 @@
 from app.prompts.rewrite_variant import RewriteVariant
 from app.prompts.system_prompt_variant import SystemPromptVariant
+from app.prompts.system_cultural_variant import SystemCulturalVariant
+from app.prompts.system_neutral_variant import SystemNeutralVariant
 from app.prompts.vanilla import VanillaPrompt
 
 
@@ -23,5 +25,11 @@ def create_prompt_variant(config: dict):
             prefix=config.get("prefix", ""),
             suffix=config.get("suffix", ""),
         )
+
+    if variant_name == "cultural":
+        return SystemCulturalVariant()
+
+    if variant_name == "neutral":
+        return SystemNeutralVariant()
 
     raise ValueError(f"Variante de prompt non supportée : {variant_name}")
