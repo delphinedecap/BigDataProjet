@@ -1,0 +1,32 @@
+{
+  "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
+  "system": "neutral-system",
+  "submissionid": "neutral-it-unspecific",
+  "label": "Master MIAGE Toulouse",
+  "date": "2026-05-12T17:46:12",
+  "config_file": "C:\\Users\\AnaisSoutric\\Documents\\BigData\\app\\config\\neutral_it_unspecific.yaml",
+  "languages": [
+    "it"
+  ],
+  "dataset_type": "unspecific",
+  "input_path": "data/input/it_unspecific.jsonl",
+  "output_path": "data/output/it_unspecific_neutral_output.jsonl",
+  "metadata_path": "data/output/submission_metadata_it_unspecific_neutral.json",
+  "prompt_count": 101,
+  "success_count": 202,
+  "error_count": 0,
+  "provider": {
+    "name": "ollama",
+    "model": "mistral:latest"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "prompt_variant": {
+    "name": "neutral"
+  },
+  "notes": "Variante neutral : réponse factuelle, prudente, sans supposition culturelle implicite."
+}
