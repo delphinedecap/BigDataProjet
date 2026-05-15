@@ -1,0 +1,32 @@
+{
+  "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
+  "system": "cultural-system",
+  "submissionid": "cultural-fr-specific",
+  "label": "Master MIAGE Toulouse",
+  "date": "2026-05-15T11:04:19",
+  "config_file": "C:\\Users\\DelphineDecap\\BigDataProjet-1\\app\\config\\cultural_fr_specific.yaml",
+  "languages": [
+    "fr"
+  ],
+  "dataset_type": "specific",
+  "input_path": "data/input/fr_specific.jsonl",
+  "output_path": "data/output/fr_specific_cultural_output.jsonl",
+  "metadata_path": "data/output/submission_metadata_fr_specific_cultural.json",
+  "prompt_count": 4104,
+  "success_count": 8208,
+  "error_count": 0,
+  "provider": {
+    "name": "ollama",
+    "model": "mistral:latest"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "prompt_variant": {
+    "name": "cultural"
+  },
+  "notes": "Variante cultural : réponse tenant compte du contexte culturel implicite ou explicite."
+}
