@@ -1,0 +1,32 @@
+team: "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD"
+system: "openai-compatible-lmstudio-baseline"
+submissionid: "lmstudio-fr-specific"
+label: "Master MIAGE Toulouse"
+
+languages:
+  - fr
+
+dataset_type: "specific"
+
+provider:
+  name: "openai_compatible"
+  model: "gemma-4-e4b-it"
+  base_url: "http://localhost:1234/v1"
+  api_key: "not-needed"
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 80
+
+system_prompt: null
+
+prompt_variant:
+  name: "vanilla"
+
+notes: "Baseline vanilla déterministe avec provider LM Studio compatible OpenAI"
+
+input_path: "data/input/fr_specific.jsonl"
+output_path: "data/output/lmstudio_fr_specific_output.jsonl"
+metadata_path: "data/output/lmstudio_metadata_fr_specific.json"
+log_file: "runs/lmstudio_fr_specific.log"
