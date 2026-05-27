@@ -15,9 +15,17 @@ from qualitative import (
 # CHEMINS DE BASE DU PROJET
 # =========================
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.dirname(__file__)
+    )
+)
 
-DATA_DIR = os.path.join(BASE_DIR, "data", "output")
+DATA_DIR = os.path.join(
+    BASE_DIR,
+    "data",
+    "output"
+)
 
 
 # =========================
@@ -48,6 +56,10 @@ def run_multiple_analysis(paths):
 
         print(f"\n===== ANALYSE: {name} =====")
 
+        # =========================
+        # CHARGEMENT DU DATASET
+        # =========================
+
         df = load_jsonl(path)
 
         # =========================
@@ -58,7 +70,9 @@ def run_multiple_analysis(paths):
 
             before = len(df)
 
-            df = df.drop_duplicates(subset="id")
+            df = df.drop_duplicates(
+                subset="id"
+            )
 
             after = len(df)
 
@@ -77,10 +91,11 @@ def run_multiple_analysis(paths):
 
             raise ValueError(
                 f"Le fichier {name} "
-                f"ne contient pas de colonne 'answer'"
+                f"ne contient pas "
+                f"de colonne 'answer'"
             )
 
-        # Gestion des valeurs manquantes
+        # Remplace les réponses manquantes
         df["answer"] = df["answer"].fillna("")
 
         # =========================
@@ -92,6 +107,8 @@ def run_multiple_analysis(paths):
         # =========================
         # CALCUL DE SIMILARITÉ
         # =========================
+
+        print("Calcul de similarité...")
 
         sim_matrix = compute_similarity(df)
 
@@ -106,14 +123,14 @@ def run_multiple_analysis(paths):
             sim_matrix
         )
 
-        # Réponses les plus similaires
+        # Paires les plus similaires
         most_similar = get_most_similar_pairs(
             df,
             sim_matrix,
             top_k=3
         )
 
-        # Réponses les moins similaires
+        # Paires les moins similaires
         least_similar = get_least_similar_pairs(
             df,
             sim_matrix,
@@ -131,7 +148,11 @@ def run_multiple_analysis(paths):
         print(stats)
 
         print("\n--- Similarité ---")
-        print("Matrix shape:", sim_matrix.shape)
+
+        print(
+            "Matrix shape:",
+            sim_matrix.shape
+        )
 
         print(
             "Average similarity:",
@@ -146,7 +167,10 @@ def run_multiple_analysis(paths):
         # SIMILAIRES
         # =========================
 
-        print("\n--- Réponses les PLUS similaires ---")
+        print(
+            "\n--- Réponses les PLUS "
+            "similaires ---"
+        )
 
         for idx, pair in enumerate(most_similar):
 
@@ -168,7 +192,10 @@ def run_multiple_analysis(paths):
         # SIMILAIRES
         # =========================
 
-        print("\n--- Réponses les MOINS similaires ---")
+        print(
+            "\n--- Réponses les MOINS "
+            "similaires ---"
+        )
 
         for idx, pair in enumerate(least_similar):
 
@@ -197,7 +224,8 @@ def run_multiple_analysis(paths):
         if len(problematic) == 0:
 
             print(
-                "Aucune réponse problématique détectée."
+                "Aucune réponse problématique "
+                "détectée."
             )
 
         else:
@@ -219,7 +247,9 @@ def run_multiple_analysis(paths):
 
         print("\n--- Exemples de réponses ---")
 
-        print(df["answer"].head(3))
+        print(
+            df["answer"].head(3)
+        )
 
         # =========================
         # STOCKAGE DES RÉSULTATS
@@ -271,7 +301,157 @@ if __name__ == "__main__":
                 "fr_specific_output.jsonl"
             ),
 
-        # Ajouter les autres fichiers ici...
+        "en_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "en_unspecific_output.jsonl"
+            ),
+
+        "en_specific":
+            os.path.join(
+                DATA_DIR,
+                "en_specific_output.jsonl"
+            ),
+
+        "es_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "es_unspecific_output.jsonl"
+            ),
+
+        "es_specific":
+            os.path.join(
+                DATA_DIR,
+                "es_specific_output.jsonl"
+            ),
+
+        "de_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "de_unspecific_output.jsonl"
+            ),
+
+        "de_specific":
+            os.path.join(
+                DATA_DIR,
+                "de_specific_output.jsonl"
+            ),
+
+        "it_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "it_unspecific_output.jsonl"
+            ),
+
+        "it_specific":
+            os.path.join(
+                DATA_DIR,
+                "it_specific_output.jsonl"
+            ),
+
+        # ===== VARIANT REWRITE =====
+
+        "rewrite_fr_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "variant_rewrite_fr_unspecific_output.jsonl"
+            ),
+
+        "rewrite_fr_specific":
+            os.path.join(
+                DATA_DIR,
+                "variant_rewrite_fr_specific_output.jsonl"
+            ),
+
+        "rewrite_en_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "variant_rewrite_en_unspecific_output.jsonl"
+            ),
+
+        "rewrite_en_specific":
+            os.path.join(
+                DATA_DIR,
+                "variant_rewrite_en_specific_output.jsonl"
+            ),
+
+        # ===== VARIANT SYSTEM =====
+
+        "system_fr_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "variant_system_prompt_fr_unspecific_output.jsonl"
+            ),
+
+        "system_fr_specific":
+            os.path.join(
+                DATA_DIR,
+                "variant_system_prompt_fr_specific_output.jsonl"
+            ),
+
+        "system_en_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "variant_system_prompt_en_unspecific_output.jsonl"
+            ),
+
+        "system_en_specific":
+            os.path.join(
+                DATA_DIR,
+                "variant_system_prompt_en_specific_output.jsonl"
+            ),
+
+        # ===== VARIANT NEUTRAL =====
+
+        "neutral_fr_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "fr_unspecific_neutral_output.jsonl"
+            ),
+
+        "neutral_fr_specific":
+            os.path.join(
+                DATA_DIR,
+                "fr_specific_neutral_output.jsonl"
+            ),
+
+        "neutral_en_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "en_unspecific_neutral_output.jsonl"
+            ),
+
+        "neutral_en_specific":
+            os.path.join(
+                DATA_DIR,
+                "en_specific_neutral_output.jsonl"
+            ),
+
+        # ===== VARIANT CULTURAL =====
+
+        "cultural_fr_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "fr_unspecific_cultural_output.jsonl"
+            ),
+
+        "cultural_fr_specific":
+            os.path.join(
+                DATA_DIR,
+                "fr_specific_cultural_output.jsonl"
+            ),
+
+        "cultural_en_unspecific":
+            os.path.join(
+                DATA_DIR,
+                "en_unspecific_cultural_output.jsonl"
+            ),
+
+        "cultural_en_specific":
+            os.path.join(
+                DATA_DIR,
+                "en_specific_cultural_output.jsonl"
+            ),
     }
 
     # =========================
