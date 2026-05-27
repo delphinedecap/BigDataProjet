@@ -1,0 +1,34 @@
+{
+  "team": "Master MIAGE Toulouse - DECAP SOUTRIC ZAIT AMBLARD",
+  "system": "openai-compatible-lmstudio-baseline",
+  "submissionid": "lmstudio-fr-unspecific",
+  "label": "Master MIAGE Toulouse",
+  "date": "2026-05-25T15:45:16",
+  "config_file": "C:\\Users\\DelphineDecap\\BigDataProjet-1\\app\\config\\openai_compatible_fr_unspecific.yaml",
+  "languages": [
+    "fr"
+  ],
+  "dataset_type": "unspecific",
+  "input_path": "data/input/fr_unspecific.jsonl",
+  "output_path": "data/output/lmstudio_fr_unspecific_output.jsonl",
+  "metadata_path": "data/output/lmstudio_metadata_fr_unspecific.json",
+  "prompt_count": 101,
+  "success_count": 202,
+  "error_count": 0,
+  "provider": {
+    "name": "openai_compatible",
+    "model": "gemma-4-e4b-it",
+    "base_url": "http://localhost:1234/v1",
+    "api_key": "not-needed"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 80
+  },
+  "system_prompt": null,
+  "prompt_variant": {
+    "name": "vanilla"
+  },
+  "notes": "Baseline vanilla déterministe avec provider LM Studio compatible OpenAI"
+}
