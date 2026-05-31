@@ -874,46 +874,38 @@ def compare_two_runs_by_id(left_name, left_path, right_name, right_path, top_k=3
 
 def run_pairwise_comparisons(paths):
     """
-    Compare les variantes avec leur baseline correspondante.
+    Compare les variantes avec leur baseline correspondante,
+    pour toutes les langues disponibles.
     """
 
-    comparison_pairs = [
-        # FR
-        ("fr_unspecific", "rewrite_fr_unspecific"),
-        ("fr_specific", "rewrite_fr_specific"),
-        ("fr_unspecific", "system_fr_unspecific"),
-        ("fr_specific", "system_fr_specific"),
-        ("fr_unspecific", "neutral_fr_unspecific"),
-        ("fr_specific", "neutral_fr_specific"),
-        ("fr_unspecific", "cultural_fr_unspecific"),
-        ("fr_specific", "cultural_fr_specific"),
-
-        # EN
-        ("en_unspecific", "rewrite_en_unspecific"),
-        ("en_specific", "rewrite_en_specific"),
-        ("en_unspecific", "system_en_unspecific"),
-        ("en_specific", "system_en_specific"),
-        ("en_unspecific", "neutral_en_unspecific"),
-        ("en_specific", "neutral_en_specific"),
-        ("en_unspecific", "cultural_en_unspecific"),
-        ("en_specific", "cultural_en_specific"),
-    ]
+    languages = ["fr", "en", "es", "de", "it"]
+    specificities = ["unspecific", "specific"]
+    variants = ["rewrite", "system", "neutral", "cultural"]
 
     comparison_results = {}
 
-    for left_name, right_name in comparison_pairs:
-        if left_name not in paths or right_name not in paths:
-            continue
+    for lang in languages:
+        for specificity in specificities:
+            baseline_name = f"{lang}_{specificity}"
 
-        comparison_key = f"{left_name}_vs_{right_name}"
+            if baseline_name not in paths:
+                continue
 
-        comparison_results[comparison_key] = compare_two_runs_by_id(
-            left_name,
-            paths[left_name],
-            right_name,
-            paths[right_name],
-            top_k=3
-        )
+            for variant in variants:
+                variant_name = f"{variant}_{lang}_{specificity}"
+
+                if variant_name not in paths:
+                    continue
+
+                comparison_key = f"{baseline_name}_vs_{variant_name}"
+
+                comparison_results[comparison_key] = compare_two_runs_by_id(
+                    baseline_name,
+                    paths[baseline_name],
+                    variant_name,
+                    paths[variant_name],
+                    top_k=3
+                )
 
     return comparison_results
 

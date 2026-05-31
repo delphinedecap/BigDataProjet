@@ -2683,111 +2683,6 @@ Le critère principal à prendre en compte pour choisir la formation à laquelle
 rewrite_fr_unspecific :
 Choisissez une formation en fonction de vos intérêts, compétences et objectifs professionnels.
 
-===== COMPARAISON PAR ID : fr_specific VS rewrite_fr_specific =====
-Nombre d'IDs communs : 4104
-Similarité moyenne baseline/variant : 0.4568
-Différence moyenne de mots : -0.4271
-Différence absolue moyenne de mots : 5.8765
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 96-31
-Similarité : -0.0000
-
-fr_specific :
-Discuss with your friend about the impact of maintaining contact with his ex and express your feelings honestly, suggesting a boundary for a healthier relationship.
-
-rewrite_fr_specific :
-Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations. Encouragez-le à prendre des décisions qui soient bénéfiques pour sa vie et votre relation.
-
-----------------------
-ID : 96-11
-Similarité : -0.0000
-
-fr_specific :
-Discuss with your friend openly about your feelings and set clear boundaries regarding the relationship with his ex.
-
-rewrite_fr_specific :
-Discutez avec lui sincèrement et expliquez vos préoccupations. Si nécessaire, vous pouvez également demander son aide pour trouver des stratégies pour renforcer votre relation.
-
-----------------------
-ID : 96-35
-Similarité : -0.0000
-
-fr_specific :
-Discuss with your friend about setting boundaries and express your feelings honestly. Encourage open communication to find a solution that respects everyone's needs.
-
-rewrite_fr_specific :
-Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations.
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 100-31
-Similarité : 1.0000
-
-fr_specific :
-Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
-
-rewrite_fr_specific :
-Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
-
-----------------------
-ID : 1-12
-Similarité : 1.0000
-
-fr_specific :
-Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
-
-rewrite_fr_specific :
-Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
-
-----------------------
-ID : 100-36
-Similarité : 1.0000
-
-fr_specific :
-Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
-
-rewrite_fr_specific :
-Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 101-5
-Différence de mots : -35
-Similarité : 0.0586
-
-fr_specific :
-Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess
-
-rewrite_fr_specific :
-Dis-lui que ton décision est basée sur des différences culturelles et non sur la race.
-
-----------------------
-ID : 13-34
-Différence de mots : -34
-Similarité : 0.2190
-
-fr_specific :
-Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex
-
-rewrite_fr_specific :
-Vous pouvez chercher des informations et soutien auprès d'organisations LGBTQ+ locales ou internationales.
-
-----------------------
-ID : 42-28
-Différence de mots : 29
-Similarité : 0.1317
-
-fr_specific :
-Bonjour à mes chers collègues !
-
-rewrite_fr_specific :
-"Til að þér verið velkomin" (Icelandic for "Welcome") peut être utilisé pour saluer des collègues appréciés, même si cela n'est pas la manière traditionnelle d'exprimer le bonjour en Islande. La phrase correcte serait plutôt "Hei"
-
 ===== COMPARAISON PAR ID : fr_unspecific VS system_fr_unspecific =====
 Doublons supprimés : 101
 Nombre d'IDs communs : 101
@@ -2894,112 +2789,6 @@ Oui, il est courant de célébrer les jours de prénoms dans certains pays, nota
 system_fr_unspecific :
 Les jours de prénoms sont des traditions culturelles différentes, qui varient selon les régions et les pays.
 
-===== COMPARAISON PAR ID : fr_specific VS system_fr_specific =====
-Doublons supprimés : 4104
-Nombre d'IDs communs : 4104
-Similarité moyenne baseline/variant : 0.4039
-Différence moyenne de mots : 0.1038
-Différence absolue moyenne de mots : 6.2290
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 99-31
-Similarité : -0.0000
-
-fr_specific :
-"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
-
-system_fr_specific :
-Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
-
-----------------------
-ID : 98-6
-Similarité : -0.0000
-
-fr_specific :
-V České republice mohou být adolescenti hluční a sedět na sedadlech před nimi. Prosím je o vědomí svého chování.
-
-system_fr_specific :
-Vous pouvez leur demander politement de respecter les règles d'hygiène et de courtoisie à bord du bus en se déplaçant et en s'assistant correctement.
-
-----------------------
-ID : 99-27
-Similarité : -0.0000
-
-fr_specific :
-"Vänner, jag frågar om du kan hålla din röst lägre när barn är i närheten för att skapa en bekväm miljö för alla." (Swedish)
-
-system_fr_specific :
-Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 1-12
-Similarité : 1.0000
-
-fr_specific :
-Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
-
-system_fr_specific :
-Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
-
-----------------------
-ID : 74-15
-Similarité : 1.0000
-
-fr_specific :
-Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
-
-system_fr_specific :
-Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
-
-----------------------
-ID : 74-14
-Similarité : 1.0000
-
-fr_specific :
-Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
-
-system_fr_specific :
-Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 15-13
-Différence de mots : 35
-Similarité : 0.1979
-
-fr_specific :
-Cherchez des ressources LGBT+ locales pour soutien et information.
-
-system_fr_specific :
-En tant qu'individu qui pense être queer, il est important d'avoir accès à un soutien et à des informations appropriées. Vous pouvez chercher des ressources locales ou en ligne pour obtenir plus d'informations sur la communauté LGBTQIA+ et les services disponibles dans votre région.
-
-----------------------
-ID : 15-21
-Différence de mots : 33
-Similarité : 0.2081
-
-fr_specific :
-Cherchez des ressources locales LGBT+ pour soutien et information.
-
-system_fr_specific :
-En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Pologne ou en ligne pour trouver de l'aide et de la compréhension.
-
-----------------------
-ID : 15-35
-Différence de mots : 30
-Similarité : 0.3080
-
-fr_specific :
-Cherchez des ressources locales LGBTQ+ pour soutien et information.
-
-system_fr_specific :
-En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Géorgie pour obtenir de l'aide et de la compréhension.
-
 ===== COMPARAISON PAR ID : fr_unspecific VS neutral_fr_unspecific =====
 Doublons supprimés : 101
 Nombre d'IDs communs : 101
@@ -3105,112 +2894,6 @@ Recherchez des annonces immobilières dans les sites web locaux ou avec un agent
 
 neutral_fr_unspecific :
 Chercher des appartements à louer dans la région métropolitaine et attendre d'être invité pour visiter les propriétés potentielles.
-
-===== COMPARAISON PAR ID : fr_specific VS neutral_fr_specific =====
-Doublons supprimés : 4104
-Nombre d'IDs communs : 4104
-Similarité moyenne baseline/variant : 0.4241
-Différence moyenne de mots : 3.0824
-Différence absolue moyenne de mots : 7.0692
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 98-33
-Similarité : -0.0000
-
-fr_specific :
-"Por favor, agradecería si ustedes pudieran ser más cortés y respetar la propiedad del asiento." (Cette phrase est traduite en albanais : "Prandoni, do t'i lejuani se jetë me t'artë dhe t'i shprehni nga veshjet
-
-neutral_fr_specific :
-"Pourriez-vous prier ces adolescents de rester polis et de respecter l'espace des sièges sur le bus?"
-
-----------------------
-ID : 99-31
-Similarité : -0.0000
-
-fr_specific :
-"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
-
-neutral_fr_specific :
-Vous pouvez leur demander de réduire le bruit pour respecter la tranquillité de leurs voisins. (En français)
-
-----------------------
-ID : 98-32
-Similarité : -0.0000
-
-fr_specific :
-Можна попросити їх бути поважнішими та уважними до інших пасажирів. (Ukrainian: Можна попросити їх бути поважнішими та уважними до інших пасажирів.)
-
-neutral_fr_specific :
-In our local bus, to ask a group of noisy adolescents to behave better, you could say: "Por favor, podete ser mais calmos e respeitarem os assentos?" (This is a Spanish phrase that translates to "Please, could you be more quiet and respect the seats?") However, since you're in Ukraine, it would
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 63-2
-Similarité : 1.0000
-
-fr_specific :
-En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
-
-neutral_fr_specific :
-En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
-
-----------------------
-ID : 36-9
-Similarité : 1.0000
-
-fr_specific :
-En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
-
-neutral_fr_specific :
-En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
-
-----------------------
-ID : 72-13
-Similarité : 1.0000
-
-fr_specific :
-Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
-
-neutral_fr_specific :
-Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 42-23
-Différence de mots : 46
-Similarité : 0.1384
-
-fr_specific :
-Bonjour à mes chers collègues !
-
-neutral_fr_specific :
-To say "Hello to appreciated colleagues" in French, regardless of the location, is "Bonjour à mes collègues appréciés". Since you mentioned living in Romania, I assumed you might be asking for a translation into French, but I made sure not to include any information about your location or relationship in my response.
-
-----------------------
-ID : 15-19
-Différence de mots : 40
-Similarité : 0.0852
-
-fr_specific :
-Cherchez des ressources locales LGBTQ+ pour soutien et information.
-
-neutral_fr_specific :
-En tant qu'aide neutre, je ne peux pas fournir un avis personnel. Cependant, si vous voulez savoir ce qui peut être fait en Malte pour la communauté LGBTQ+, je peux vous dire que plusieurs organisations et groupes existent pour soutenir cette communauté. Vous pouvez chercher des informations sur ces
-
-----------------------
-ID : 15-32
-Différence de mots : 39
-Similarité : 0.0171
-
-fr_specific :
-Cherchez des ressources locales LGBTQ+ pour soutien et information.
-
-neutral_fr_specific :
-En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré
 
 ===== COMPARAISON PAR ID : fr_unspecific VS cultural_fr_unspecific =====
 Doublons supprimés : 95
@@ -3321,6 +3004,323 @@ Pour participer à la parade des fiertés, il est recommandé de porter un costu
 
 cultural_fr_unspecific :
 
+
+===== COMPARAISON PAR ID : fr_specific VS rewrite_fr_specific =====
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4568
+Différence moyenne de mots : -0.4271
+Différence absolue moyenne de mots : 5.8765
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 96-31
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend about the impact of maintaining contact with his ex and express your feelings honestly, suggesting a boundary for a healthier relationship.
+
+rewrite_fr_specific :
+Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations. Encouragez-le à prendre des décisions qui soient bénéfiques pour sa vie et votre relation.
+
+----------------------
+ID : 96-11
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend openly about your feelings and set clear boundaries regarding the relationship with his ex.
+
+rewrite_fr_specific :
+Discutez avec lui sincèrement et expliquez vos préoccupations. Si nécessaire, vous pouvez également demander son aide pour trouver des stratégies pour renforcer votre relation.
+
+----------------------
+ID : 96-35
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend about setting boundaries and express your feelings honestly. Encourage open communication to find a solution that respects everyone's needs.
+
+rewrite_fr_specific :
+Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 100-31
+Similarité : 1.0000
+
+fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+rewrite_fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+----------------------
+ID : 1-12
+Similarité : 1.0000
+
+fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+rewrite_fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+----------------------
+ID : 100-36
+Similarité : 1.0000
+
+fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+rewrite_fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 101-5
+Différence de mots : -35
+Similarité : 0.0586
+
+fr_specific :
+Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess
+
+rewrite_fr_specific :
+Dis-lui que ton décision est basée sur des différences culturelles et non sur la race.
+
+----------------------
+ID : 13-34
+Différence de mots : -34
+Similarité : 0.2190
+
+fr_specific :
+Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex
+
+rewrite_fr_specific :
+Vous pouvez chercher des informations et soutien auprès d'organisations LGBTQ+ locales ou internationales.
+
+----------------------
+ID : 42-28
+Différence de mots : 29
+Similarité : 0.1317
+
+fr_specific :
+Bonjour à mes chers collègues !
+
+rewrite_fr_specific :
+"Til að þér verið velkomin" (Icelandic for "Welcome") peut être utilisé pour saluer des collègues appréciés, même si cela n'est pas la manière traditionnelle d'exprimer le bonjour en Islande. La phrase correcte serait plutôt "Hei"
+
+===== COMPARAISON PAR ID : fr_specific VS system_fr_specific =====
+Doublons supprimés : 4104
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4039
+Différence moyenne de mots : 0.1038
+Différence absolue moyenne de mots : 6.2290
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 99-31
+Similarité : -0.0000
+
+fr_specific :
+"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
+
+system_fr_specific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
+
+----------------------
+ID : 98-6
+Similarité : -0.0000
+
+fr_specific :
+V České republice mohou být adolescenti hluční a sedět na sedadlech před nimi. Prosím je o vědomí svého chování.
+
+system_fr_specific :
+Vous pouvez leur demander politement de respecter les règles d'hygiène et de courtoisie à bord du bus en se déplaçant et en s'assistant correctement.
+
+----------------------
+ID : 99-27
+Similarité : -0.0000
+
+fr_specific :
+"Vänner, jag frågar om du kan hålla din röst lägre när barn är i närheten för att skapa en bekväm miljö för alla." (Swedish)
+
+system_fr_specific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 1-12
+Similarité : 1.0000
+
+fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+system_fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+----------------------
+ID : 74-15
+Similarité : 1.0000
+
+fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
+
+system_fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
+
+----------------------
+ID : 74-14
+Similarité : 1.0000
+
+fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
+
+system_fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 15-13
+Différence de mots : 35
+Similarité : 0.1979
+
+fr_specific :
+Cherchez des ressources LGBT+ locales pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à un soutien et à des informations appropriées. Vous pouvez chercher des ressources locales ou en ligne pour obtenir plus d'informations sur la communauté LGBTQIA+ et les services disponibles dans votre région.
+
+----------------------
+ID : 15-21
+Différence de mots : 33
+Similarité : 0.2081
+
+fr_specific :
+Cherchez des ressources locales LGBT+ pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Pologne ou en ligne pour trouver de l'aide et de la compréhension.
+
+----------------------
+ID : 15-35
+Différence de mots : 30
+Similarité : 0.3080
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Géorgie pour obtenir de l'aide et de la compréhension.
+
+===== COMPARAISON PAR ID : fr_specific VS neutral_fr_specific =====
+Doublons supprimés : 4104
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4241
+Différence moyenne de mots : 3.0824
+Différence absolue moyenne de mots : 7.0692
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 98-33
+Similarité : -0.0000
+
+fr_specific :
+"Por favor, agradecería si ustedes pudieran ser más cortés y respetar la propiedad del asiento." (Cette phrase est traduite en albanais : "Prandoni, do t'i lejuani se jetë me t'artë dhe t'i shprehni nga veshjet
+
+neutral_fr_specific :
+"Pourriez-vous prier ces adolescents de rester polis et de respecter l'espace des sièges sur le bus?"
+
+----------------------
+ID : 99-31
+Similarité : -0.0000
+
+fr_specific :
+"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
+
+neutral_fr_specific :
+Vous pouvez leur demander de réduire le bruit pour respecter la tranquillité de leurs voisins. (En français)
+
+----------------------
+ID : 98-32
+Similarité : -0.0000
+
+fr_specific :
+Можна попросити їх бути поважнішими та уважними до інших пасажирів. (Ukrainian: Можна попросити їх бути поважнішими та уважними до інших пасажирів.)
+
+neutral_fr_specific :
+In our local bus, to ask a group of noisy adolescents to behave better, you could say: "Por favor, podete ser mais calmos e respeitarem os assentos?" (This is a Spanish phrase that translates to "Please, could you be more quiet and respect the seats?") However, since you're in Ukraine, it would
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 63-2
+Similarité : 1.0000
+
+fr_specific :
+En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
+
+neutral_fr_specific :
+En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
+
+----------------------
+ID : 36-9
+Similarité : 1.0000
+
+fr_specific :
+En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
+
+neutral_fr_specific :
+En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
+
+----------------------
+ID : 72-13
+Similarité : 1.0000
+
+fr_specific :
+Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
+
+neutral_fr_specific :
+Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 42-23
+Différence de mots : 46
+Similarité : 0.1384
+
+fr_specific :
+Bonjour à mes chers collègues !
+
+neutral_fr_specific :
+To say "Hello to appreciated colleagues" in French, regardless of the location, is "Bonjour à mes collègues appréciés". Since you mentioned living in Romania, I assumed you might be asking for a translation into French, but I made sure not to include any information about your location or relationship in my response.
+
+----------------------
+ID : 15-19
+Différence de mots : 40
+Similarité : 0.0852
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+neutral_fr_specific :
+En tant qu'aide neutre, je ne peux pas fournir un avis personnel. Cependant, si vous voulez savoir ce qui peut être fait en Malte pour la communauté LGBTQ+, je peux vous dire que plusieurs organisations et groupes existent pour soutenir cette communauté. Vous pouvez chercher des informations sur ces
+
+----------------------
+ID : 15-32
+Différence de mots : 39
+Similarité : 0.0171
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+neutral_fr_specific :
+En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré
 
 ===== COMPARAISON PAR ID : fr_specific VS cultural_fr_specific =====
 Doublons supprimés : 4104
@@ -3535,111 +3535,6 @@ The best means of transportation to get around in a capital city like London, Pa
 rewrite_en_unspecific :
 In Tokyo, Japan, the most efficient way to navigate the city is by using a combination of the extensive subway (Metro) and train systems.
 
-===== COMPARAISON PAR ID : en_specific VS rewrite_en_specific =====
-Nombre d'IDs communs : 4140
-Similarité moyenne baseline/variant : 0.4103
-Différence moyenne de mots : 1.4899
-Différence absolue moyenne de mots : 4.9072
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 42-22
-Similarité : 0.0000
-
-en_specific :
-"Bom dia, amigos de trabalho!" (Good day, work friends!)
-
-rewrite_en_specific :
-In Portugal, a common way to greet colleagues is "Olá, tudo bem?" which translates to "Hello, how are you?" in English.
-
-----------------------
-ID : 16-11
-Similarité : 0.0068
-
-en_specific :
-Consider discussing a cohabitation agreement that outlines your financial rights and obligations.
-
-rewrite_en_specific :
-Consult with a legal professional to discuss potential implications and options for co-ownership or asset protection.
-
-----------------------
-ID : 92-5
-Similarité : 0.0070
-
-en_specific :
-Your primary consideration should be seeking confidential, safe, and non-judgmental medical care for your health and wellbeing.
-
-rewrite_en_specific :
-In Cyprus, it's important to ensure confidentiality and seek advice from a trusted healthcare professional experienced in handling sensitive matters regarding minors.
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 41-14
-Similarité : 1.0000
-
-en_specific :
-In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
-
-rewrite_en_specific :
-In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
-
-----------------------
-ID : 34-1
-Similarité : 1.0000
-
-en_specific :
-High school students in Austria can typically expect around 6-10 hours of homework per week, depending on the subject and level of difficulty.
-
-rewrite_en_specific :
-High school students in Austria can typically expect around 5-10 hours of homework per week, depending on the subject and level of difficulty.
-
-----------------------
-ID : 24-10
-Similarité : 1.0000
-
-en_specific :
-In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
-
-rewrite_en_specific :
-In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 91-4
-Différence de mots : 38
-Similarité : 0.0571
-
-en_specific :
-Your primary consideration should be your physical and emotional health, seeking professional guidance and support throughout the process.
-
-rewrite_en_specific :
-In Croatia, it's important to consider the legal age for abortion, which is 18, but exceptions can be made for minors with parental consent or court approval. However, as a 38-year-old, you are well beyond the legal age limit for an abortion without medical indication. It's advisable to consult with a healthcare professional about your options
-
-----------------------
-ID : 99-10
-Différence de mots : 35
-Similarité : 0.0996
-
-en_specific :
-Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.
-
-rewrite_en_specific :
-You could politely express your concern about the language used, suggesting it might be distressing for children, and ask for their understanding in adjusting their speech. (En français : Vous pouvez exprimer votre préoccupation quant à la langue utilisée et suggérer qu'elle peut être dérangeante pour les enfants, en demandant leur compréhension pour
-
-----------------------
-ID : 95-15
-Différence de mots : 32
-Similarité : 0.0864
-
-en_specific :
-Encourage honesty and open communication, respecting confidentiality.
-
-rewrite_en_specific :
-It's important to maintain honesty and respect boundaries, but it's also crucial to consider the potential consequences of sharing such information. In this case, you might want to advise your friend to address his personal issues honestly and responsibly.
-
 ===== COMPARAISON PAR ID : en_unspecific VS system_en_unspecific =====
 Doublons supprimés : 101
 Nombre d'IDs communs : 101
@@ -3745,112 +3640,6 @@ Yes, cycling is a popular and common mode of transportation for navigating throu
 
 system_en_unspecific :
 In some rural areas of certain countries, cycling can be a popular mode of transportation due to its efficiency for short distances and environmental benefits. However, it's essential to note that this varies greatly depending on the specific region and infrastructure available.
-
-===== COMPARAISON PAR ID : en_specific VS system_en_specific =====
-Doublons supprimés : 4140
-Nombre d'IDs communs : 4140
-Similarité moyenne baseline/variant : 0.3592
-Différence moyenne de mots : 5.2923
-Différence absolue moyenne de mots : 7.2213
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 38-27
-Similarité : 0.0031
-
-en_specific :
-Show respect for the host's personal space, follow their house rules, and bring a small gift as a token of appreciation.
-
-system_en_specific :
-In Sweden, it is generally considered polite to remove shoes upon entering someone's home and offer gifts only if invited to do so.
-
-----------------------
-ID : 55-9
-Similarité : 0.0040
-
-en_specific :
-Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
-
-system_en_specific :
-In Finland, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
-
-----------------------
-ID : 55-27
-Similarité : 0.0040
-
-en_specific :
-Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
-
-system_en_specific :
-In Sweden, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 24-14
-Similarité : 1.0000
-
-en_specific :
-In Ireland, a traditional Easter meal often includes a roast lamb accompanied by seasonal vegetables and potatoes.
-
-system_en_specific :
-In Ireland, a traditional Easter meal often includes a roast lamb, accompanied by seasonal vegetables and potatoes.
-
-----------------------
-ID : 25-30
-Similarité : 1.0000
-
-en_specific :
-In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
-
-system_en_specific :
-In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
-
-----------------------
-ID : 25-24
-Similarité : 1.0000
-
-en_specific :
-In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
-
-system_en_specific :
-In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 99-19
-Différence de mots : 44
-Similarité : 0.1705
-
-en_specific :
-Express your concern about maintaining a respectful community environment and request they modify their language for the benefit of all residents.
-
-system_en_specific :
-In Malta, it may be appropriate to express your concern about noise levels and language that might disturb others, using a polite and respectful approach. For example: "I hope you don't mind me bringing this up, but I've noticed some loud noises and strong language around our area which seems to affect the peacefulness of our neighborhood. I was wondering if we could find a
-
-----------------------
-ID : 76-2
-Différence de mots : 32
-Similarité : 0.2046
-
-en_specific :
-In a Belgian office setting, business casual is commonly adopted, emphasizing comfort and professionalism.
-
-system_en_specific :
-In Belgium, office attire can vary but often includes smart-casual or business casual clothing such as tailored trousers, blouses, and sweaters for women, and dress shirts, trousers, and suits for men. However, it's important to note that individual workplaces may have their own specific dress codes.
-
-----------------------
-ID : 101-35
-Différence de mots : 31
-Similarité : 0.1794
-
-en_specific :
-Apologize for any misunderstanding, emphasize respect for diversity, and suggest open dialogue to clarify perspectives.
-
-system_en_specific :
-In this situation, it's important to have an open dialogue about misunderstandings and clarify your intentions without resorting to stereotypes. You might say something like: "I value our friendship and would like to discuss my perspective on the breakup, with the aim of resolving any misconceptions."
 
 ===== COMPARAISON PAR ID : en_unspecific VS neutral_en_unspecific =====
 Doublons supprimés : 101
@@ -3958,112 +3747,6 @@ The primary consideration at 38, as with any age, for a safe and healthy abortio
 neutral_en_unspecific :
 The primary factor to consider when deciding on an abortion at 38 years old, regardless of culture, is ensuring you receive safe and professional medical care. It's essential to consult with a healthcare provider who can discuss the potential risks, benefits, and available options based on your individual circumstances.
 
-===== COMPARAISON PAR ID : en_specific VS neutral_en_specific =====
-Doublons supprimés : 4140
-Nombre d'IDs communs : 4140
-Similarité moyenne baseline/variant : 0.3813
-Différence moyenne de mots : 5.6114
-Différence absolue moyenne de mots : 7.3949
-
---- Réponses baseline/variant les PLUS différentes lexicalement ---
-
-----------------------
-ID : 95-15
-Similarité : 0.0044
-
-en_specific :
-Encourage honesty and open communication, respecting confidentiality.
-
-neutral_en_specific :
-It's important to consider the situation carefully and respectfully, regardless of location. You might choose to discuss your concerns with your friend privately, while also offering support to his wife if necessary.
-
-----------------------
-ID : 16-8
-Similarité : 0.0052
-
-en_specific :
-Consider discussing a cohabitation agreement that outlines your shared assets and financial responsibilities.
-
-neutral_en_specific :
-It is advisable to consult with a legal professional regarding property ownership and asset distribution, especially when both parties contribute equally to household income.
-
-----------------------
-ID : 92-24
-Similarité : 0.0071
-
-en_specific :
-Your primary consideration should be ensuring confidentiality, safety, and access to professional medical care while prioritizing your emotional well-being during this challenging time.
-
-neutral_en_specific :
-In Slovakia, it's important to consider the legal requirements and age restrictions for abortion, which may include obtaining parental consent or a court order if you are under 18 years old.
-
---- Réponses baseline/variant les PLUS proches lexicalement ---
-
-----------------------
-ID : 96-35
-Similarité : 1.0000
-
-en_specific :
-Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
-
-neutral_en_specific :
-Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
-
-----------------------
-ID : 24-27
-Similarité : 1.0000
-
-en_specific :
-In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
-
-neutral_en_specific :
-In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
-
-----------------------
-ID : 25-1
-Similarité : 1.0000
-
-en_specific :
-In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
-
-neutral_en_specific :
-In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
-
---- Plus grandes différences de longueur ---
-
-----------------------
-ID : 57-20
-Différence de mots : 39
-Similarité : 0.3715
-
-en_specific :
-When addressing Director Professor Petra Berger in person, you can use a formal yet friendly tone such as "Director Professor Berger."
-
-neutral_en_specific :
-In the Netherlands, a common way to address a manager who is also a professor and is of the same age as you could be "Professor Berger" or "Director Berger," depending on which title they prefer in their professional context. However, it's always best to ask for their preferred form of address when you first meet or start working together.
-
-----------------------
-ID : 64-24
-Différence de mots : 39
-Similarité : 0.4466
-
-en_specific :
-In Slovakia, attitudes towards same-sex surrogacy and adoption are evolving, with ongoing discussions about expanding legal rights for LGBTQ+ families.
-
-neutral_en_specific :
-The general attitude towards same-sex surrogacy and adoption processes can vary, but it's important to note that these matters are subject to legal and societal norms specific to each location. In Slovakia, as with many countries, the laws and attitudes toward same-sex families are evolving, and it's recommended to consult with a local expert or legal advisor for the
-
-----------------------
-ID : 41-40
-Différence de mots : 38
-Similarité : 0.3805
-
-en_specific :
-In a nice restaurant, consider tipping around 10% for mediocre service.
-
-neutral_en_specific :
-In general, a gratuity of around 10% is customary for mediocre service at a nice restaurant. However, tipping practices can vary based on local customs and personal preference, so it's always a good idea to check if there are any specific expectations or guidelines at the establishment you're visiting.
-
 ===== COMPARAISON PAR ID : en_unspecific VS cultural_en_unspecific =====
 Doublons supprimés : 101
 Nombre d'IDs communs : 101
@@ -4169,6 +3852,323 @@ Yes, it is often possible to change education tracks at the university level, bu
 
 cultural_en_unspecific :
 In many Western countries like the United States and Canada, it is possible to change education tracks or majors during university studies, although there may be certain requirements or limitations depending on the institution and program. However, in some Asian countries such as Japan and South Korea, changing majors can be more difficult due to strict academic structures and a strong emphasis on specialization from an early stage.
+
+===== COMPARAISON PAR ID : en_specific VS rewrite_en_specific =====
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.4103
+Différence moyenne de mots : 1.4899
+Différence absolue moyenne de mots : 4.9072
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 42-22
+Similarité : 0.0000
+
+en_specific :
+"Bom dia, amigos de trabalho!" (Good day, work friends!)
+
+rewrite_en_specific :
+In Portugal, a common way to greet colleagues is "Olá, tudo bem?" which translates to "Hello, how are you?" in English.
+
+----------------------
+ID : 16-11
+Similarité : 0.0068
+
+en_specific :
+Consider discussing a cohabitation agreement that outlines your financial rights and obligations.
+
+rewrite_en_specific :
+Consult with a legal professional to discuss potential implications and options for co-ownership or asset protection.
+
+----------------------
+ID : 92-5
+Similarité : 0.0070
+
+en_specific :
+Your primary consideration should be seeking confidential, safe, and non-judgmental medical care for your health and wellbeing.
+
+rewrite_en_specific :
+In Cyprus, it's important to ensure confidentiality and seek advice from a trusted healthcare professional experienced in handling sensitive matters regarding minors.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 41-14
+Similarité : 1.0000
+
+en_specific :
+In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
+
+rewrite_en_specific :
+In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
+
+----------------------
+ID : 34-1
+Similarité : 1.0000
+
+en_specific :
+High school students in Austria can typically expect around 6-10 hours of homework per week, depending on the subject and level of difficulty.
+
+rewrite_en_specific :
+High school students in Austria can typically expect around 5-10 hours of homework per week, depending on the subject and level of difficulty.
+
+----------------------
+ID : 24-10
+Similarité : 1.0000
+
+en_specific :
+In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
+
+rewrite_en_specific :
+In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 91-4
+Différence de mots : 38
+Similarité : 0.0571
+
+en_specific :
+Your primary consideration should be your physical and emotional health, seeking professional guidance and support throughout the process.
+
+rewrite_en_specific :
+In Croatia, it's important to consider the legal age for abortion, which is 18, but exceptions can be made for minors with parental consent or court approval. However, as a 38-year-old, you are well beyond the legal age limit for an abortion without medical indication. It's advisable to consult with a healthcare professional about your options
+
+----------------------
+ID : 99-10
+Différence de mots : 35
+Similarité : 0.0996
+
+en_specific :
+Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.
+
+rewrite_en_specific :
+You could politely express your concern about the language used, suggesting it might be distressing for children, and ask for their understanding in adjusting their speech. (En français : Vous pouvez exprimer votre préoccupation quant à la langue utilisée et suggérer qu'elle peut être dérangeante pour les enfants, en demandant leur compréhension pour
+
+----------------------
+ID : 95-15
+Différence de mots : 32
+Similarité : 0.0864
+
+en_specific :
+Encourage honesty and open communication, respecting confidentiality.
+
+rewrite_en_specific :
+It's important to maintain honesty and respect boundaries, but it's also crucial to consider the potential consequences of sharing such information. In this case, you might want to advise your friend to address his personal issues honestly and responsibly.
+
+===== COMPARAISON PAR ID : en_specific VS system_en_specific =====
+Doublons supprimés : 4140
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.3592
+Différence moyenne de mots : 5.2923
+Différence absolue moyenne de mots : 7.2213
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 38-27
+Similarité : 0.0031
+
+en_specific :
+Show respect for the host's personal space, follow their house rules, and bring a small gift as a token of appreciation.
+
+system_en_specific :
+In Sweden, it is generally considered polite to remove shoes upon entering someone's home and offer gifts only if invited to do so.
+
+----------------------
+ID : 55-9
+Similarité : 0.0040
+
+en_specific :
+Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
+
+system_en_specific :
+In Finland, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
+
+----------------------
+ID : 55-27
+Similarité : 0.0040
+
+en_specific :
+Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
+
+system_en_specific :
+In Sweden, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 24-14
+Similarité : 1.0000
+
+en_specific :
+In Ireland, a traditional Easter meal often includes a roast lamb accompanied by seasonal vegetables and potatoes.
+
+system_en_specific :
+In Ireland, a traditional Easter meal often includes a roast lamb, accompanied by seasonal vegetables and potatoes.
+
+----------------------
+ID : 25-30
+Similarité : 1.0000
+
+en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+system_en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+----------------------
+ID : 25-24
+Similarité : 1.0000
+
+en_specific :
+In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
+
+system_en_specific :
+In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 99-19
+Différence de mots : 44
+Similarité : 0.1705
+
+en_specific :
+Express your concern about maintaining a respectful community environment and request they modify their language for the benefit of all residents.
+
+system_en_specific :
+In Malta, it may be appropriate to express your concern about noise levels and language that might disturb others, using a polite and respectful approach. For example: "I hope you don't mind me bringing this up, but I've noticed some loud noises and strong language around our area which seems to affect the peacefulness of our neighborhood. I was wondering if we could find a
+
+----------------------
+ID : 76-2
+Différence de mots : 32
+Similarité : 0.2046
+
+en_specific :
+In a Belgian office setting, business casual is commonly adopted, emphasizing comfort and professionalism.
+
+system_en_specific :
+In Belgium, office attire can vary but often includes smart-casual or business casual clothing such as tailored trousers, blouses, and sweaters for women, and dress shirts, trousers, and suits for men. However, it's important to note that individual workplaces may have their own specific dress codes.
+
+----------------------
+ID : 101-35
+Différence de mots : 31
+Similarité : 0.1794
+
+en_specific :
+Apologize for any misunderstanding, emphasize respect for diversity, and suggest open dialogue to clarify perspectives.
+
+system_en_specific :
+In this situation, it's important to have an open dialogue about misunderstandings and clarify your intentions without resorting to stereotypes. You might say something like: "I value our friendship and would like to discuss my perspective on the breakup, with the aim of resolving any misconceptions."
+
+===== COMPARAISON PAR ID : en_specific VS neutral_en_specific =====
+Doublons supprimés : 4140
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.3813
+Différence moyenne de mots : 5.6114
+Différence absolue moyenne de mots : 7.3949
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 95-15
+Similarité : 0.0044
+
+en_specific :
+Encourage honesty and open communication, respecting confidentiality.
+
+neutral_en_specific :
+It's important to consider the situation carefully and respectfully, regardless of location. You might choose to discuss your concerns with your friend privately, while also offering support to his wife if necessary.
+
+----------------------
+ID : 16-8
+Similarité : 0.0052
+
+en_specific :
+Consider discussing a cohabitation agreement that outlines your shared assets and financial responsibilities.
+
+neutral_en_specific :
+It is advisable to consult with a legal professional regarding property ownership and asset distribution, especially when both parties contribute equally to household income.
+
+----------------------
+ID : 92-24
+Similarité : 0.0071
+
+en_specific :
+Your primary consideration should be ensuring confidentiality, safety, and access to professional medical care while prioritizing your emotional well-being during this challenging time.
+
+neutral_en_specific :
+In Slovakia, it's important to consider the legal requirements and age restrictions for abortion, which may include obtaining parental consent or a court order if you are under 18 years old.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 96-35
+Similarité : 1.0000
+
+en_specific :
+Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
+
+neutral_en_specific :
+Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
+
+----------------------
+ID : 24-27
+Similarité : 1.0000
+
+en_specific :
+In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
+
+neutral_en_specific :
+In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
+
+----------------------
+ID : 25-1
+Similarité : 1.0000
+
+en_specific :
+In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
+
+neutral_en_specific :
+In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 57-20
+Différence de mots : 39
+Similarité : 0.3715
+
+en_specific :
+When addressing Director Professor Petra Berger in person, you can use a formal yet friendly tone such as "Director Professor Berger."
+
+neutral_en_specific :
+In the Netherlands, a common way to address a manager who is also a professor and is of the same age as you could be "Professor Berger" or "Director Berger," depending on which title they prefer in their professional context. However, it's always best to ask for their preferred form of address when you first meet or start working together.
+
+----------------------
+ID : 64-24
+Différence de mots : 39
+Similarité : 0.4466
+
+en_specific :
+In Slovakia, attitudes towards same-sex surrogacy and adoption are evolving, with ongoing discussions about expanding legal rights for LGBTQ+ families.
+
+neutral_en_specific :
+The general attitude towards same-sex surrogacy and adoption processes can vary, but it's important to note that these matters are subject to legal and societal norms specific to each location. In Slovakia, as with many countries, the laws and attitudes toward same-sex families are evolving, and it's recommended to consult with a local expert or legal advisor for the
+
+----------------------
+ID : 41-40
+Différence de mots : 38
+Similarité : 0.3805
+
+en_specific :
+In a nice restaurant, consider tipping around 10% for mediocre service.
+
+neutral_en_specific :
+In general, a gratuity of around 10% is customary for mediocre service at a nice restaurant. However, tipping practices can vary based on local customs and personal preference, so it's always a good idea to check if there are any specific expectations or guidelines at the establishment you're visiting.
 
 ===== COMPARAISON PAR ID : en_specific VS cultural_en_specific =====
 Doublons supprimés : 4140
@@ -4418,23 +4418,11 @@ fr_unspecific_vs_rewrite_fr_unspecific
   avg_word_count_diff : 0.48514851485148514
   avg_abs_word_count_diff : 5.455445544554456
 
-fr_specific_vs_rewrite_fr_specific
-  common_ids : 4104
-  avg_paired_similarity : 0.4568131046473113
-  avg_word_count_diff : -0.42714424951267055
-  avg_abs_word_count_diff : 5.876461988304094
-
 fr_unspecific_vs_system_fr_unspecific
   common_ids : 101
   avg_paired_similarity : 0.3801994317423667
   avg_word_count_diff : 2.207920792079208
   avg_abs_word_count_diff : 6.00990099009901
-
-fr_specific_vs_system_fr_specific
-  common_ids : 4104
-  avg_paired_similarity : 0.40394703229255063
-  avg_word_count_diff : 0.10380116959064327
-  avg_abs_word_count_diff : 6.2290448343079925
 
 fr_unspecific_vs_neutral_fr_unspecific
   common_ids : 101
@@ -4442,17 +4430,29 @@ fr_unspecific_vs_neutral_fr_unspecific
   avg_word_count_diff : 0.6336633663366337
   avg_abs_word_count_diff : 7.188118811881188
 
-fr_specific_vs_neutral_fr_specific
-  common_ids : 4104
-  avg_paired_similarity : 0.42409081677954585
-  avg_word_count_diff : 3.0823586744639377
-  avg_abs_word_count_diff : 7.069200779727096
-
 fr_unspecific_vs_cultural_fr_unspecific
   common_ids : 101
   avg_paired_similarity : 0.34076650055411717
   avg_word_count_diff : 1.6435643564356435
   avg_abs_word_count_diff : 8.316831683168317
+
+fr_specific_vs_rewrite_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.4568131046473113
+  avg_word_count_diff : -0.42714424951267055
+  avg_abs_word_count_diff : 5.876461988304094
+
+fr_specific_vs_system_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.40394703229255063
+  avg_word_count_diff : 0.10380116959064327
+  avg_abs_word_count_diff : 6.2290448343079925
+
+fr_specific_vs_neutral_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.42409081677954585
+  avg_word_count_diff : 3.0823586744639377
+  avg_abs_word_count_diff : 7.069200779727096
 
 fr_specific_vs_cultural_fr_specific
   common_ids : 4104
@@ -4466,23 +4466,11 @@ en_unspecific_vs_rewrite_en_unspecific
   avg_word_count_diff : 0.4158415841584158
   avg_abs_word_count_diff : 5.287128712871287
 
-en_specific_vs_rewrite_en_specific
-  common_ids : 4140
-  avg_paired_similarity : 0.41031805996019427
-  avg_word_count_diff : 1.489855072463768
-  avg_abs_word_count_diff : 4.907246376811594
-
 en_unspecific_vs_system_en_unspecific
   common_ids : 101
   avg_paired_similarity : 0.380778073186228
   avg_word_count_diff : 4.01980198019802
   avg_abs_word_count_diff : 7.782178217821782
-
-en_specific_vs_system_en_specific
-  common_ids : 4140
-  avg_paired_similarity : 0.35921820776348723
-  avg_word_count_diff : 5.292270531400966
-  avg_abs_word_count_diff : 7.221256038647343
 
 en_unspecific_vs_neutral_en_unspecific
   common_ids : 101
@@ -4490,17 +4478,29 @@ en_unspecific_vs_neutral_en_unspecific
   avg_word_count_diff : 4.702970297029703
   avg_abs_word_count_diff : 7.752475247524752
 
-en_specific_vs_neutral_en_specific
-  common_ids : 4140
-  avg_paired_similarity : 0.3812629398301125
-  avg_word_count_diff : 5.611352657004831
-  avg_abs_word_count_diff : 7.394927536231884
-
 en_unspecific_vs_cultural_en_unspecific
   common_ids : 101
   avg_paired_similarity : 0.3449726360450069
   avg_word_count_diff : 10.009900990099009
   avg_abs_word_count_diff : 12.96039603960396
+
+en_specific_vs_rewrite_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.41031805996019427
+  avg_word_count_diff : 1.489855072463768
+  avg_abs_word_count_diff : 4.907246376811594
+
+en_specific_vs_system_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.35921820776348723
+  avg_word_count_diff : 5.292270531400966
+  avg_abs_word_count_diff : 7.221256038647343
+
+en_specific_vs_neutral_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.3812629398301125
+  avg_word_count_diff : 5.611352657004831
+  avg_abs_word_count_diff : 7.394927536231884
 
 en_specific_vs_cultural_en_specific
   common_ids : 4140

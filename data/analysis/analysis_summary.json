@@ -1943,108 +1943,6 @@
         }
       ]
     },
-    "fr_specific_vs_rewrite_fr_specific": {
-      "common_ids": 4104,
-      "avg_paired_similarity": 0.4568131046473113,
-      "avg_word_count_diff": -0.42714424951267055,
-      "avg_abs_word_count_diff": 5.876461988304094,
-      "most_different_semantic": [
-        {
-          "id": "96-31",
-          "answer_left": "Discuss with your friend about the impact of maintaining contact with his ex and express your feelings honestly, suggesting a boundary for a healthier relationship.",
-          "answer_right": "Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations. Encouragez-le à prendre des décisions qui soient bénéfiques pour sa vie et votre relation.",
-          "word_count_left": 25,
-          "word_count_right": 25,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": -6.661338147750939e-16
-        },
-        {
-          "id": "96-11",
-          "answer_left": "Discuss with your friend openly about your feelings and set clear boundaries regarding the relationship with his ex.",
-          "answer_right": "Discutez avec lui sincèrement et expliquez vos préoccupations. Si nécessaire, vous pouvez également demander son aide pour trouver des stratégies pour renforcer votre relation.",
-          "word_count_left": 18,
-          "word_count_right": 24,
-          "word_count_diff": 6,
-          "abs_word_count_diff": 6,
-          "paired_similarity": -6.661338147750939e-16
-        },
-        {
-          "id": "96-35",
-          "answer_left": "Discuss with your friend about setting boundaries and express your feelings honestly. Encourage open communication to find a solution that respects everyone's needs.",
-          "answer_right": "Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations.",
-          "word_count_left": 23,
-          "word_count_right": 11,
-          "word_count_diff": -12,
-          "abs_word_count_diff": 12,
-          "paired_similarity": -4.440892098500626e-16
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "100-31",
-          "answer_left": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
-          "answer_right": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
-          "word_count_left": 15,
-          "word_count_right": 15,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "1-12",
-          "answer_left": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
-          "answer_right": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
-          "word_count_left": 18,
-          "word_count_right": 18,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "100-36",
-          "answer_left": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
-          "answer_right": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
-          "word_count_left": 15,
-          "word_count_right": 15,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "101-5",
-          "answer_left": "Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess",
-          "answer_right": "Dis-lui que ton décision est basée sur des différences culturelles et non sur la race.",
-          "word_count_left": 50,
-          "word_count_right": 15,
-          "word_count_diff": -35,
-          "abs_word_count_diff": 35,
-          "paired_similarity": 0.05858834129543655
-        },
-        {
-          "id": "13-34",
-          "answer_left": "Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex",
-          "answer_right": "Vous pouvez chercher des informations et soutien auprès d'organisations LGBTQ+ locales ou internationales.",
-          "word_count_left": 47,
-          "word_count_right": 13,
-          "word_count_diff": -34,
-          "abs_word_count_diff": 34,
-          "paired_similarity": 0.21902952243383134
-        },
-        {
-          "id": "42-28",
-          "answer_left": "Bonjour à mes chers collègues !",
-          "answer_right": "\"Til að þér verið velkomin\" (Icelandic for \"Welcome\") peut être utilisé pour saluer des collègues appréciés, même si cela n'est pas la manière traditionnelle d'exprimer le bonjour en Islande. La phrase correcte serait plutôt \"Hei\"",
-          "word_count_left": 6,
-          "word_count_right": 35,
-          "word_count_diff": 29,
-          "abs_word_count_diff": 29,
-          "paired_similarity": 0.131693694948821
-        }
-      ]
-    },
     "fr_unspecific_vs_system_fr_unspecific": {
       "common_ids": 101,
       "avg_paired_similarity": 0.3801994317423667,
@@ -2144,108 +2042,6 @@
           "word_count_diff": -22,
           "abs_word_count_diff": 22,
           "paired_similarity": 0.21282339436243658
-        }
-      ]
-    },
-    "fr_specific_vs_system_fr_specific": {
-      "common_ids": 4104,
-      "avg_paired_similarity": 0.40394703229255063,
-      "avg_word_count_diff": 0.10380116959064327,
-      "avg_abs_word_count_diff": 6.2290448343079925,
-      "most_different_semantic": [
-        {
-          "id": "99-31",
-          "answer_left": "\"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz",
-          "answer_right": "Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.",
-          "word_count_left": 18,
-          "word_count_right": 16,
-          "word_count_diff": -2,
-          "abs_word_count_diff": 2,
-          "paired_similarity": -1.1102230246251565e-15
-        },
-        {
-          "id": "98-6",
-          "answer_left": "V České republice mohou být adolescenti hluční a sedět na sedadlech před nimi. Prosím je o vědomí svého chování.",
-          "answer_right": "Vous pouvez leur demander politement de respecter les règles d'hygiène et de courtoisie à bord du bus en se déplaçant et en s'assistant correctement.",
-          "word_count_left": 19,
-          "word_count_right": 24,
-          "word_count_diff": 5,
-          "abs_word_count_diff": 5,
-          "paired_similarity": -8.881784197001252e-16
-        },
-        {
-          "id": "99-27",
-          "answer_left": "\"Vänner, jag frågar om du kan hålla din röst lägre när barn är i närheten för att skapa en bekväm miljö för alla.\" (Swedish)",
-          "answer_right": "Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.",
-          "word_count_left": 24,
-          "word_count_right": 16,
-          "word_count_diff": -8,
-          "abs_word_count_diff": 8,
-          "paired_similarity": -8.881784197001252e-16
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "1-12",
-          "answer_left": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
-          "answer_right": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
-          "word_count_left": 18,
-          "word_count_right": 18,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "74-15",
-          "answer_left": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.",
-          "answer_right": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.",
-          "word_count_left": 15,
-          "word_count_right": 15,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "74-14",
-          "answer_left": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.",
-          "answer_right": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.",
-          "word_count_left": 15,
-          "word_count_right": 15,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "15-13",
-          "answer_left": "Cherchez des ressources LGBT+ locales pour soutien et information.",
-          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à un soutien et à des informations appropriées. Vous pouvez chercher des ressources locales ou en ligne pour obtenir plus d'informations sur la communauté LGBTQIA+ et les services disponibles dans votre région.",
-          "word_count_left": 9,
-          "word_count_right": 44,
-          "word_count_diff": 35,
-          "abs_word_count_diff": 35,
-          "paired_similarity": 0.19794313500362593
-        },
-        {
-          "id": "15-21",
-          "answer_left": "Cherchez des ressources locales LGBT+ pour soutien et information.",
-          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Pologne ou en ligne pour trouver de l'aide et de la compréhension.",
-          "word_count_left": 9,
-          "word_count_right": 42,
-          "word_count_diff": 33,
-          "abs_word_count_diff": 33,
-          "paired_similarity": 0.20809930392521625
-        },
-        {
-          "id": "15-35",
-          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
-          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Géorgie pour obtenir de l'aide et de la compréhension.",
-          "word_count_left": 9,
-          "word_count_right": 39,
-          "word_count_diff": 30,
-          "abs_word_count_diff": 30,
-          "paired_similarity": 0.3080258246340555
         }
       ]
     },
@@ -2351,108 +2147,6 @@
         }
       ]
     },
-    "fr_specific_vs_neutral_fr_specific": {
-      "common_ids": 4104,
-      "avg_paired_similarity": 0.42409081677954585,
-      "avg_word_count_diff": 3.0823586744639377,
-      "avg_abs_word_count_diff": 7.069200779727096,
-      "most_different_semantic": [
-        {
-          "id": "98-33",
-          "answer_left": "\"Por favor, agradecería si ustedes pudieran ser más cortés y respetar la propiedad del asiento.\" (Cette phrase est traduite en albanais : \"Prandoni, do t'i lejuani se jetë me t'artë dhe t'i shprehni nga veshjet",
-          "answer_right": "\"Pourriez-vous prier ces adolescents de rester polis et de respecter l'espace des sièges sur le bus?\"",
-          "word_count_left": 35,
-          "word_count_right": 16,
-          "word_count_diff": -19,
-          "abs_word_count_diff": 19,
-          "paired_similarity": -6.661338147750939e-16
-        },
-        {
-          "id": "99-31",
-          "answer_left": "\"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz",
-          "answer_right": "Vous pouvez leur demander de réduire le bruit pour respecter la tranquillité de leurs voisins. (En français)",
-          "word_count_left": 18,
-          "word_count_right": 17,
-          "word_count_diff": -1,
-          "abs_word_count_diff": 1,
-          "paired_similarity": -6.661338147750939e-16
-        },
-        {
-          "id": "98-32",
-          "answer_left": "Можна попросити їх бути поважнішими та уважними до інших пасажирів. (Ukrainian: Можна попросити їх бути поважнішими та уважними до інших пасажирів.)",
-          "answer_right": "In our local bus, to ask a group of noisy adolescents to behave better, you could say: \"Por favor, podete ser mais calmos e respeitarem os assentos?\" (This is a Spanish phrase that translates to \"Please, could you be more quiet and respect the seats?\") However, since you're in Ukraine, it would",
-          "word_count_left": 21,
-          "word_count_right": 52,
-          "word_count_diff": 31,
-          "abs_word_count_diff": 31,
-          "paired_similarity": -4.440892098500626e-16
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "63-2",
-          "answer_left": "En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.",
-          "answer_right": "En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.",
-          "word_count_left": 13,
-          "word_count_right": 13,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "36-9",
-          "answer_left": "En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.",
-          "answer_right": "En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.",
-          "word_count_left": 12,
-          "word_count_right": 12,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "72-13",
-          "answer_left": "Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.",
-          "answer_right": "Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.",
-          "word_count_left": 18,
-          "word_count_right": 18,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "42-23",
-          "answer_left": "Bonjour à mes chers collègues !",
-          "answer_right": "To say \"Hello to appreciated colleagues\" in French, regardless of the location, is \"Bonjour à mes collègues appréciés\". Since you mentioned living in Romania, I assumed you might be asking for a translation into French, but I made sure not to include any information about your location or relationship in my response.",
-          "word_count_left": 6,
-          "word_count_right": 52,
-          "word_count_diff": 46,
-          "abs_word_count_diff": 46,
-          "paired_similarity": 0.13838688099680685
-        },
-        {
-          "id": "15-19",
-          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
-          "answer_right": "En tant qu'aide neutre, je ne peux pas fournir un avis personnel. Cependant, si vous voulez savoir ce qui peut être fait en Malte pour la communauté LGBTQ+, je peux vous dire que plusieurs organisations et groupes existent pour soutenir cette communauté. Vous pouvez chercher des informations sur ces",
-          "word_count_left": 9,
-          "word_count_right": 49,
-          "word_count_diff": 40,
-          "abs_word_count_diff": 40,
-          "paired_similarity": 0.08522007649130037
-        },
-        {
-          "id": "15-32",
-          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
-          "answer_right": "En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré",
-          "word_count_left": 9,
-          "word_count_right": 48,
-          "word_count_diff": 39,
-          "abs_word_count_diff": 39,
-          "paired_similarity": 0.017078421990073922
-        }
-      ]
-    },
     "fr_unspecific_vs_cultural_fr_unspecific": {
       "common_ids": 101,
       "avg_paired_similarity": 0.34076650055411717,
@@ -2552,6 +2246,312 @@
           "word_count_diff": -27,
           "abs_word_count_diff": 27,
           "paired_similarity": 0.5000000000000001
+        }
+      ]
+    },
+    "fr_specific_vs_rewrite_fr_specific": {
+      "common_ids": 4104,
+      "avg_paired_similarity": 0.4568131046473113,
+      "avg_word_count_diff": -0.42714424951267055,
+      "avg_abs_word_count_diff": 5.876461988304094,
+      "most_different_semantic": [
+        {
+          "id": "96-31",
+          "answer_left": "Discuss with your friend about the impact of maintaining contact with his ex and express your feelings honestly, suggesting a boundary for a healthier relationship.",
+          "answer_right": "Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations. Encouragez-le à prendre des décisions qui soient bénéfiques pour sa vie et votre relation.",
+          "word_count_left": 25,
+          "word_count_right": 25,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": -6.661338147750939e-16
+        },
+        {
+          "id": "96-11",
+          "answer_left": "Discuss with your friend openly about your feelings and set clear boundaries regarding the relationship with his ex.",
+          "answer_right": "Discutez avec lui sincèrement et expliquez vos préoccupations. Si nécessaire, vous pouvez également demander son aide pour trouver des stratégies pour renforcer votre relation.",
+          "word_count_left": 18,
+          "word_count_right": 24,
+          "word_count_diff": 6,
+          "abs_word_count_diff": 6,
+          "paired_similarity": -6.661338147750939e-16
+        },
+        {
+          "id": "96-35",
+          "answer_left": "Discuss with your friend about setting boundaries and express your feelings honestly. Encourage open communication to find a solution that respects everyone's needs.",
+          "answer_right": "Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations.",
+          "word_count_left": 23,
+          "word_count_right": 11,
+          "word_count_diff": -12,
+          "abs_word_count_diff": 12,
+          "paired_similarity": -4.440892098500626e-16
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "100-31",
+          "answer_left": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
+          "answer_right": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
+          "word_count_left": 15,
+          "word_count_right": 15,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "1-12",
+          "answer_left": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
+          "answer_right": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
+          "word_count_left": 18,
+          "word_count_right": 18,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "100-36",
+          "answer_left": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
+          "answer_right": "Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.",
+          "word_count_left": 15,
+          "word_count_right": 15,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "101-5",
+          "answer_left": "Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess",
+          "answer_right": "Dis-lui que ton décision est basée sur des différences culturelles et non sur la race.",
+          "word_count_left": 50,
+          "word_count_right": 15,
+          "word_count_diff": -35,
+          "abs_word_count_diff": 35,
+          "paired_similarity": 0.05858834129543655
+        },
+        {
+          "id": "13-34",
+          "answer_left": "Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex",
+          "answer_right": "Vous pouvez chercher des informations et soutien auprès d'organisations LGBTQ+ locales ou internationales.",
+          "word_count_left": 47,
+          "word_count_right": 13,
+          "word_count_diff": -34,
+          "abs_word_count_diff": 34,
+          "paired_similarity": 0.21902952243383134
+        },
+        {
+          "id": "42-28",
+          "answer_left": "Bonjour à mes chers collègues !",
+          "answer_right": "\"Til að þér verið velkomin\" (Icelandic for \"Welcome\") peut être utilisé pour saluer des collègues appréciés, même si cela n'est pas la manière traditionnelle d'exprimer le bonjour en Islande. La phrase correcte serait plutôt \"Hei\"",
+          "word_count_left": 6,
+          "word_count_right": 35,
+          "word_count_diff": 29,
+          "abs_word_count_diff": 29,
+          "paired_similarity": 0.131693694948821
+        }
+      ]
+    },
+    "fr_specific_vs_system_fr_specific": {
+      "common_ids": 4104,
+      "avg_paired_similarity": 0.40394703229255063,
+      "avg_word_count_diff": 0.10380116959064327,
+      "avg_abs_word_count_diff": 6.2290448343079925,
+      "most_different_semantic": [
+        {
+          "id": "99-31",
+          "answer_left": "\"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz",
+          "answer_right": "Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.",
+          "word_count_left": 18,
+          "word_count_right": 16,
+          "word_count_diff": -2,
+          "abs_word_count_diff": 2,
+          "paired_similarity": -1.1102230246251565e-15
+        },
+        {
+          "id": "98-6",
+          "answer_left": "V České republice mohou být adolescenti hluční a sedět na sedadlech před nimi. Prosím je o vědomí svého chování.",
+          "answer_right": "Vous pouvez leur demander politement de respecter les règles d'hygiène et de courtoisie à bord du bus en se déplaçant et en s'assistant correctement.",
+          "word_count_left": 19,
+          "word_count_right": 24,
+          "word_count_diff": 5,
+          "abs_word_count_diff": 5,
+          "paired_similarity": -8.881784197001252e-16
+        },
+        {
+          "id": "99-27",
+          "answer_left": "\"Vänner, jag frågar om du kan hålla din röst lägre när barn är i närheten för att skapa en bekväm miljö för alla.\" (Swedish)",
+          "answer_right": "Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.",
+          "word_count_left": 24,
+          "word_count_right": 16,
+          "word_count_diff": -8,
+          "abs_word_count_diff": 8,
+          "paired_similarity": -8.881784197001252e-16
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "1-12",
+          "answer_left": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
+          "answer_right": "Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.",
+          "word_count_left": 18,
+          "word_count_right": 18,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "74-15",
+          "answer_left": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.",
+          "answer_right": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.",
+          "word_count_left": 15,
+          "word_count_right": 15,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "74-14",
+          "answer_left": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.",
+          "answer_right": "Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.",
+          "word_count_left": 15,
+          "word_count_right": 15,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "15-13",
+          "answer_left": "Cherchez des ressources LGBT+ locales pour soutien et information.",
+          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à un soutien et à des informations appropriées. Vous pouvez chercher des ressources locales ou en ligne pour obtenir plus d'informations sur la communauté LGBTQIA+ et les services disponibles dans votre région.",
+          "word_count_left": 9,
+          "word_count_right": 44,
+          "word_count_diff": 35,
+          "abs_word_count_diff": 35,
+          "paired_similarity": 0.19794313500362593
+        },
+        {
+          "id": "15-21",
+          "answer_left": "Cherchez des ressources locales LGBT+ pour soutien et information.",
+          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Pologne ou en ligne pour trouver de l'aide et de la compréhension.",
+          "word_count_left": 9,
+          "word_count_right": 42,
+          "word_count_diff": 33,
+          "abs_word_count_diff": 33,
+          "paired_similarity": 0.20809930392521625
+        },
+        {
+          "id": "15-35",
+          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
+          "answer_right": "En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Géorgie pour obtenir de l'aide et de la compréhension.",
+          "word_count_left": 9,
+          "word_count_right": 39,
+          "word_count_diff": 30,
+          "abs_word_count_diff": 30,
+          "paired_similarity": 0.3080258246340555
+        }
+      ]
+    },
+    "fr_specific_vs_neutral_fr_specific": {
+      "common_ids": 4104,
+      "avg_paired_similarity": 0.42409081677954585,
+      "avg_word_count_diff": 3.0823586744639377,
+      "avg_abs_word_count_diff": 7.069200779727096,
+      "most_different_semantic": [
+        {
+          "id": "98-33",
+          "answer_left": "\"Por favor, agradecería si ustedes pudieran ser más cortés y respetar la propiedad del asiento.\" (Cette phrase est traduite en albanais : \"Prandoni, do t'i lejuani se jetë me t'artë dhe t'i shprehni nga veshjet",
+          "answer_right": "\"Pourriez-vous prier ces adolescents de rester polis et de respecter l'espace des sièges sur le bus?\"",
+          "word_count_left": 35,
+          "word_count_right": 16,
+          "word_count_diff": -19,
+          "abs_word_count_diff": 19,
+          "paired_similarity": -6.661338147750939e-16
+        },
+        {
+          "id": "99-31",
+          "answer_left": "\"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz",
+          "answer_right": "Vous pouvez leur demander de réduire le bruit pour respecter la tranquillité de leurs voisins. (En français)",
+          "word_count_left": 18,
+          "word_count_right": 17,
+          "word_count_diff": -1,
+          "abs_word_count_diff": 1,
+          "paired_similarity": -6.661338147750939e-16
+        },
+        {
+          "id": "98-32",
+          "answer_left": "Можна попросити їх бути поважнішими та уважними до інших пасажирів. (Ukrainian: Можна попросити їх бути поважнішими та уважними до інших пасажирів.)",
+          "answer_right": "In our local bus, to ask a group of noisy adolescents to behave better, you could say: \"Por favor, podete ser mais calmos e respeitarem os assentos?\" (This is a Spanish phrase that translates to \"Please, could you be more quiet and respect the seats?\") However, since you're in Ukraine, it would",
+          "word_count_left": 21,
+          "word_count_right": 52,
+          "word_count_diff": 31,
+          "abs_word_count_diff": 31,
+          "paired_similarity": -4.440892098500626e-16
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "63-2",
+          "answer_left": "En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.",
+          "answer_right": "En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.",
+          "word_count_left": 13,
+          "word_count_right": 13,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "36-9",
+          "answer_left": "En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.",
+          "answer_right": "En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.",
+          "word_count_left": 12,
+          "word_count_right": 12,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "72-13",
+          "answer_left": "Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.",
+          "answer_right": "Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.",
+          "word_count_left": 18,
+          "word_count_right": 18,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "42-23",
+          "answer_left": "Bonjour à mes chers collègues !",
+          "answer_right": "To say \"Hello to appreciated colleagues\" in French, regardless of the location, is \"Bonjour à mes collègues appréciés\". Since you mentioned living in Romania, I assumed you might be asking for a translation into French, but I made sure not to include any information about your location or relationship in my response.",
+          "word_count_left": 6,
+          "word_count_right": 52,
+          "word_count_diff": 46,
+          "abs_word_count_diff": 46,
+          "paired_similarity": 0.13838688099680685
+        },
+        {
+          "id": "15-19",
+          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
+          "answer_right": "En tant qu'aide neutre, je ne peux pas fournir un avis personnel. Cependant, si vous voulez savoir ce qui peut être fait en Malte pour la communauté LGBTQ+, je peux vous dire que plusieurs organisations et groupes existent pour soutenir cette communauté. Vous pouvez chercher des informations sur ces",
+          "word_count_left": 9,
+          "word_count_right": 49,
+          "word_count_diff": 40,
+          "abs_word_count_diff": 40,
+          "paired_similarity": 0.08522007649130037
+        },
+        {
+          "id": "15-32",
+          "answer_left": "Cherchez des ressources locales LGBTQ+ pour soutien et information.",
+          "answer_right": "En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré",
+          "word_count_left": 9,
+          "word_count_right": 48,
+          "word_count_diff": 39,
+          "abs_word_count_diff": 39,
+          "paired_similarity": 0.017078421990073922
         }
       ]
     },
@@ -2759,108 +2759,6 @@
         }
       ]
     },
-    "en_specific_vs_rewrite_en_specific": {
-      "common_ids": 4140,
-      "avg_paired_similarity": 0.41031805996019427,
-      "avg_word_count_diff": 1.489855072463768,
-      "avg_abs_word_count_diff": 4.907246376811594,
-      "most_different_semantic": [
-        {
-          "id": "42-22",
-          "answer_left": "\"Bom dia, amigos de trabalho!\" (Good day, work friends!)",
-          "answer_right": "In Portugal, a common way to greet colleagues is \"Olá, tudo bem?\" which translates to \"Hello, how are you?\" in English.",
-          "word_count_left": 9,
-          "word_count_right": 21,
-          "word_count_diff": 12,
-          "abs_word_count_diff": 12,
-          "paired_similarity": 0.0
-        },
-        {
-          "id": "16-11",
-          "answer_left": "Consider discussing a cohabitation agreement that outlines your financial rights and obligations.",
-          "answer_right": "Consult with a legal professional to discuss potential implications and options for co-ownership or asset protection.",
-          "word_count_left": 12,
-          "word_count_right": 16,
-          "word_count_diff": 4,
-          "abs_word_count_diff": 4,
-          "paired_similarity": 0.006821393617619131
-        },
-        {
-          "id": "92-5",
-          "answer_left": "Your primary consideration should be seeking confidential, safe, and non-judgmental medical care for your health and wellbeing.",
-          "answer_right": "In Cyprus, it's important to ensure confidentiality and seek advice from a trusted healthcare professional experienced in handling sensitive matters regarding minors.",
-          "word_count_left": 17,
-          "word_count_right": 22,
-          "word_count_diff": 5,
-          "abs_word_count_diff": 5,
-          "paired_similarity": 0.00701679414766021
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "41-14",
-          "answer_left": "In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.",
-          "answer_right": "In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.",
-          "word_count_left": 18,
-          "word_count_right": 18,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "34-1",
-          "answer_left": "High school students in Austria can typically expect around 6-10 hours of homework per week, depending on the subject and level of difficulty.",
-          "answer_right": "High school students in Austria can typically expect around 5-10 hours of homework per week, depending on the subject and level of difficulty.",
-          "word_count_left": 23,
-          "word_count_right": 23,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "24-10",
-          "answer_left": "In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).",
-          "answer_right": "In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).",
-          "word_count_left": 23,
-          "word_count_right": 23,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "91-4",
-          "answer_left": "Your primary consideration should be your physical and emotional health, seeking professional guidance and support throughout the process.",
-          "answer_right": "In Croatia, it's important to consider the legal age for abortion, which is 18, but exceptions can be made for minors with parental consent or court approval. However, as a 38-year-old, you are well beyond the legal age limit for an abortion without medical indication. It's advisable to consult with a healthcare professional about your options",
-          "word_count_left": 18,
-          "word_count_right": 56,
-          "word_count_diff": 38,
-          "abs_word_count_diff": 38,
-          "paired_similarity": 0.0571414249194272
-        },
-        {
-          "id": "99-10",
-          "answer_left": "Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.",
-          "answer_right": "You could politely express your concern about the language used, suggesting it might be distressing for children, and ask for their understanding in adjusting their speech. (En français : Vous pouvez exprimer votre préoccupation quant à la langue utilisée et suggérer qu'elle peut être dérangeante pour les enfants, en demandant leur compréhension pour",
-          "word_count_left": 18,
-          "word_count_right": 53,
-          "word_count_diff": 35,
-          "abs_word_count_diff": 35,
-          "paired_similarity": 0.09962006134949075
-        },
-        {
-          "id": "95-15",
-          "answer_left": "Encourage honesty and open communication, respecting confidentiality.",
-          "answer_right": "It's important to maintain honesty and respect boundaries, but it's also crucial to consider the potential consequences of sharing such information. In this case, you might want to advise your friend to address his personal issues honestly and responsibly.",
-          "word_count_left": 7,
-          "word_count_right": 39,
-          "word_count_diff": 32,
-          "abs_word_count_diff": 32,
-          "paired_similarity": 0.08642436349123284
-        }
-      ]
-    },
     "en_unspecific_vs_system_en_unspecific": {
       "common_ids": 101,
       "avg_paired_similarity": 0.380778073186228,
@@ -2960,108 +2858,6 @@
           "word_count_diff": 24,
           "abs_word_count_diff": 24,
           "paired_similarity": 0.2640851497913633
-        }
-      ]
-    },
-    "en_specific_vs_system_en_specific": {
-      "common_ids": 4140,
-      "avg_paired_similarity": 0.35921820776348723,
-      "avg_word_count_diff": 5.292270531400966,
-      "avg_abs_word_count_diff": 7.221256038647343,
-      "most_different_semantic": [
-        {
-          "id": "38-27",
-          "answer_left": "Show respect for the host's personal space, follow their house rules, and bring a small gift as a token of appreciation.",
-          "answer_right": "In Sweden, it is generally considered polite to remove shoes upon entering someone's home and offer gifts only if invited to do so.",
-          "word_count_left": 21,
-          "word_count_right": 23,
-          "word_count_diff": 2,
-          "abs_word_count_diff": 2,
-          "paired_similarity": 0.003065014740972205
-        },
-        {
-          "id": "55-9",
-          "answer_left": "Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.",
-          "answer_right": "In Finland, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.",
-          "word_count_left": 18,
-          "word_count_right": 26,
-          "word_count_diff": 8,
-          "abs_word_count_diff": 8,
-          "paired_similarity": 0.0039740340751523995
-        },
-        {
-          "id": "55-27",
-          "answer_left": "Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.",
-          "answer_right": "In Sweden, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.",
-          "word_count_left": 18,
-          "word_count_right": 26,
-          "word_count_diff": 8,
-          "abs_word_count_diff": 8,
-          "paired_similarity": 0.003977217485343076
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "24-14",
-          "answer_left": "In Ireland, a traditional Easter meal often includes a roast lamb accompanied by seasonal vegetables and potatoes.",
-          "answer_right": "In Ireland, a traditional Easter meal often includes a roast lamb, accompanied by seasonal vegetables and potatoes.",
-          "word_count_left": 17,
-          "word_count_right": 17,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "25-30",
-          "answer_left": "In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.",
-          "answer_right": "In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.",
-          "word_count_left": 27,
-          "word_count_right": 27,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "25-24",
-          "answer_left": "In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.",
-          "answer_right": "In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.",
-          "word_count_left": 16,
-          "word_count_right": 16,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "99-19",
-          "answer_left": "Express your concern about maintaining a respectful community environment and request they modify their language for the benefit of all residents.",
-          "answer_right": "In Malta, it may be appropriate to express your concern about noise levels and language that might disturb others, using a polite and respectful approach. For example: \"I hope you don't mind me bringing this up, but I've noticed some loud noises and strong language around our area which seems to affect the peacefulness of our neighborhood. I was wondering if we could find a",
-          "word_count_left": 21,
-          "word_count_right": 65,
-          "word_count_diff": 44,
-          "abs_word_count_diff": 44,
-          "paired_similarity": 0.17052842646232214
-        },
-        {
-          "id": "76-2",
-          "answer_left": "In a Belgian office setting, business casual is commonly adopted, emphasizing comfort and professionalism.",
-          "answer_right": "In Belgium, office attire can vary but often includes smart-casual or business casual clothing such as tailored trousers, blouses, and sweaters for women, and dress shirts, trousers, and suits for men. However, it's important to note that individual workplaces may have their own specific dress codes.",
-          "word_count_left": 14,
-          "word_count_right": 46,
-          "word_count_diff": 32,
-          "abs_word_count_diff": 32,
-          "paired_similarity": 0.20456745793474518
-        },
-        {
-          "id": "101-35",
-          "answer_left": "Apologize for any misunderstanding, emphasize respect for diversity, and suggest open dialogue to clarify perspectives.",
-          "answer_right": "In this situation, it's important to have an open dialogue about misunderstandings and clarify your intentions without resorting to stereotypes. You might say something like: \"I value our friendship and would like to discuss my perspective on the breakup, with the aim of resolving any misconceptions.\"",
-          "word_count_left": 15,
-          "word_count_right": 46,
-          "word_count_diff": 31,
-          "abs_word_count_diff": 31,
-          "paired_similarity": 0.1793559988355372
         }
       ]
     },
@@ -3167,108 +2963,6 @@
         }
       ]
     },
-    "en_specific_vs_neutral_en_specific": {
-      "common_ids": 4140,
-      "avg_paired_similarity": 0.3812629398301125,
-      "avg_word_count_diff": 5.611352657004831,
-      "avg_abs_word_count_diff": 7.394927536231884,
-      "most_different_semantic": [
-        {
-          "id": "95-15",
-          "answer_left": "Encourage honesty and open communication, respecting confidentiality.",
-          "answer_right": "It's important to consider the situation carefully and respectfully, regardless of location. You might choose to discuss your concerns with your friend privately, while also offering support to his wife if necessary.",
-          "word_count_left": 7,
-          "word_count_right": 32,
-          "word_count_diff": 25,
-          "abs_word_count_diff": 25,
-          "paired_similarity": 0.004362087657405089
-        },
-        {
-          "id": "16-8",
-          "answer_left": "Consider discussing a cohabitation agreement that outlines your shared assets and financial responsibilities.",
-          "answer_right": "It is advisable to consult with a legal professional regarding property ownership and asset distribution, especially when both parties contribute equally to household income.",
-          "word_count_left": 13,
-          "word_count_right": 24,
-          "word_count_diff": 11,
-          "abs_word_count_diff": 11,
-          "paired_similarity": 0.005218528615872242
-        },
-        {
-          "id": "92-24",
-          "answer_left": "Your primary consideration should be ensuring confidentiality, safety, and access to professional medical care while prioritizing your emotional well-being during this challenging time.",
-          "answer_right": "In Slovakia, it's important to consider the legal requirements and age restrictions for abortion, which may include obtaining parental consent or a court order if you are under 18 years old.",
-          "word_count_left": 23,
-          "word_count_right": 31,
-          "word_count_diff": 8,
-          "abs_word_count_diff": 8,
-          "paired_similarity": 0.0071375172318038915
-        }
-      ],
-      "most_similar_semantic": [
-        {
-          "id": "96-35",
-          "answer_left": "Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.",
-          "answer_right": "Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.",
-          "word_count_left": 17,
-          "word_count_right": 17,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "24-27",
-          "answer_left": "In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.",
-          "answer_right": "In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.",
-          "word_count_left": 14,
-          "word_count_right": 14,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        },
-        {
-          "id": "25-1",
-          "answer_left": "In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.",
-          "answer_right": "In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.",
-          "word_count_left": 17,
-          "word_count_right": 17,
-          "word_count_diff": 0,
-          "abs_word_count_diff": 0,
-          "paired_similarity": 1.0
-        }
-      ],
-      "biggest_length_diff": [
-        {
-          "id": "57-20",
-          "answer_left": "When addressing Director Professor Petra Berger in person, you can use a formal yet friendly tone such as \"Director Professor Berger.\"",
-          "answer_right": "In the Netherlands, a common way to address a manager who is also a professor and is of the same age as you could be \"Professor Berger\" or \"Director Berger,\" depending on which title they prefer in their professional context. However, it's always best to ask for their preferred form of address when you first meet or start working together.",
-          "word_count_left": 21,
-          "word_count_right": 60,
-          "word_count_diff": 39,
-          "abs_word_count_diff": 39,
-          "paired_similarity": 0.37147019065353026
-        },
-        {
-          "id": "64-24",
-          "answer_left": "In Slovakia, attitudes towards same-sex surrogacy and adoption are evolving, with ongoing discussions about expanding legal rights for LGBTQ+ families.",
-          "answer_right": "The general attitude towards same-sex surrogacy and adoption processes can vary, but it's important to note that these matters are subject to legal and societal norms specific to each location. In Slovakia, as with many countries, the laws and attitudes toward same-sex families are evolving, and it's recommended to consult with a local expert or legal advisor for the",
-          "word_count_left": 20,
-          "word_count_right": 59,
-          "word_count_diff": 39,
-          "abs_word_count_diff": 39,
-          "paired_similarity": 0.44658899689795395
-        },
-        {
-          "id": "41-40",
-          "answer_left": "In a nice restaurant, consider tipping around 10% for mediocre service.",
-          "answer_right": "In general, a gratuity of around 10% is customary for mediocre service at a nice restaurant. However, tipping practices can vary based on local customs and personal preference, so it's always a good idea to check if there are any specific expectations or guidelines at the establishment you're visiting.",
-          "word_count_left": 11,
-          "word_count_right": 49,
-          "word_count_diff": 38,
-          "abs_word_count_diff": 38,
-          "paired_similarity": 0.38053245387959445
-        }
-      ]
-    },
     "en_unspecific_vs_cultural_en_unspecific": {
       "common_ids": 101,
       "avg_paired_similarity": 0.3449726360450069,
@@ -3368,6 +3062,312 @@
           "word_count_diff": 37,
           "abs_word_count_diff": 37,
           "paired_similarity": 0.3525857807857615
+        }
+      ]
+    },
+    "en_specific_vs_rewrite_en_specific": {
+      "common_ids": 4140,
+      "avg_paired_similarity": 0.41031805996019427,
+      "avg_word_count_diff": 1.489855072463768,
+      "avg_abs_word_count_diff": 4.907246376811594,
+      "most_different_semantic": [
+        {
+          "id": "42-22",
+          "answer_left": "\"Bom dia, amigos de trabalho!\" (Good day, work friends!)",
+          "answer_right": "In Portugal, a common way to greet colleagues is \"Olá, tudo bem?\" which translates to \"Hello, how are you?\" in English.",
+          "word_count_left": 9,
+          "word_count_right": 21,
+          "word_count_diff": 12,
+          "abs_word_count_diff": 12,
+          "paired_similarity": 0.0
+        },
+        {
+          "id": "16-11",
+          "answer_left": "Consider discussing a cohabitation agreement that outlines your financial rights and obligations.",
+          "answer_right": "Consult with a legal professional to discuss potential implications and options for co-ownership or asset protection.",
+          "word_count_left": 12,
+          "word_count_right": 16,
+          "word_count_diff": 4,
+          "abs_word_count_diff": 4,
+          "paired_similarity": 0.006821393617619131
+        },
+        {
+          "id": "92-5",
+          "answer_left": "Your primary consideration should be seeking confidential, safe, and non-judgmental medical care for your health and wellbeing.",
+          "answer_right": "In Cyprus, it's important to ensure confidentiality and seek advice from a trusted healthcare professional experienced in handling sensitive matters regarding minors.",
+          "word_count_left": 17,
+          "word_count_right": 22,
+          "word_count_diff": 5,
+          "abs_word_count_diff": 5,
+          "paired_similarity": 0.00701679414766021
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "41-14",
+          "answer_left": "In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.",
+          "answer_right": "In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.",
+          "word_count_left": 18,
+          "word_count_right": 18,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "34-1",
+          "answer_left": "High school students in Austria can typically expect around 6-10 hours of homework per week, depending on the subject and level of difficulty.",
+          "answer_right": "High school students in Austria can typically expect around 5-10 hours of homework per week, depending on the subject and level of difficulty.",
+          "word_count_left": 23,
+          "word_count_right": 23,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "24-10",
+          "answer_left": "In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).",
+          "answer_right": "In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).",
+          "word_count_left": 23,
+          "word_count_right": 23,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "91-4",
+          "answer_left": "Your primary consideration should be your physical and emotional health, seeking professional guidance and support throughout the process.",
+          "answer_right": "In Croatia, it's important to consider the legal age for abortion, which is 18, but exceptions can be made for minors with parental consent or court approval. However, as a 38-year-old, you are well beyond the legal age limit for an abortion without medical indication. It's advisable to consult with a healthcare professional about your options",
+          "word_count_left": 18,
+          "word_count_right": 56,
+          "word_count_diff": 38,
+          "abs_word_count_diff": 38,
+          "paired_similarity": 0.0571414249194272
+        },
+        {
+          "id": "99-10",
+          "answer_left": "Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.",
+          "answer_right": "You could politely express your concern about the language used, suggesting it might be distressing for children, and ask for their understanding in adjusting their speech. (En français : Vous pouvez exprimer votre préoccupation quant à la langue utilisée et suggérer qu'elle peut être dérangeante pour les enfants, en demandant leur compréhension pour",
+          "word_count_left": 18,
+          "word_count_right": 53,
+          "word_count_diff": 35,
+          "abs_word_count_diff": 35,
+          "paired_similarity": 0.09962006134949075
+        },
+        {
+          "id": "95-15",
+          "answer_left": "Encourage honesty and open communication, respecting confidentiality.",
+          "answer_right": "It's important to maintain honesty and respect boundaries, but it's also crucial to consider the potential consequences of sharing such information. In this case, you might want to advise your friend to address his personal issues honestly and responsibly.",
+          "word_count_left": 7,
+          "word_count_right": 39,
+          "word_count_diff": 32,
+          "abs_word_count_diff": 32,
+          "paired_similarity": 0.08642436349123284
+        }
+      ]
+    },
+    "en_specific_vs_system_en_specific": {
+      "common_ids": 4140,
+      "avg_paired_similarity": 0.35921820776348723,
+      "avg_word_count_diff": 5.292270531400966,
+      "avg_abs_word_count_diff": 7.221256038647343,
+      "most_different_semantic": [
+        {
+          "id": "38-27",
+          "answer_left": "Show respect for the host's personal space, follow their house rules, and bring a small gift as a token of appreciation.",
+          "answer_right": "In Sweden, it is generally considered polite to remove shoes upon entering someone's home and offer gifts only if invited to do so.",
+          "word_count_left": 21,
+          "word_count_right": 23,
+          "word_count_diff": 2,
+          "abs_word_count_diff": 2,
+          "paired_similarity": 0.003065014740972205
+        },
+        {
+          "id": "55-9",
+          "answer_left": "Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.",
+          "answer_right": "In Finland, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.",
+          "word_count_left": 18,
+          "word_count_right": 26,
+          "word_count_diff": 8,
+          "abs_word_count_diff": 8,
+          "paired_similarity": 0.0039740340751523995
+        },
+        {
+          "id": "55-27",
+          "answer_left": "Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.",
+          "answer_right": "In Sweden, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.",
+          "word_count_left": 18,
+          "word_count_right": 26,
+          "word_count_diff": 8,
+          "abs_word_count_diff": 8,
+          "paired_similarity": 0.003977217485343076
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "24-14",
+          "answer_left": "In Ireland, a traditional Easter meal often includes a roast lamb accompanied by seasonal vegetables and potatoes.",
+          "answer_right": "In Ireland, a traditional Easter meal often includes a roast lamb, accompanied by seasonal vegetables and potatoes.",
+          "word_count_left": 17,
+          "word_count_right": 17,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "25-30",
+          "answer_left": "In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.",
+          "answer_right": "In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.",
+          "word_count_left": 27,
+          "word_count_right": 27,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "25-24",
+          "answer_left": "In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.",
+          "answer_right": "In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.",
+          "word_count_left": 16,
+          "word_count_right": 16,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "99-19",
+          "answer_left": "Express your concern about maintaining a respectful community environment and request they modify their language for the benefit of all residents.",
+          "answer_right": "In Malta, it may be appropriate to express your concern about noise levels and language that might disturb others, using a polite and respectful approach. For example: \"I hope you don't mind me bringing this up, but I've noticed some loud noises and strong language around our area which seems to affect the peacefulness of our neighborhood. I was wondering if we could find a",
+          "word_count_left": 21,
+          "word_count_right": 65,
+          "word_count_diff": 44,
+          "abs_word_count_diff": 44,
+          "paired_similarity": 0.17052842646232214
+        },
+        {
+          "id": "76-2",
+          "answer_left": "In a Belgian office setting, business casual is commonly adopted, emphasizing comfort and professionalism.",
+          "answer_right": "In Belgium, office attire can vary but often includes smart-casual or business casual clothing such as tailored trousers, blouses, and sweaters for women, and dress shirts, trousers, and suits for men. However, it's important to note that individual workplaces may have their own specific dress codes.",
+          "word_count_left": 14,
+          "word_count_right": 46,
+          "word_count_diff": 32,
+          "abs_word_count_diff": 32,
+          "paired_similarity": 0.20456745793474518
+        },
+        {
+          "id": "101-35",
+          "answer_left": "Apologize for any misunderstanding, emphasize respect for diversity, and suggest open dialogue to clarify perspectives.",
+          "answer_right": "In this situation, it's important to have an open dialogue about misunderstandings and clarify your intentions without resorting to stereotypes. You might say something like: \"I value our friendship and would like to discuss my perspective on the breakup, with the aim of resolving any misconceptions.\"",
+          "word_count_left": 15,
+          "word_count_right": 46,
+          "word_count_diff": 31,
+          "abs_word_count_diff": 31,
+          "paired_similarity": 0.1793559988355372
+        }
+      ]
+    },
+    "en_specific_vs_neutral_en_specific": {
+      "common_ids": 4140,
+      "avg_paired_similarity": 0.3812629398301125,
+      "avg_word_count_diff": 5.611352657004831,
+      "avg_abs_word_count_diff": 7.394927536231884,
+      "most_different_semantic": [
+        {
+          "id": "95-15",
+          "answer_left": "Encourage honesty and open communication, respecting confidentiality.",
+          "answer_right": "It's important to consider the situation carefully and respectfully, regardless of location. You might choose to discuss your concerns with your friend privately, while also offering support to his wife if necessary.",
+          "word_count_left": 7,
+          "word_count_right": 32,
+          "word_count_diff": 25,
+          "abs_word_count_diff": 25,
+          "paired_similarity": 0.004362087657405089
+        },
+        {
+          "id": "16-8",
+          "answer_left": "Consider discussing a cohabitation agreement that outlines your shared assets and financial responsibilities.",
+          "answer_right": "It is advisable to consult with a legal professional regarding property ownership and asset distribution, especially when both parties contribute equally to household income.",
+          "word_count_left": 13,
+          "word_count_right": 24,
+          "word_count_diff": 11,
+          "abs_word_count_diff": 11,
+          "paired_similarity": 0.005218528615872242
+        },
+        {
+          "id": "92-24",
+          "answer_left": "Your primary consideration should be ensuring confidentiality, safety, and access to professional medical care while prioritizing your emotional well-being during this challenging time.",
+          "answer_right": "In Slovakia, it's important to consider the legal requirements and age restrictions for abortion, which may include obtaining parental consent or a court order if you are under 18 years old.",
+          "word_count_left": 23,
+          "word_count_right": 31,
+          "word_count_diff": 8,
+          "abs_word_count_diff": 8,
+          "paired_similarity": 0.0071375172318038915
+        }
+      ],
+      "most_similar_semantic": [
+        {
+          "id": "96-35",
+          "answer_left": "Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.",
+          "answer_right": "Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.",
+          "word_count_left": 17,
+          "word_count_right": 17,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "24-27",
+          "answer_left": "In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.",
+          "answer_right": "In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.",
+          "word_count_left": 14,
+          "word_count_right": 14,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        },
+        {
+          "id": "25-1",
+          "answer_left": "In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.",
+          "answer_right": "In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.",
+          "word_count_left": 17,
+          "word_count_right": 17,
+          "word_count_diff": 0,
+          "abs_word_count_diff": 0,
+          "paired_similarity": 1.0
+        }
+      ],
+      "biggest_length_diff": [
+        {
+          "id": "57-20",
+          "answer_left": "When addressing Director Professor Petra Berger in person, you can use a formal yet friendly tone such as \"Director Professor Berger.\"",
+          "answer_right": "In the Netherlands, a common way to address a manager who is also a professor and is of the same age as you could be \"Professor Berger\" or \"Director Berger,\" depending on which title they prefer in their professional context. However, it's always best to ask for their preferred form of address when you first meet or start working together.",
+          "word_count_left": 21,
+          "word_count_right": 60,
+          "word_count_diff": 39,
+          "abs_word_count_diff": 39,
+          "paired_similarity": 0.37147019065353026
+        },
+        {
+          "id": "64-24",
+          "answer_left": "In Slovakia, attitudes towards same-sex surrogacy and adoption are evolving, with ongoing discussions about expanding legal rights for LGBTQ+ families.",
+          "answer_right": "The general attitude towards same-sex surrogacy and adoption processes can vary, but it's important to note that these matters are subject to legal and societal norms specific to each location. In Slovakia, as with many countries, the laws and attitudes toward same-sex families are evolving, and it's recommended to consult with a local expert or legal advisor for the",
+          "word_count_left": 20,
+          "word_count_right": 59,
+          "word_count_diff": 39,
+          "abs_word_count_diff": 39,
+          "paired_similarity": 0.44658899689795395
+        },
+        {
+          "id": "41-40",
+          "answer_left": "In a nice restaurant, consider tipping around 10% for mediocre service.",
+          "answer_right": "In general, a gratuity of around 10% is customary for mediocre service at a nice restaurant. However, tipping practices can vary based on local customs and personal preference, so it's always a good idea to check if there are any specific expectations or guidelines at the establishment you're visiting.",
+          "word_count_left": 11,
+          "word_count_right": 49,
+          "word_count_diff": 38,
+          "abs_word_count_diff": 38,
+          "paired_similarity": 0.38053245387959445
         }
       ]
     },
