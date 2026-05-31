@@ -2,104 +2,66 @@ import numpy as np
 import pandas as pd
 
 
-# =========================
-# EXTRACTION DES SEUILS
-# =========================
-
 def extract_extreme_cases(df, sim_matrix):
+    n = len(df)
 
-    # Récupère uniquement le triangle supérieur
-    # pour éviter les doublons de comparaison
+    if n < 2:
+        return {
+            "low_similarity": 0.0,
+            "high_similarity": 0.0
+        }
+
     upper = sim_matrix[np.triu_indices_from(sim_matrix, k=1)]
 
     return {
-
-        # 5% les moins similaires
         "low_similarity": float(np.percentile(upper, 5)),
-
-        # 5% les plus similaires
         "high_similarity": float(np.percentile(upper, 95))
     }
 
 
-# =========================
-# PAIRS LES PLUS SIMILAIRES
-# =========================
+def _get_similarity_pairs(df, sim_matrix, top_k=3, most=True):
+    n = len(df)
+
+    if n < 2:
+        return []
+
+    rows, cols = np.triu_indices(n, k=1)
+    scores = sim_matrix[rows, cols]
+
+    top_k = min(top_k, len(scores))
+
+    if most:
+        selected_idx = np.argpartition(scores, -top_k)[-top_k:]
+        selected_idx = selected_idx[np.argsort(scores[selected_idx])[::-1]]
+    else:
+        selected_idx = np.argpartition(scores, top_k - 1)[:top_k]
+        selected_idx = selected_idx[np.argsort(scores[selected_idx])]
+
+    pairs = []
+
+    for idx in selected_idx:
+        i = rows[idx]
+        j = cols[idx]
+
+        pairs.append({
+            "score": float(scores[idx]),
+            "answer_a": df.iloc[i]["answer"],
+            "answer_b": df.iloc[j]["answer"]
+        })
+
+    return pairs
+
 
 def get_most_similar_pairs(df, sim_matrix, top_k=3):
+    return _get_similarity_pairs(df, sim_matrix, top_k=top_k, most=True)
 
-    pairs = []
-
-    n = len(df)
-
-    # Compare chaque réponse avec les autres
-    for i in range(n):
-
-        for j in range(i + 1, n):
-
-            pairs.append({
-
-                "score": sim_matrix[i][j],
-
-                "answer_a": df.iloc[i]["answer"],
-
-                "answer_b": df.iloc[j]["answer"]
-            })
-
-    # Trie du plus similaire au moins similaire
-    pairs = sorted(
-        pairs,
-        key=lambda x: x["score"],
-        reverse=True
-    )
-
-    return pairs[:top_k]
-
-
-# =========================
-# PAIRS LES MOINS SIMILAIRES
-# =========================
 
 def get_least_similar_pairs(df, sim_matrix, top_k=3):
+    return _get_similarity_pairs(df, sim_matrix, top_k=top_k, most=False)
 
-    pairs = []
-
-    n = len(df)
-
-    # Compare chaque réponse avec les autres
-    for i in range(n):
-
-        for j in range(i + 1, n):
-
-            pairs.append({
-
-                "score": sim_matrix[i][j],
-
-                "answer_a": df.iloc[i]["answer"],
-
-                "answer_b": df.iloc[j]["answer"]
-            })
-
-    # Trie du moins similaire au plus similaire
-    pairs = sorted(
-        pairs,
-        key=lambda x: x["score"]
-    )
-
-    return pairs[:top_k]
-
-
-# =========================
-# DÉTECTION DE RÉPONSES
-# POTENTIELLEMENT PROBLÉMATIQUES
-# =========================
 
 def detect_problematic_answers(df):
-
-    # Expressions souvent associées
-    # à des réponses faibles ou invalides
     keywords = [
-
         "i don't know",
         "unknown",
         "cannot answer",
@@ -112,25 +74,16 @@ def detect_problematic_answers(df):
 
     problematic_rows = []
 
-    # Parcours des réponses
     for _, row in df.iterrows():
-
         answer = str(row["answer"]).lower()
 
-        # Réponse trop courte
         if len(answer.strip()) < 10:
-
             problematic_rows.append(row)
-
             continue
 
-        # Recherche de mots-clés problématiques
         for keyword in keywords:
-
             if keyword in answer:
-
                 problematic_rows.append(row)
-
                 break
 
     return pd.DataFrame(problematic_rows)

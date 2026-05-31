@@ -1,0 +1,132 @@
+{
+  "fr_unspecific": {
+    "avg_word_count": 21.287128712871286,
+    "avg_char_length": 133.87128712871288,
+    "avg_similarity": 0.09976339395229485
+  },
+  "fr_specific": {
+    "avg_word_count": 23.75706627680312,
+    "avg_char_length": 150.18884015594543,
+    "avg_similarity": 0.05445218503737754
+  },
+  "en_unspecific": {
+    "avg_word_count": 24.96039603960396,
+    "avg_char_length": 166.92079207920793,
+    "avg_similarity": 0.08325251823253323
+  },
+  "en_specific": {
+    "avg_word_count": 20.67729468599034,
+    "avg_char_length": 140.7608695652174,
+    "avg_similarity": 0.03750347169090557
+  },
+  "es_unspecific": {
+    "avg_word_count": 24.08910891089109,
+    "avg_char_length": 154.56435643564356,
+    "avg_similarity": 0.08698096539214797
+  },
+  "es_specific": {
+    "avg_word_count": 29.62729468599034,
+    "avg_char_length": 188.72391304347826,
+    "avg_similarity": 0.047857496524145525
+  },
+  "de_unspecific": {
+    "avg_word_count": 25.14851485148515,
+    "avg_char_length": 178.16831683168317,
+    "avg_similarity": 0.10095765466838257
+  },
+  "de_specific": {
+    "avg_word_count": 26.948067632850243,
+    "avg_char_length": 190.97391304347826,
+    "avg_similarity": 0.046663505878513915
+  },
+  "it_unspecific": {
+    "avg_word_count": 18.11881188118812,
+    "avg_char_length": 117.35643564356435,
+    "avg_similarity": 0.07058218197766543
+  },
+  "it_specific": {
+    "avg_word_count": 18.18429951690821,
+    "avg_char_length": 118.27149758454107,
+    "avg_similarity": 0.029443412459685042
+  },
+  "rewrite_fr_unspecific": {
+    "avg_word_count": 21.77227722772277,
+    "avg_char_length": 140.45544554455446,
+    "avg_similarity": 0.10345761633203714
+  },
+  "rewrite_fr_specific": {
+    "avg_word_count": 23.329922027290447,
+    "avg_char_length": 148.3116471734893,
+    "avg_similarity": 0.055481771213786564
+  },
+  "rewrite_en_unspecific": {
+    "avg_word_count": 25.376237623762375,
+    "avg_char_length": 171.15841584158414,
+    "avg_similarity": 0.08126694962405623
+  },
+  "rewrite_en_specific": {
+    "avg_word_count": 22.167149758454105,
+    "avg_char_length": 149.9147342995169,
+    "avg_similarity": 0.04138691051639951
+  },
+  "system_fr_unspecific": {
+    "avg_word_count": 23.495049504950494,
+    "avg_char_length": 151.95049504950495,
+    "avg_similarity": 0.10621259312031656
+  },
+  "system_fr_specific": {
+    "avg_word_count": 23.860867446393762,
+    "avg_char_length": 153.01072124756334,
+    "avg_similarity": 0.059096190209471905
+  },
+  "system_en_unspecific": {
+    "avg_word_count": 28.980198019801982,
+    "avg_char_length": 197.9108910891089,
+    "avg_similarity": 0.09045489166067937
+  },
+  "system_en_specific": {
+    "avg_word_count": 25.969565217391306,
+    "avg_char_length": 174.20024154589373,
+    "avg_similarity": 0.04567926460423604
+  },
+  "neutral_fr_unspecific": {
+    "avg_word_count": 21.92079207920792,
+    "avg_char_length": 141.30693069306932,
+    "avg_similarity": 0.0864985979736977
+  },
+  "neutral_fr_specific": {
+    "avg_word_count": 26.839424951267056,
+    "avg_char_length": 169.08382066276803,
+    "avg_similarity": 0.059759721234165626
+  },
+  "neutral_en_unspecific": {
+    "avg_word_count": 29.663366336633665,
+    "avg_char_length": 197.40594059405942,
+    "avg_similarity": 0.09363876883954549
+  },
+  "neutral_en_specific": {
+    "avg_word_count": 26.28864734299517,
+    "avg_char_length": 175.38695652173914,
+    "avg_similarity": 0.049903232004858224
+  },
+  "cultural_fr_unspecific": {
+    "avg_word_count": 22.93069306930693,
+    "avg_char_length": 143.3861386138614,
+    "avg_similarity": 0.09931728708617145
+  },
+  "cultural_fr_specific": {
+    "avg_word_count": 24.792397660818715,
+    "avg_char_length": 157.22636452241716,
+    "avg_similarity": 0.04982884500832561
+  },
+  "cultural_en_unspecific": {
+    "avg_word_count": 34.97029702970297,
+    "avg_char_length": 230.93069306930693,
+    "avg_similarity": 0.09341074385115483
+  },
+  "cultural_en_specific": {
+    "avg_word_count": 25.268599033816425,
+    "avg_char_length": 165.40652173913043,
+    "avg_similarity": 0.04271475089361638
+  }
+}

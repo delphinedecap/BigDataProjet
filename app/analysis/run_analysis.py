@@ -1,3 +1,4 @@
+import json
 import os
 import pandas as pd
 
@@ -26,6 +27,13 @@ DATA_DIR = os.path.join(
     "data",
     "output"
 )
+
+
+def save_analysis_results(results, output_path="data/analysis/analysis_summary.json"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
 
 
 # =========================
@@ -108,38 +116,28 @@ def run_multiple_analysis(paths):
         # CALCUL DE SIMILARITÉ
         # =========================
 
-        print("Calcul de similarité...")
-
+        print(f"Nombre de réponses analysées : {len(df)}")
+        print("Calcul TF-IDF + similarité...")
         sim_matrix = compute_similarity(df)
-
+        print("Similarité terminée.")
+        
         avg_similarity = sim_matrix.mean()
 
         # =========================
         # ANALYSE QUALITATIVE
         # =========================
 
-        qualitative = extract_extreme_cases(
-            df,
-            sim_matrix
-        )
+        print("Extraction des cas extrêmes...")
+        qualitative = extract_extreme_cases(df, sim_matrix)
 
-        # Paires les plus similaires
-        most_similar = get_most_similar_pairs(
-            df,
-            sim_matrix,
-            top_k=3
-        )
+        print("Recherche des paires les plus similaires...")
+        most_similar = get_most_similar_pairs(df, sim_matrix, top_k=3)
 
-        # Paires les moins similaires
-        least_similar = get_least_similar_pairs(
-            df,
-            sim_matrix,
-            top_k=3
-        )
+        print("Recherche des paires les moins similaires...")
+        least_similar = get_least_similar_pairs(df, sim_matrix, top_k=3)
 
-        # Réponses problématiques
+        print("Détection des réponses problématiques...")
         problematic = detect_problematic_answers(df)
-
         # =========================
         # AFFICHAGE DES STATS
         # =========================
@@ -459,7 +457,7 @@ if __name__ == "__main__":
     # =========================
 
     results = run_multiple_analysis(paths)
-
+    save_analysis_results(results)
     # =========================
     # COMPARAISON GLOBALE
     # =========================
