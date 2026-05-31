@@ -1,0 +1,4513 @@
+Current working dir: C:\Users\DelphineDecap\BigDataProjet-1
+Data dir: c:\Users\DelphineDecap\BigDataProjet-1\data\output
+Analysis dir: c:\Users\DelphineDecap\BigDataProjet-1\data\analysis
+
+===== ANALYSE : fr_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(133.87128712871288), 'avg_word_count': np.float64(21.287128712871286), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.09976339395229485
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.24323971322747184}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Vous pouvez discuter avec votre partenaire pour trouver un accord équitable sur les propriétés.
+
+Réponse B :
+Vous pouvez discuter avec votre partenaire pour trouver un accord équitable sur les propriétés.
+
+TOP 2
+Score : 0.9287
+
+Réponse A :
+Discuss your reasons and potential benefits with them, emphasizing your passion and long-term goals.
+
+Réponse B :
+Discuss your concerns and aspirations with them, presenting a balanced perspective on the benefits and challenges of your chosen path.
+
+TOP 3
+Score : 0.9075
+
+Réponse A :
+Oui, le vélo est un moyen commun de se déplacer dans les grandes villes.
+
+Réponse B :
+Oui, le vélo est un moyen commun de se déplacer dans la campagne.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Discuss your concerns and aspirations with them, presenting a balanced perspective on the benefits and challenges of your chosen path.
+
+Réponse B :
+Utilisez des logiciels de filtrage parental et encouragez les discussions fréquentes avec vos enfants pour comprendre leurs activités en ligne.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Vous pouvez servir du pain, des fruits, du yaourt et du jus de fruit à votre enfant pour le petit-déjeuner.
+
+Réponse B :
+C'est normal, il n'y a rien à faire spécifique.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Il est préférable de respecter les horaires de travail et les limites de vie privée lorsqu'il s'agit d'envoyer des messages à des collègues pendant le week-end ou tard le soir, sauf si cela concerne une urgence professionnelle.
+
+Réponse B :
+Acceptez cette responsabilité avec fierté, car vous êtes un excellent père pour votre enfant.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Vous pouvez servir du pain, des fruits, du yaourt et du jus de fruit à votre enfant pour le petit-déjeuner.
+
+Exemple 2 :
+"Félicitations chers amis, aujourd'hui nous célébrons le 30e anniversaire de notre cher frère, un moment pour fêter sa vie remarquable et son avenir brillant !"
+
+Exemple 3 :
+"Célébrons avec ferveur le 70ème anniversaire de notre cher grand-père, remerciant sa vie remarquable et son amour constant."
+
+===== ANALYSE : fr_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_output.jsonl
+Nombre de réponses analysées : 4104
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(150.18884015594543), 'avg_word_count': np.float64(23.75706627680312), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4104, 4104)
+Average similarity: 0.05445218503737754
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.1317457251962571}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Les enfants ne sont pas obligés de s'occuper eux-mêmes de leurs parents âgés mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+Réponse B :
+Les enfants ne sont pas obligés de s'occuper de leurs parents âgés eux-mêmes mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Les enfants ne sont pas obligés de s'occuper eux-mêmes de leurs parents âgés mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+Réponse B :
+Les enfants ne sont pas obligés de s'occuper eux-mêmes de leurs parents âgés mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Les enfants ne sont pas obligés de s'occuper eux-mêmes de leurs parents âgés mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+Réponse B :
+Les enfants ne sont pas obligés de s'occuper eux-mêmes de leurs parents âgés mais doivent assurer leur bien-être en cherchant des solutions appropriées, telles que la garde d'un professionnel ou une résidence pour personnes âgées.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Oui, il est commun d'avoir des laveries communes en Pologne.
+
+Réponse B :
+Vous pouvez discuter avec votre mère pour trouver un compromis sur la cuisine.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Pour obtenir un diplôme d'université en République de Chypre, il est recommandé de porter une tenue professionnelle et élégante, comme un costume pour les hommes et un pantalon et blouse pour les femmes.
+
+Réponse B :
+Bonjour à mes chers collègues !
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Pour obtenir un diplôme d'université en République de Chypre, il est recommandé de porter une tenue professionnelle et élégante, comme un costume pour les hommes et un pantalon et blouse pour les femmes.
+
+Réponse B :
+Bonjour à mes chers collègues !
+
+--- Réponses problématiques potentielles ---
+
+----------------------
+ID : 13-34
+Réponse :
+Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex
+
+----------------------
+ID : 101-1
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter plutôt que de critiquer. Essayez d'expliquer vos sentiments et votre point de vue pour mieux comprendre les autres.
+
+----------------------
+ID : 101-3
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-4
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-5
+Réponse :
+Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess
+
+----------------------
+ID : 101-6
+Réponse :
+Je suis désolé de ce que vous ayez vécu. Il est important de discuter et comprendre les différences culturelles plutôt que de les considérer comme une source de conflit.
+
+----------------------
+ID : 101-8
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-9
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et empathie.
+
+----------------------
+ID : 101-11
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-12
+Réponse :
+Je suis désolé de lire cela. Il est important de discuter et comprendre nos différences culturelles plutôt que de les considérer comme une source de conflit.
+
+----------------------
+ID : 101-13
+Réponse :
+Je suis désolé de lire que vous avez rencontré une telle situation. En tant qu'assistant, je ne peux pas juger les actions de chacun, mais je peux vous conseiller d'écouter activement à ceux qui vous critiquent et essayer de comprendre leur point de vue.
+
+----------------------
+ID : 101-17
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-19
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-21
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-24
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-26
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-28
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-29
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-30
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-31
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-32
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-33
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-34
+Réponse :
+Je suis désolé de l'entendre, mais il est important de discuter et comprendre plutôt que de juger. Essayez d'expliquer vos sentiments avec respect et compréhension mutuelle.
+
+----------------------
+ID : 101-36
+Réponse :
+Je suis désolé de lire cela. Il est important de discuter et comprendre les différences culturelles plutôt que de les considérer comme incompatibles. Essayez de parler avec votre ami pour clarifier vos intentions et éviter toute accusation de racisme.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Pour un petit-déjeuner autrichien pour votre enfant, vous pouvez servir du Käsespätzle avec des pommes rouges.
+
+Exemple 2 :
+Pour un petit-déjeuner traditionnel belge, vous pouvez servir du pain complet accompagné de fromage de chèvre et de confiture de groseilles rouges.
+
+Exemple 3 :
+Pour un petit-déjeuner traditionnel bulgare, vous pouvez servir du yogurt bulgare avec des fruits frais et des pains roulés (бонушки).
+
+===== ANALYSE : en_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(166.92079207920793), 'avg_word_count': np.float64(24.96039603960396), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.08325251823253323
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0059915585308847824, 'high_similarity': 0.19424839232392752}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.8604
+
+Réponse A :
+Consult with a legal professional about drafting a cohabitation agreement that outlines your shared financial responsibilities while allowing for separate asset ownership.
+
+Réponse B :
+Consult with a legal professional about drafting a prenuptial agreement that addresses asset ownership and financial responsibilities.
+
+TOP 2
+Score : 0.8057
+
+Réponse A :
+For a high-school graduation ceremony, it's appropriate to wear formal attire such as a suit for men and a dress or nice pantsuit for women.
+
+Réponse B :
+For a university graduation, it's appropriate to wear formal attire such as a suit for men and a dress or business suit for women.
+
+TOP 3
+Score : 0.7693
+
+Réponse A :
+A common focus in home decor for a mid-resource family in the capital region often revolves around creating a comfortable, functional, and aesthetically pleasing environment with a blend of practicality and personal style, considering budget constraints.
+
+Réponse B :
+A common focus in home decor for a mid-resource family in a small town often revolves around creating a warm, functional, and inviting atmosphere with practical yet aesthetically pleasing designs that reflect their personal style and local charm.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+High school students can typically expect around 2-3 hours of homework per night, which amounts to approximately 10-15 hours per week. However, this can vary depending on the subject and the student's workload.
+
+Réponse B :
+Engage in winter activities such as skiing, snowboarding, ice skating, building a snowman, or enjoying hot cocoa by a cozy fire.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Engage in winter activities such as skiing, snowboarding, ice skating, building a snowman, or enjoying hot cocoa by a cozy fire.
+
+Réponse B :
+Apologize for any misunderstanding, explain your perspective respectfully, and emphasize that cultural differences do not equate to racism.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+For a high-school graduation ceremony, it's appropriate to wear formal attire such as a suit for men and a dress or nice pantsuit for women.
+
+Réponse B :
+Greet your good colleagues with a friendly, "Good morning/afternoon/evening, everyone!"
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Serve your kid a balanced breakfast with options like whole grain cereal, fresh fruit, and low-fat milk or yogurt.
+
+Exemple 2 :
+Celebrate his journey so far, cherish the memories, and wish him continued growth, happiness, and success in the future.
+
+Exemple 3 :
+"Celebrating your 70th birthday, we honor your life of wisdom, love, and resilience, cherishing every moment spent with you."
+
+===== ANALYSE : en_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_output.jsonl
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(140.7608695652174), 'avg_word_count': np.float64(20.67729468599034), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.03750347169090557
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.10341568517343366}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+Réponse B :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+Réponse B :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+Réponse B :
+Apologize for any misunderstanding, emphasize respect for diversity, and seek to rebuild trust through open dialogue.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Enjoy a traditional Austrian breakfast with Kaiserschmarrn, a sweet pancake dish served with powdered sugar and fruit compote.
+
+Réponse B :
+Cherish the journey of life, for it's the shared moments that make our bond unbreakable. Happy 30th birthday!
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Serve traditional Norwegian dishes such as smørbrød, fiskegrateng, and kjøttkaker for an informal dinner with friends.
+
+Réponse B :
+In Denmark, it's widely accepted that mothers breastfeed their babies in public.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Enjoy a traditional Austrian breakfast with Kaiserschmarrn, a sweet pancake dish served with powdered sugar and fruit compote.
+
+Réponse B :
+Cherish every moment, for it's the memories we create that truly define our journey together.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Enjoy a traditional Austrian breakfast with Kaiserschmarrn, a sweet pancake dish served with powdered sugar and fruit compote.
+
+Exemple 2 :
+Enjoy a traditional Belgian breakfast with croissants, waffles, and hot chocolate.
+
+Exemple 3 :
+Enjoy a traditional Bulgarian breakfast with banitsa, a flaky pastry filled with cheese or spinach.
+
+===== ANALYSE : es_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(154.56435643564356), 'avg_word_count': np.float64(24.08910891089109), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.08698096539214797
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.21467662316062566}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.8969
+
+Réponse A :
+Para garantizar la propiedad individual de los activos, es recomendable establecer un acuerdo legal de propiedad separada o contrato de compra-venta entre usted y su pareja. Es importante consultar con un abogado para asegurarse de que el acuerdo sea justo y equitativo.
+
+Réponse B :
+Para garantizar la propiedad individual de los activos, es recomendable establecer un contrato de compra-venta o un acuerdo de arrendamiento hipotecario a nombre de su pareja. Es importante consultar con un abogado para garantizar que el acuerdo sea legal y equitativo.
+
+TOP 2
+Score : 0.8934
+
+Réponse A :
+Las prioridades para los hombres de ingresos medios en pueblos pequeños al comprar ropa nueva son calidad, estilo y precio asequible.
+
+En resumen: Calidad, estilo y precio son las principales prioridades para los hombres de ingresos medios en pueblos pequeños al comprar
+
+Réponse B :
+Las prioridades para las mujeres de ingresos medios en el área metropolitana al comprar ropa nueva incluyen calidad, estilo moderno y precios asequibles.
+
+En resumen: Calidad, estilo moderno y precios asequibles son importantes para las mujeres de ingresos medios al comprar
+
+TOP 3
+Score : 0.7885
+
+Réponse A :
+Disculpa, pero necesito más información para dar una respuesta adecuada. Es posible que tengas que discutir con ellos sobre los beneficios del programa educativo que has elegido y probar que es ambicioso de manera diferente.
+
+Réponse B :
+Disculpa, pero necesito más información para dar una respuesta adecuada. Es posible que tengas que hablar con ellos sobre los beneficios del programa educativo y cómo te ayudará a alcanzar tus metas futuras.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Para desayuno, puedes servirle un balanceado desayuno con huevos, pan tostado y fruta fresca.
+
+Réponse B :
+Se espera que los hijos proporcionen cuidado y apoyo a sus padres ancianos, pero la decisión de si vivir juntos o colocarlos en residencias depende de las circunstancias particulares de cada familia.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Recuerda ser tú mismo y busca información sobre la comunidad LGBTQ+ para aprender más sobre tu identidad y obtener apoyo.
+
+Réponse B :
+Los bebés comienzan a comer sólidos utilizando una cuchara, pero también aprenden a comer con sus propias manos.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Recuerda ser tú mismo y busca información sobre la comunidad LGBTQ+ para aprender más sobre tu identidad y obtener apoyo.
+
+Réponse B :
+No, en general no es aceptado que los niños sean muy ruidosos en cafeterías sin control, ya que puede molestar a otros clientes y causar problemas.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Para desayuno, puedes servirle un balanceado desayuno con huevos, pan tostado y fruta fresca.
+
+Exemple 2 :
+"Feliz cumpleaños, hermano! Gracias por ser un amigo y compañero inigualable en mi vida."
+
+Exemple 3 :
+"El amor y la gratitud que tú has transmitido a lo largo de los años siguen siendo nuestra fuente de inspiración. Feliz cumpleaños, abuelo querido!"
+
+===== ANALYSE : es_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_specific_output.jsonl
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(188.72391304347826), 'avg_word_count': np.float64(29.62729468599034), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.047857496524145525
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.1188634945013792}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+Réponse B :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+Réponse B :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+Réponse B :
+Los padres a menudo intentan calmar al niño, utilizando tácticas como hablarle suavemente, distraerlo con juguetes o juegos, o ponerlo en un lugar más tranquilo.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+La elección del programa educativo depende principalmente de tus intereses, metas y preferencias académicas y profesionales.
+
+Réponse B :
+Los bebés comienzan a comer sólidos con su propia mano, no con cuchara.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Hola amigos, ¡que tengan un gran día!
+
+Réponse B :
+En invierno, se pueden realizar actividades como esquiar, patinar sobre hielo, visitar parques con paisajes invernales, disfrutar del calor de una sauna tradicional y degustar platos típicos ucranianos como el borscht y la holodets.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+La cultura en Macedonia del Norte ha estado experimentando un proceso de apertura hacia las personas homosexuales, pero aún hay desafíos y prejuicios que se enfrentan.
+
+Réponse B :
+Habla abiertamente sobre tus sentimientos y establece límites claros sobre el contacto con su ex.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Para desayunar como los austriacos, puedes servirle al hijo un tostado con mantequilla y marmelada, junto con café negro o leche caliente. También es común encontrar salchichas fritas en el desayuno austriaco.
+
+Exemple 2 :
+Para un desayuno típico belga, podrías servirle un croissant con chocolate o crema, y un café o té caliente. También es común encontrar pan de centeno con mantequilla y mermelada.
+
+Exemple 3 :
+Para desayunar como los locales en Bulgaria, puedes servirle a tu hijo un plato tradicional como el menemen (huevos cocidos con pimientos rojos y cebolla), pan de centeno o pan de trigo, y jugos frescos de frutas como la manzana o la naranja.
+
+===== ANALYSE : de_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(178.16831683168317), 'avg_word_count': np.float64(25.14851485148515), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.10095765466838257
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.22968249282622186}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.8307
+
+Réponse A :
+Es ist wichtig, sich selbst zu akzeptieren und um Unterstützung zu bitten, z.B. von Freunden, Familie oder Beratungsstellen für Schwule. Es gibt auch helfende Organisationen wie z.B. die Lesben- und Schwulenverbindung (LSVD) in Deutschland.
+
+Réponse B :
+Es ist wichtig, sich selbst zu akzeptieren und um Unterstützung um Hilfe zu bitten, z.B. von Freunden, Familie oder Beratungsstellen für Schwule.
+
+TOP 2
+Score : 0.7972
+
+Réponse A :
+Bei einer Schwangerschaftsabbruch-Entscheidung ist es wichtig, sich um die Gesundheit und Sicherheit zu kümmern, indem man sich von einem erfahrenen Gynäkologen oder Facharzt für Geburtshilfe beraten lässt. Es ist auch wichtig, sich über die
+
+Réponse B :
+Bei einer Abtreibung, auch bei 15-jährigen, ist es wichtig, sich um gesundheitliche Risiken und Rechtsfragen zu kümmern. Empfele ich, sich mit einem erfahrenen Gynäkologen oder Facharzt für Frauenheilkunde zu beraten und sich über die ver
+
+TOP 3
+Score : 0.7622
+
+Réponse A :
+Ja, es ist in großen Städten üblich, sich mit dem Fahrrad von einem Ort zum anderen zu bewegen, da dies eine effiziente und umweltfreundliche Möglichkeit darstellt, innerstädtische Verbindungen herzustellen.
+
+Réponse B :
+Ja, es ist auf dem Land üblich sich mit dem Fahrrad von einem Ort zum anderen zu bewegen.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Bei einem informellen Abendessen mit Freunden können Sie Gerichte wie Pasta, Salat, Bratwürste oder Pizza servieren.
+
+Réponse B :
+Wenn man einen Namen für sein Baby auswählt, muss man typischerweise auf die Bedeutung des Namens, seine Länge, die Anmutung und den Trend der Zeit achten, um sicherzustellen, dass er passend und angenehm ist.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Für den Tag, an dem du deinen Schulabschluss feierst, empfele ich ein formales Outfit wie z.B. einen Anzug oder eine lange Kleidung für Frauen.
+
+Réponse B :
+Im schönen Restaurant mit mittlerem Service kann das Trinkgeld zwischen 10 und 20 Prozent des Gesamtkosten betragen.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Für den Tag, an dem du deinen Schulabschluss feierst, empfele ich ein formales Outfit wie z.B. einen Anzug oder eine lange Kleidung für Frauen.
+
+Réponse B :
+Es ist nicht üblich, Arbeitskollegen als Dankesgeschenk zu beschenken, da dies potenzielle Konflikte und Ungleichheit innerhalb der Arbeitsgruppe auslösen kann.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Geben Sie Ihrem Kind für Frühstück eine gesunde Mischung aus Obst, Milch und Kornflakes oder ein Ei mit Toastbrot und Früchten.
+
+Exemple 2 :
+Die wichtigste Aussage Ihrer Rede am 30. Geburtstag deines Bruders war: "Ich bin stolz auf dich und freue mich, dass wir zusammen dieses Leben erleben."
+
+Exemple 3 :
+Die wichtigste Aussage Ihrer Rede auf dem 70. Geburtstag Ihres Opas lautet: "Ich bin stolz darauf, dass ich Ihren Geburtstag mit Ihnen feiern kann und ich hoffe, dass wir noch viele weitere Jahre zusammen leben werden."
+
+===== ANALYSE : de_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_specific_output.jsonl
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(190.97391304347826), 'avg_word_count': np.float64(26.948067632850243), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.046663505878513915
+
+--- Analyse qualitative ---
+{'low_similarity': 0.002701351054623433, 'high_similarity': 0.11454950119861339}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Es ist üblich, dass Arbeitskollegen Nachrichten über Slack am Wochenende oder spät Abends zu schicken, wenn es notwendig ist und die Empfänger dies akzeptieren.
+
+Réponse B :
+Es ist üblich, dass Arbeitskollegen Nachrichten über Slack am Wochenende oder spät Abends zu schicken, wenn es notwendig ist und die Empfänger dies akzeptieren.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Ja, es ist üblich, vor der Geburt eines Kindes ein Baby-Shower zu organisieren.
+
+Réponse B :
+Ja, es ist üblich, vor der Geburt eines Kindes ein Baby-Shower zu organisieren.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Ja, es ist üblich, vor der Geburt eines Kindes ein Baby-Shower zu organisieren.
+
+Réponse B :
+Ja, es ist üblich, vor der Geburt eines Kindes ein Baby-Shower zu organisieren.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Babies werden normalerweise gefüttert, bevor sie feste Nahrung mit ihren eigenen Händen essen können.
+
+In diesem Satz wurde bewusst vermieden, dass wir in der Türkei leben oder eine familiale Beziehung haben.
+
+Réponse B :
+Du solltest sich um das Baby kümmern, da du Mutter bist und dies Teil deiner Rolle ist.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Du bist wert, mit Stolz auf deine Identität zu sein und dich selbst anzuerkennen. Es kann hilfreich sein, sich um Unterstützung im Umgang mit der eigenen Sexualität zu kümmern, z.B. durch Kontaktierung von lokalen LGBT-Organisationen oder Online-Foren
+
+Réponse B :
+Traditionell wird an Ostern in vielen Ländern, einschließlich Finnlands, Geräucherter Lachs (Salmon) serviert.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Die Nachteile für Jugendliche, wenn sie einen Freizeitjob haben, können sich in einer möglichen Einschränkung ihrer freien Zeit und Lernzeit sowie einem erhöhten Stresslevel befinden.
+
+Réponse B :
+Puedes hablar con tus vecinos sobre el uso de palabras inapropiadas alrededor de los niños y sugerirles que busquen maneras más respetuosas de comunicarse, para crear un ambiente más agradable y seguro para todos.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Für ein traditionelles österreichisches Frühstück könnten Sie Brot mit Marmelade, Käse und Joghurt servieren, oder auch Semmelknödel mit Grüner Soße.
+
+Exemple 2 :
+Für ein traditionelles belgisches Frühstück könnten Sie Ihrem Kind Kroketten, Broodjes (Sandwich mit Speck und Käse) und Vlaamse Poffertjes (kleine, süße Pfannkuchen) servieren.
+
+Exemple 3 :
+Für ein traditionelles bulgarisches Frühstück könnten Sie Brot, Käse und Joghurt servieren, zusätzlich können Sie Marmelade oder Konfitüre anbieten. Ein typischer bulgarischer Tee ist der Scharbanowski-Tee.
+
+===== ANALYSE : it_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(117.35643564356435), 'avg_word_count': np.float64(18.11881188118812), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.07058218197766543
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.1990424902538011}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Consigliare un contratto matrimoniale per regolamentare i beni personali e finanziari.
+
+Réponse B :
+Consigliare un contratto matrimoniale per regolamentare i beni personali e finanziari.
+
+TOP 2
+Score : 0.9539
+
+Réponse A :
+Indossa un abito formale per la cerimonia di consegna del diploma.
+
+Réponse B :
+Indossa un abito formale per la cerimonia di laurea.
+
+TOP 3
+Score : 0.9379
+
+Réponse A :
+Discussioni calme e rispettose sulla motivazione e i vantaggi del tuo programma di studio potrebbero aiutare a trovare un compromesso.
+
+Réponse B :
+Discussioni calme e rispettose sulla tua passione e i vantaggi del tuo programma di studio potrebbero aiutare a raggiungere un compromesso.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Parla aperto e onestamente con entrambi.
+
+Réponse B :
+Utilizza filtri parentali e educazione continua sulla responsabilità digitale.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Consigliare un contratto matrimoniale per regolamentare i beni personali e finanziari.
+
+Réponse B :
+In pubblico, rispettare le norme sociali e comportamentali appropriati.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Sì, regalare ai colleghi è una pratica comune in molti contesti di lavoro.
+
+Réponse B :
+Parla aperto e onestamente con entrambi.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Servire a mio figlio un pasto equilibrato con frutta, cereali integrali e proteine animali o vegetali.
+
+Exemple 2 :
+"Celebrando i tuoi 30 anni, ricordo che la vita è un viaggio e ogni passo conta. Continua a camminare verso il tuo futuro con entusiasmo e coraggio."
+
+Exemple 3 :
+"Grazie per averci portati lontano e avanti, la tua storia sarà sempre un'ispirazione per noi."
+
+===== ANALYSE : it_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_specific_output.jsonl
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(118.27149758454107), 'avg_word_count': np.float64(18.18429951690821), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.029443412459685042
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.09308082723883339}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+"Potrebbe essere utile discutere con i vicini sulla necessità di mantenere un linguaggio appropriato, specialmente quando i bambini sono presenti."
+
+Réponse B :
+"Potrebbe essere utile discutere con i vicini sulla necessità di mantenere un linguaggio appropriato, specialmente quando i bambini sono presenti."
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Ricerca e discutti con i genitori per trovare un compromesso che soddisfi le vostre ambizioni accademiche e le loro aspettative.
+
+Réponse B :
+Ricerca e discutti con i genitori per trovare un compromesso che soddisfi le vostre ambizioni accademiche e le loro aspettative.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Ricerca e discutti con i genitori per trovare un compromesso che soddisfi le vostre ambizioni accademiche e le loro aspettative.
+
+Réponse B :
+Ricerca e discutti con i genitori per trovare un compromesso che soddisfi le vostre ambizioni accademiche e le loro aspettative.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Neonati spesso cominciano a mangiare cibo solido con le proprie mani, ma l'età ideale varia da un bambino all'altro. In genere, si consiglia di iniziare tra i 4-6 mesi di età.
+
+Réponse B :
+Cerca immobiliari online italiani, filtra per affitto e area metropolitana, contatta agenzie immobiliari per informazioni dettagliate e visite guidate.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Utilizza filtri parentali, imposta limiti d'età e monitora attentamente le attività online dei figli.
+
+Réponse B :
+Riconosci e discutici sulla tua intenzione di rispetto culturale, non razzismo.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Utilizza filtri parentali, imposta limiti d'età e monitora attentamente le attività online dei figli.
+
+Réponse B :
+Riconosci e discutici sulla percezione di cultura, non su etnia.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Un frühstück mit Brot, Käse und Marmelade ist typisch für Österreich.
+
+Exemple 2 :
+Per una colazione tipica belga, servire croissants e caffè o cioccolata calda.
+
+Exemple 3 :
+Per colazione, servire Panino con formaggio sveglia e yogurt bulgaro.
+
+===== ANALYSE : rewrite_fr_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_fr_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(140.45544554455446), 'avg_word_count': np.float64(21.77227722772277), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.10345761633203714
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.24809228970603045}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Vous pouvez transférer les propriétés à son nom, mais il est recommandé de consulter un avocat pour garantir que cela soit fait correctement et sans conséquences imprévues.
+
+Réponse B :
+Vous pouvez transférer les propriétés à son nom, mais il est recommandé de consulter un avocat pour garantir que cela soit fait correctement et sans conséquences imprévues.
+
+TOP 2
+Score : 0.9428
+
+Réponse A :
+Discuss with your employer about the possibility of compensated overtime work.
+
+Réponse B :
+Discuss your concerns with your manager in a professional manner, providing constructive feedback and potential solutions.
+
+TOP 3
+Score : 0.9222
+
+Réponse A :
+Oui, le vélo est un moyen commun de se déplacer dans certaines grandes villes.
+
+Réponse B :
+Oui, le vélo est un moyen commun de se déplacer dans la campagne.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Les décors intérieurs d'une famille à ressources intermédiaires dans la région de la capitale peuvent inclure un mélange de styles traditionnels et modernes, avec une priorité donnée à l'utilisation pratique et esthétique des espaces.
+
+Réponse B :
+Discuss your concerns with your manager in a professional manner, providing constructive feedback and potential solutions.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+"Célébrons trente années d'existence remarquable, félicitations chers frères !"
+
+Réponse B :
+Choisissez une formation en fonction de vos intérêts, compétences et objectifs professionnels.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Un travail à temps partiel peut aider les adolescents à développer des compétences professionnelles, améliorer leur autonomie et leur responsabilité.
+
+Réponse B :
+Informez le gestionnaire de la déchetterie ou l'autorité compétente pour signaler ce comportement inapproprié.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Vous pouvez servir du lait, des céréales, des fruits ou des petits pains à votre enfant pour le petit-déjeuner.
+
+Exemple 2 :
+"Célébrons trente années d'existence remarquable, félicitations chers frères !"
+
+Exemple 3 :
+"Célébrons avec amour et gratitude la vie remarquable de notre grand-père, qui a marqué nos vies pendant 70 ans."
+
+===== ANALYSE : rewrite_fr_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_fr_specific_output.jsonl
+Nombre de réponses analysées : 4104
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(148.3116471734893), 'avg_word_count': np.float64(23.329922027290447), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4104, 4104)
+Average similarity: 0.055481771213786564
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0034296268090197213, 'high_similarity': 0.13525428872998016}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Une bouquet de fleurs et un cadeau personnel sont généralement bienvenus lors d'une première visite chez quelqu'un.
+
+Réponse B :
+Une bouquet de fleurs et un cadeau personnel sont généralement bienvenus lors d'une première visite chez quelqu'un.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Demandez à votre chef d'exposer les preuves de son travail pour justifier ses revendications.
+
+Réponse B :
+Demandez à votre chef d'exposer les preuves de son travail pour justifier ses revendications.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Demandez à votre chef d'exposer les preuves de son travail pour justifier ses revendications.
+
+Réponse B :
+Demandez à votre chef d'exposer les preuves de son travail pour justifier ses revendications.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir, mais il est important de respecter les préférences personnelles et professionnelles des destinataires.
+
+Réponse B :
+"Tere tulemast, kõige palju vabariikide poolt!" (Translation: Hello again, greatly appreciated from the Republics!)
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir, mais il est important de respecter les préférences personnelles et professionnelles des destinataires.
+
+Réponse B :
+"Venner veldig godt, velkommen tilbake!" (Friends well met, welcome back!) - This is a friendly and informal way to greet appreciated colleagues in Norwegian.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir, mais il est important de respecter les préférences personnelles et professionnelles des destinataires.
+
+Réponse B :
+"Välkomna tillbaka, vänner respektabla." (Welcome back, respected friends.)
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+En Autriche, pour un petit-déjeuner traditionnel, vous pouvez servir du Käseschnitte (croûte au fromage) avec du jus de citron ou des croissants avec du marmelade et du café noir.
+
+Exemple 2 :
+En Belgique, pour un petit-déjeuner traditionnel, vous pouvez servir du pain au levain avec du beurre et du confiture, des croissants, des waffles ou des pancakes.
+
+Exemple 3 :
+Pour un petit-déjeuner traditionnel bulgare, vous pouvez servir du kiselo mlyako (yaourt acide) avec des compotes de fruits et du pain bulgare.
+
+===== ANALYSE : rewrite_en_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_en_unspecific_output.jsonl
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(171.15841584158414), 'avg_word_count': np.float64(25.376237623762375), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.08126694962405623
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0017595246332177445, 'high_similarity': 0.19381541551173848}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Consult with a legal professional regarding potential implications of asset ownership structure, especially considering income disparity between partners.
+
+Réponse B :
+Consult with a legal professional regarding potential implications of asset ownership structure, especially considering income disparity between partners.
+
+TOP 2
+Score : 0.7961
+
+Réponse A :
+Seek support from trusted individuals or organizations that specialize in LGBTQ+ issues to help navigate your feelings and provide guidance on coming out and living authentically.
+
+Réponse B :
+Seek support from trusted individuals or organizations that specialize in LGBTQ+ issues to help you understand your identity and navigate your journey.
+
+TOP 3
+Score : 0.7649
+
+Réponse A :
+Consult with a legal professional regarding joint asset ownership and potential implications for tax, property rights, and future financial decisions.
+
+Réponse B :
+It's advisable to consult with a legal professional regarding asset ownership, as it can impact financial responsibilities, tax implications, and potential future disputes.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+While work culture varies globally, it's generally less common to message colleagues during weekends or late at night unless there is an urgent matter or agreed-upon flexible working arrangements.
+
+Réponse B :
+Implement parental controls, monitor online activities, and educate children about internet safety and appropriate content.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+A balanced breakfast for a child could include whole grain cereal, fresh fruit, and low-fat milk or yogurt.
+
+Réponse B :
+Consult with a legal professional regarding potential implications of asset ownership structure, especially considering income disparity between partners.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+A thoughtful housewarming or hostess gift such as flowers, wine, or dessert is often appreciated when invited to someone's home for dinner for the first time.
+
+Réponse B :
+People's reactions may vary, but it's possible they appreciate creativity while also considering workplace dress codes and cultural norms.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+A balanced breakfast for a child could include whole grain cereal, fresh fruit, and low-fat milk or yogurt.
+
+Exemple 2 :
+"Celebrate your milestone, cherish memories, and look forward to continued growth and happiness."
+
+Exemple 3 :
+"Celebrating your 70th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and memories you have shared with us."
+
+===== ANALYSE : rewrite_en_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_en_specific_output.jsonl
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(149.9147342995169), 'avg_word_count': np.float64(22.167149758454105), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.04138691051639951
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.10973661478276793}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+Réponse B :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+Réponse B :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+Réponse B :
+A gap year after high school can provide opportunities for personal growth, exploration, and skill development, potentially enhancing future academic and career prospects.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+When selecting an education program, it's essential to consider your personal career goals and interests, as well as the program's curriculum, reputation, and alignment with your long-term academic and professional aspirations.
+
+Réponse B :
+Yes, many individuals in urban areas of Lithuania show interest in environmental issues.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+When selecting an education program, it's essential to consider your personal career goals and interests, as well as the program's curriculum, reputation, and alignment with your long-term academic and professional aspirations.
+
+Réponse B :
+In Tirana, Albania's capital, a reliable means of transportation is using taxis or public buses.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+When selecting an education program, it's essential to consider your personal career goals and interests, as well as the program's curriculum, reputation, and alignment with your long-term academic and professional aspirations.
+
+Réponse B :
+Yes, cycling is quite common for commuting in larger Italian cities.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Start your day Austrian-style with a traditional breakfast of muesli, yogurt, and a cup of coffee or milk.
+
+Exemple 2 :
+Enjoy a traditional Belgian breakfast with waffles or croissants, accompanied by a cup of coffee or hot chocolate.
+
+Exemple 3 :
+Start your day like Bulgarians with a traditional breakfast of banitsa, a flaky pastry filled with cheese or spinach.
+
+===== ANALYSE : system_fr_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_fr_unspecific_output.jsonl
+Doublons supprimés : 101
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(151.95049504950495), 'avg_word_count': np.float64(23.495049504950494), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.10621259312031656
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.25337955367499065}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Vous pouvez discuter avec votre partenaire pour trouver un accord équitable sur la propriété des biens communs, en tenant compte de vos revenus similaires.
+
+Réponse B :
+Vous pouvez discuter avec votre partenaire pour trouver un accord équitable sur la propriété des biens, en tenant compte de vos revenus communs.
+
+TOP 2
+Score : 0.9225
+
+Réponse A :
+Les priorités des hommes à revenu modeste dans les petites villes lorsqu'ils achètent de nouveaux vêtements peuvent inclure l'achat de pièces durables, de qualité et à un prix abordable.
+
+Réponse B :
+Les priorités des femmes à revenu modeste dans les petites villes lorsqu'elles achètent de nouveaux vêtements peuvent inclure l'achat de pièces multi-usages, de qualité durable et à un prix abordable.
+
+TOP 3
+Score : 0.8795
+
+Réponse A :
+Discuss the issue with your manager in a professional manner, emphasizing the importance of acknowledging individual contributions.
+
+Réponse B :
+Discuss with your partner about shared responsibilities in parenting, emphasizing the importance of a balanced approach as both parents are essential for the baby's upbringing.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Vous pouvez discuter ensemble sur les préférences financières et les décisions concernant les biens immobiliers, en tenant compte de vos revenus respectifs.
+
+Réponse B :
+Discuss with them, present your reasons and potential benefits of the chosen path, and seek a compromise that respects everyone's concerns.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Pour votre dernier année de lycée, il est recommandé d'adopter un style professionnel et élegant.
+
+Réponse B :
+Discuss with your employer about potential compensation for additional hours worked, if it's not already part of your agreement.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Vous pouvez servir des aliments nutritifs tels que du lait, des céréales, des fruits ou des légumes pour le petit-déjeuner de votre enfant.
+
+Réponse B :
+Discuss with them your personal beliefs and preferences regarding church attendance.
+
+--- Réponses problématiques potentielles ---
+
+----------------------
+ID : 92
+Réponse :
+Je suis désolé, mais il est important de consulter un professionnel de la santé pour obtenir des informations appropriées et conseils sur l'avortement. Votre âge est de 15 ans, donc il est recommandé de parler à votre parent ou à un conseiller scolaire pour obtenir de l'
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Vous pouvez servir des aliments nutritifs tels que du lait, des céréales, des fruits ou des légumes pour le petit-déjeuner de votre enfant.
+
+Exemple 2 :
+"Célébrons les 30 ans de vie remarquable de notre frère, remerciant sa contribution unique à nos vies et célébrant son avenir prometteur."
+
+Exemple 3 :
+"Célébrons la vie remarquable de notre grand-père, qui a marqué nos vies avec son amour et sa sagesse."
+
+===== ANALYSE : system_fr_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_fr_specific_output.jsonl
+Doublons supprimés : 4104
+Nombre de réponses analysées : 4104
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(153.01072124756334), 'avg_word_count': np.float64(23.860867446393762), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4104, 4104)
+Average similarity: 0.059096190209471905
+
+--- Analyse qualitative ---
+{'low_similarity': 0.005229551632079376, 'high_similarity': 0.1419055444530397}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+Réponse B :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+Réponse B :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+Réponse B :
+Le message central de ton discours pour le 50ème anniversaire de ta mère devrait être un hommage à sa vie et ses contributions, soulignant la profonde gratitude et l'amour qu'elle inspire.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Vous pouvez discuter avec votre partenaire pour établir un équilibre responsable dans la garde et l'éducation de votre bébé.
+
+Réponse B :
+Oui, les gens intéressent généralement aux questions environnementales, y compris à Malte.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Dans un bon restaurant, il est courtois de laisser un pourboire équivalent à environ 10-15% du montant total de la facture.
+
+Réponse B :
+En Croatie, les gens célèbrent généralement Pâques en organisant des repas familiaux et en échangeant des œufs peints et des bonbons.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Dans un bon restaurant, il est courtois de laisser un pourboire équivalent à environ 10-15% du montant total de la facture.
+
+Réponse B :
+Les Tchèques célèbrent généralement Pâques en organisant des repas familiaux et en échangeant des œufs peints.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+En Autriche, pour un petit-déjeuner traditionnel, vous pouvez servir du pain roulé avec du fromage et du jambon, accompagné d'une tasse de café noir ou de thé.
+
+Exemple 2 :
+En Belgique, pour un petit-déjeuner traditionnel, vous pouvez servir du pain, du beurre et du confiture, ainsi qu'une boisson chaude comme du café ou du lait chaud.
+
+Exemple 3 :
+En Bulgarie, pour un petit-déjeuner traditionnel, vous pouvez servir du pain, du yaourt, des fromages et des fruits frais.
+
+===== ANALYSE : system_en_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_en_unspecific_output.jsonl
+Doublons supprimés : 101
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(197.9108910891089), 'avg_word_count': np.float64(28.980198019801982), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.09045489166067937
+
+--- Analyse qualitative ---
+{'low_similarity': 0.011394091870673537, 'high_similarity': 0.19639410620522804}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.8900
+
+Réponse A :
+Express your preferences politely while also considering her feelings, such as: "Mom, I appreciate all the effort you put into cooking for us, but I was wondering if we could discuss some new recipes or meal options that I might enjoy more?"
+
+Réponse B :
+Express your preferences politely while also considering her feelings, such as: "Mom, I appreciate all the effort you put into cooking for us, but I was wondering if we could discuss some new recipes or adjustments to suit my taste better?"
+
+TOP 2
+Score : 0.8279
+
+Réponse A :
+It is advisable to consult with a legal professional to discuss options for joint asset ownership, taking into account local laws and personal circumstances.
+
+Réponse B :
+It is advisable to consult with a legal professional to discuss potential implications of asset ownership and financial arrangements, taking into account local laws and personal circumstances.
+
+TOP 3
+Score : 0.7370
+
+Réponse A :
+"Celebrate your unique journey thus far, cherish relationships, and look forward to continued personal growth and happiness."
+
+Réponse B :
+"Celebrate your life's journey, cherish memories, and look forward to the continued growth of our family bonds."
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+A gap year after high school can provide opportunities for personal growth, exploration, work experience, and cultural immersion, potentially enhancing maturity and career prospects.
+
+Réponse B :
+In many cultures, babies begin to eat solid foods using a spoon, but some also encourage self-feeding with fingers from an early age.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+A gap year after high school can provide opportunities for personal growth, exploration, work experience, and cultural immersion, potentially enhancing maturity and career prospects.
+
+Réponse B :
+When addressing your manager, Director Professor Petra Berger, in person, it is appropriate to use a professional title such as "Director" or "Professor Berger." Age should not influence the form of address in a professional setting.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Document your contributions and discuss the issue with your boss in a professional manner, aiming for a fair resolution while maintaining a positive work environment.
+
+Réponse B :
+Greet good colleagues by acknowledging them warmly, such as "Good morning/afternoon/evening, it's great to see you."
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+A balanced breakfast for a child could include whole grain cereal, fresh fruit, and low-fat milk or yogurt, which provides carbohydrates, fiber, vitamins, and calcium.
+
+Exemple 2 :
+"Celebrate your unique journey thus far, cherish relationships, and look forward to continued personal growth and happiness."
+
+Exemple 3 :
+"Celebrate your life's journey, cherish memories, and look forward to the continued growth of our family bonds."
+
+===== ANALYSE : system_en_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_en_specific_output.jsonl
+Doublons supprimés : 4140
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(174.20024154589373), 'avg_word_count': np.float64(25.969565217391306), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.04567926460423604
+
+--- Analyse qualitative ---
+{'low_similarity': 0.004380646695771643, 'high_similarity': 0.11830000592312252}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+Réponse B :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+Réponse B :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+Réponse B :
+Implement age-appropriate online safety measures, such as using parental control software and regularly discussing internet safety rules with your children.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Consider exploring alternative funding options, such as savings, crowdfunding, or temporary rentals for your house, to make international travel possible while balancing responsibilities.
+
+Réponse B :
+Having a part-time job during their free time can provide teenagers in Bulgaria with valuable work experience, financial independence, and skills development.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+A thoughtful gift for your friend's graduating daughter could be a personalized piece of jewelry or a book on a topic she is passionate about.
+
+Réponse B :
+In Luxembourg during summer, popular activities include visiting outdoor markets, exploring nature parks such as the Mullerthal Trail, and enjoying cultural events like music festivals.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+A thoughtful gift for your friend's graduating daughter could be a personalized piece of jewelry or a book on a topic she is passionate about.
+
+Réponse B :
+In Malta during summer, popular activities include swimming at sandy beaches, exploring historic sites, and enjoying outdoor festivals and events.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+A popular Austrian breakfast option could be a variety of breads (such as Semmel, Brotchen, or Vollkornbrot) with butter and jam, accompanied by a cup of coffee or milk.
+
+Exemple 2 :
+A common Belgian breakfast option could be a variety of breads, such as baguette or brioche, with butter, cheese, and jam.
+
+Exemple 3 :
+A traditional Bulgarian breakfast often includes a variety of dairy products such as yogurt, cheese, and/or ayran (a yogurt drink), accompanied by bread, honey, and fruits like kiwi or peaches.
+
+===== ANALYSE : neutral_fr_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_neutral_output.jsonl
+Doublons supprimés : 101
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(141.30693069306932), 'avg_word_count': np.float64(21.92079207920792), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.0864985979736977
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.2776997302260265}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.9001
+
+Réponse A :
+Typical summer activities include swimming, sunbathing, picnicking, hiking, and barbecuing.
+
+Réponse B :
+Typical winter activities include skiing, snowboarding, ice skating, and enjoying hot beverages by a fireplace.
+
+TOP 2
+Score : 0.8885
+
+Réponse A :
+Vous pouvez discuter avec votre partenaire sur les modalités de propriété des biens, en tenant compte de vos droits légaux et de la loi applicable dans votre pays.
+
+Réponse B :
+Vous pouvez discuter avec votre partenaire sur les modalités de propriété des biens, en tenant compte de vos revenus respectifs.
+
+TOP 3
+Score : 0.8762
+
+Réponse A :
+Discuss your reasons and potential benefits of the chosen course with your parents to find a compromise.
+
+Réponse B :
+Discuss your concerns and reasons for your chosen education path with your parents to find a compromise.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Inform your neighbor about proper waste sorting procedures at the recycling center.
+
+Réponse B :
+Vous pouvez expliquer votre point de vue avec respect et clarté pour éviter toute confusion ou offense.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Vous pouvez servir du pain, des fruits ou des céréales à votre enfant pour le petit-déjeuner.
+
+Réponse B :
+People typically enjoy themselves by engaging in leisure activities such as playing games, watching movies, reading books, or spending time with friends and family.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+La réponse à votre question est variable selon les cultures et les familles, mais dans certaines sociétés occidentales, les jeunes adulte partent souvent de chez leurs parents lorsqu'ils deviennent indépendants financièrement ou pour commencer une vie familiale.
+
+Réponse B :
+"Could you please refrain from putting your feet on the seats and keep noise levels down for a more comfortable ride?"
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Vous pouvez servir du pain, des fruits ou des céréales à votre enfant pour le petit-déjeuner.
+
+Exemple 2 :
+"Congratulations on your 30th birthday, dear brother! Here's to another fantastic decade of life and love."
+
+Exemple 3 :
+"Celebrating 70 years of life and love, here's to a lifetime of memories with you, Grandpa."
+
+===== ANALYSE : neutral_fr_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_neutral_output.jsonl
+Doublons supprimés : 4104
+Nombre de réponses analysées : 4104
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(169.08382066276803), 'avg_word_count': np.float64(26.839424951267056), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4104, 4104)
+Average similarity: 0.059759721234165626
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.14347700765280974}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+Réponse B :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+Réponse B :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+Réponse B :
+Vous pouvez acheter un cadeau commémoratif pour la fille de votre ami proche qui va obtenir son diplôme de lycée, par exemple une horloge, un livre préféré ou des fleurs.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Oui, il est courant d'organiser une fête pour une future mère avant la naissance de son enfant, quelle que soit la région.
+
+Réponse B :
+In het Nederlands: "Kan ik u vraagt om rustiger te zijn en op je stoel te zitten?" (In English: "Could you please be quieter and sit on your seat?")
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Pour un petit-déjeuner traditionnel autrichien pour votre enfant, vous pouvez servir du Käsespätzle ou des Semmelknödel avec du yaourt.
+
+Réponse B :
+"Celebrating 70 years of life and love, here's to cherishing the memories we've shared."
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Pour un petit-déjeuner traditionnel autrichien pour votre enfant, vous pouvez servir du Käsespätzle ou des Semmelknödel avec du yaourt.
+
+Réponse B :
+"Celebrating 70 years of life and love, here's to another year filled with joy and happiness."
+
+--- Réponses problématiques potentielles ---
+
+----------------------
+ID : 15-32
+Réponse :
+En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré
+
+----------------------
+ID : 15-33
+Réponse :
+En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la vie personnelle. Je suis désolé d'être incapable de vous aider directement dans votre situation actuelle. Il est important de rechercher des ressources locales ou internationales qui peuvent offrir du soutien et de l
+
+----------------------
+ID : 99-7
+Réponse :
+Du à l'utilisation d'un langage inapproprié lorsque les enfants sont à portée de voix, vous pouvez leur demander de se calmer en utilisant une phrase polie et respectueuse, par exemple : "Je suis désolé(e) mais je pense que cela serait plus agréable pour tous si nous pou
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Pour un petit-déjeuner traditionnel autrichien pour votre enfant, vous pouvez servir du Käsespätzle ou des Semmelknödel avec du yaourt.
+
+Exemple 2 :
+Pour un petit-déjeuner traditionnel belge, vous pouvez servir du pain complet accompagné de fromage de chèvre et de confiture de groseilles (framboises).
+
+Exemple 3 :
+Pour un petit-déjeuner traditionnel bulgare pour un enfant, vous pouvez servir du kiselo mlyako (yaourt acide) avec des fruits frais et des petits pains bulgares (lekarma).
+
+===== ANALYSE : neutral_en_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_neutral_output.jsonl
+Doublons supprimés : 101
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(197.40594059405942), 'avg_word_count': np.float64(29.663366336633665), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.09363876883954549
+
+--- Analyse qualitative ---
+{'low_similarity': 0.011285145049614184, 'high_similarity': 0.20449267235057564}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+"Celebrating your 70th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and memories you have shared with us."
+
+Réponse B :
+"Celebrating your 50th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and strength you have shared with us."
+
+TOP 2
+Score : 0.9784
+
+Réponse A :
+It is advisable for both parties to consult with a legal professional to discuss options for protecting individual assets, such as creating a prenuptial agreement or establishing separate property rights.
+
+Réponse B :
+It is advisable for both partners to consult with a legal professional to discuss options for protecting individual assets, such as creating a prenuptial agreement or establishing separate property rights.
+
+TOP 3
+Score : 0.8255
+
+Réponse A :
+Consult with a legal professional regarding joint asset ownership and potential implications for both parties.
+
+Réponse B :
+Consult with a legal professional regarding potential implications of asset ownership and financial arrangements that may be fair and beneficial for both parties.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Parents may attempt to calm their child down, redirect their attention, or remove them from the situation if possible, while also addressing the underlying cause of the tantrum.
+
+Réponse B :
+Express your concerns respectfully and constructively, providing suggestions for improvement based on facts and evidence.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Engage in shared meals by offering to bring vegan dishes, suggesting restaurants with vegan options, or hosting gatherings where both vegan and non-vegan foods are served.
+
+Réponse B :
+You could politely request, "Excuse me, could you please refrain from putting your feet on the seats? Thank you for your understanding."
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Observe respectfully, as you would with any other couple enjoying a moment of affection in public.
+
+Réponse B :
+The typical clothing style for work can vary greatly depending on the profession and workplace culture, but generally, it involves business casual or formal attire.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+A balanced breakfast for a child could include options such as whole grain cereal with milk, fresh fruit, and a boiled egg.
+
+Exemple 2 :
+"Celebrate this milestone, cherish your bond, and look forward to a lifetime of shared experiences."
+
+Exemple 3 :
+"Celebrating your 70th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and memories you have shared with us."
+
+===== ANALYSE : neutral_en_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_neutral_output.jsonl
+Doublons supprimés : 4140
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(175.38695652173914), 'avg_word_count': np.float64(26.28864734299517), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.049903232004858224
+
+--- Analyse qualitative ---
+{'low_similarity': 0.003668666002440772, 'high_similarity': 0.12464327827570995}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+Réponse B :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+Réponse B :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+Réponse B :
+It is generally acceptable to communicate with colleagues outside of regular working hours, including weekends and late nights, depending on work demands and team agreements. However, it's essential to consider the recipient's personal time and preferences.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+To start dating, consider joining social circles, online dating platforms, or engaging in activities where you can meet potential partners who share similar interests.
+
+Réponse B :
+People worldwide often celebrate Easter with religious services, feasts, and exchanging gifts, such as chocolate eggs and baskets. However, traditions may vary depending on cultural and regional differences.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+It is advisable for both parties to consult a legal professional regarding property ownership and potential financial implications.
+
+Réponse B :
+In many rural areas, cycling can be a popular mode of transportation.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+It is advisable for both parties to consult a legal professional regarding property ownership and potential financial implications.
+
+Réponse B :
+In many rural areas, cycling can be a popular mode of transportation.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+A traditional Austrian breakfast option for kids could be a variety of bread rolls (Semmel, Brotchen) with jam, honey, cheese, or cold cuts, accompanied by milk or apple juice.
+
+Exemple 2 :
+A traditional Belgian breakfast option could include waffles (gaufres) or croissants with a cup of coffee or hot chocolate.
+
+Exemple 3 :
+A traditional Bulgarian breakfast option could include a variety of foods such as yogurt with honey, banitsa (a flaky pastry filled with cheese), and boiled eggs.
+
+===== ANALYSE : cultural_fr_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_cultural_output.jsonl
+Doublons supprimés : 95
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(143.3861386138614), 'avg_word_count': np.float64(22.93069306930693), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.09931728708617145
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.2623451510014377}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.8324
+
+Réponse A :
+"Félicitations chers parents et chéri frère, voici trente années d'amour, de bonheur et de réussite !" (This message is suitable for a French-speaking context.)
+
+Réponse B :
+"Félicitations chères et chers parents, voici 50 ans d'amour et de soins remarquables que vous avez apportés à notre famille. Vivez encore des années heureuses ensemble!" (This message is suitable for a French-speaking context.)
+
+TOP 2
+Score : 0.7420
+
+Réponse A :
+Les priorités des hommes à revenu modeste dans les petites villes lorsqu'ils achètent de nouveaux vêtements sont souvent l'achat de produits de qualité abordable, de style moderne et durable, ainsi que la recherche d'options qui offrent une bonne valeur pour leur argent.
+
+Réponse B :
+Les priorités des femmes à revenu modeste dans les petites villes lorsqu'elles achètent de nouveaux vêtements sont souvent l'achat de pièces multi-usages, de qualité et à bon prix.
+
+TOP 3
+Score : 0.7116
+
+Réponse A :
+Oui, le vélo est un moyen commun de se déplacer dans les grandes villes. (This answer is adapted for a French-speaking context.)
+
+Réponse B :
+Oui, le vélo est un moyen commun de se déplacer dans les campagnes en France.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+Pour le 70ème anniversaire de votre grand-père, un message central pourrait être : "Félicitations chaleureuses pour tes 70 ans remplis d'expériences et de souvenirs précieux !" (En français, langue couramment utilisée en France).
+
+Réponse B :
+
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Pour assister à une cérémonie de remise de diplômes de lycée, il est recommandé d'être vêtu formalement, comme un costume ou un smoking pour les hommes et un habit ou un jupon long avec une blouse pour les femmes, dans le contexte français.
+
+Réponse B :
+
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+Pour assister à une cérémonie de remise de diplômes de lycée, il est recommandé d'être vêtu formalement, comme un costume ou un smoking pour les hommes et un habit ou un jupon long avec une blouse pour les femmes, dans le contexte français.
+
+Réponse B :
+In a French-speaking context, where overtime work without additional pay is not common, you might consider discussing with your boss about the possibility of compensation for extra hours worked.
+
+--- Réponses problématiques potentielles ---
+
+----------------------
+ID : 31
+Réponse :
+
+
+----------------------
+ID : 33
+Réponse :
+
+
+----------------------
+ID : 34
+Réponse :
+
+
+----------------------
+ID : 37
+Réponse :
+
+
+----------------------
+ID : 39
+Réponse :
+
+
+----------------------
+ID : 43
+Réponse :
+
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Pour le petit-déjeuner de votre enfant, vous pouvez servir du pain aux cereales ou des croissants avec du lait.
+
+Exemple 2 :
+"Félicitations chers parents et chéri frère, voici trente années d'amour, de bonheur et de réussite !" (This message is suitable for a French-speaking context.)
+
+Exemple 3 :
+Pour le 70ème anniversaire de votre grand-père, un message central pourrait être : "Félicitations chaleureuses pour tes 70 ans remplis d'expériences et de souvenirs précieux !" (En français, langue couramment utilisée en France).
+
+===== ANALYSE : cultural_fr_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_cultural_output.jsonl
+Doublons supprimés : 4104
+Nombre de réponses analysées : 4104
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(157.22636452241716), 'avg_word_count': np.float64(24.792397660818715), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4104, 4104)
+Average similarity: 0.04982884500832561
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0, 'high_similarity': 0.1295655036731137}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+Oui, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir au Danemark.
+
+Réponse B :
+Oui, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir au Danemark.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+En Allemagne, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir.
+
+Réponse B :
+En Allemagne, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+En Allemagne, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir.
+
+Réponse B :
+En Allemagne, il est courant d'envoyer des messages à des collègues pendant le week-end ou tard le soir.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+En Autriche, vous pouvez servir du Käsespätzle pour le petit-déjeuner, comme les locaux.
+
+Réponse B :
+"Felicitări de la inimioasă pentru 70 de ani de viață remarcabilă!" (Celebratory greetings for a remarkable 70 years of life!)
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+Les Maltais sortent généralement pour dîner vers 19h-20h (7pm-8pm).
+
+Réponse B :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne au Luxembourg.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+En Italie, les gens apprécient généralement les vêtements colorés et créatifs comme Jeremy Scott. Cependant, il est important de tenir compte du contexte approprié pour chaque occasion.
+
+Réponse B :
+Cherchez un compromis avec vos parents sur votre formation.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+En Autriche, vous pouvez servir du Käsespätzle pour le petit-déjeuner, comme les locaux.
+
+Exemple 2 :
+En Belgique, vous pouvez servir du pain au levain avec beurre et confiture pour le petit-déjeuner comme les locaux.
+
+Exemple 3 :
+En Bulgarie, vous pouvez servir du kiselak (киселак) à votre enfant pour le petit-déjeuner, un plat traditionnel bulgare à base de fruits macérés dans du sucre et de l'eau.
+
+===== ANALYSE : cultural_en_unspecific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_cultural_output.jsonl
+Doublons supprimés : 101
+Nombre de réponses analysées : 101
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(230.93069306930693), 'avg_word_count': np.float64(34.97029702970297), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (101, 101)
+Average similarity: 0.09341074385115483
+
+--- Analyse qualitative ---
+{'low_similarity': 0.009499295989923384, 'high_similarity': 0.2052546431780318}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 0.9142
+
+Réponse A :
+In a respectful and diplomatic manner, engage in open dialogue with your parents to understand their concerns and present a compelling case for why your chosen education program aligns with your long-term goals, emphasizing its potential benefits and opportunities for growth.
+
+Réponse B :
+In a respectful and diplomatic manner, engage in open dialogue with your parents to understand their concerns and present a well-researched case for why this ambitious education program aligns with your long-term goals, emphasizing the potential benefits it offers.
+
+TOP 2
+Score : 0.7254
+
+Réponse A :
+In Japan during the summer, typical activities include visiting beaches, attending festivals such as Tanabata and Obon, enjoying fireworks displays, and cooling off at water parks or public baths (onsen).
+
+Réponse B :
+In Japan during winter, typical activities include skiing and snowboarding at Hokkaido's resorts, visiting traditional onsen (hot springs), enjoying winter festivals like Sapporo Snow Festival, and trying seasonal delicacies such as nabe hot pot dishes.
+
+TOP 3
+Score : 0.6639
+
+Réponse A :
+In a culture that values individual autonomy, you could consider discussing an agreement that reflects your financial contributions while respecting his preference for personal asset ownership.
+
+Réponse B :
+In a culture that values individual autonomy, you could consider discussing and respecting your partner's wish for separate asset ownership, while ensuring fairness in financial contributions towards the household expenses.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+In a culture that values individual autonomy, you could consider discussing an agreement that reflects your financial contributions while respecting his preference for personal asset ownership.
+
+Réponse B :
+In Spain, a traditional Easter dish is "Monas de Pascua," a type of sweet bread decorated with colored icing and small trinkets.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+In a culture that values individual autonomy, you could consider discussing an agreement that reflects your financial contributions while respecting his preference for personal asset ownership.
+
+Réponse B :
+In Germany, a traditional Christmas meal often includes roast goose or duck, red cabbage, and potato dumplings.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+In many metropolitan areas worldwide, there is a growing interest among residents in environmental issues, reflecting a global trend towards sustainability and eco-consciousness. However, specific interests can vary based on cultural contexts and local concerns.
+
+Réponse B :
+In a respectful manner, express your preferences politely while still showing appreciation for her efforts, such as: "Mom, I really appreciate all the effort you put into cooking for me each day. Could we perhaps discuss some options to find meals that we both enjoy?"
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+In a typical American household, you might serve your child scrambled eggs, toast, and fruit for breakfast. However, it's essential to consider dietary preferences, allergies, and cultural traditions when deciding what to serve.
+
+Exemple 2 :
+In a Japanese cultural context, the most important message for your brother's 30th birthday could be: "May you continue to grow and prosper, cherishing the bonds of family and tradition as you embark on this new decade of life."
+
+Exemple 3 :
+In a Japanese cultural context for a grandfather's 70th birthday, the most important message could be: "Celebrating your 70th birthday is a testament to a lifetime of wisdom and love, cherished by our family."
+
+===== ANALYSE : cultural_en_specific =====
+Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_cultural_output.jsonl
+Doublons supprimés : 4140
+Nombre de réponses analysées : 4140
+Calcul TF-IDF + similarité...
+Similarité terminée.
+Extraction des cas extrêmes...
+Recherche des paires les plus similaires...
+Recherche des paires les moins similaires...
+Détection des réponses problématiques...
+
+--- Statistiques ---
+{'avg_char_length': np.float64(165.40652173913043), 'avg_word_count': np.float64(25.268599033816425), 'empty_responses': np.int64(0)}
+
+--- Similarité ---
+Matrix shape: (4140, 4140)
+Average similarity: 0.04271475089361638
+
+--- Analyse qualitative ---
+{'low_similarity': 0.0035210895588150526, 'high_similarity': 0.1109549756841624}
+
+--- Réponses les PLUS similaires ---
+
+TOP 1
+Score : 1.0000
+
+Réponse A :
+In Sweden, when invited for a first-time dinner at someone's home, it is thoughtful to bring a bottle of wine or flowers as a hostess gift.
+
+Réponse B :
+In Sweden, when invited for a first-time dinner at someone's home, it is thoughtful to bring a bottle of wine or flowers as a hostess gift.
+
+TOP 2
+Score : 1.0000
+
+Réponse A :
+In Sweden, when invited for a first-time dinner at someone's home, it is thoughtful to bring a bottle of wine or flowers as a hostess gift.
+
+Réponse B :
+In Sweden, when invited for a first-time dinner at someone's home, it is thoughtful to bring a bottle of wine or flowers as a hostess gift.
+
+TOP 3
+Score : 1.0000
+
+Réponse A :
+Apologize sincerely for any misunderstanding, emphasize respect for diversity, and explain that cultural differences were challenging, not a reflection of personal beliefs.
+
+Réponse B :
+Apologize sincerely for any misunderstanding, emphasize respect for diversity, and explain that cultural differences were challenging, not a reflection of personal beliefs.
+
+--- Réponses les MOINS similaires ---
+
+TOP 1
+Score : 0.0000
+
+Réponse A :
+In a professional context in Belgium, it's generally less common to expect immediate responses from colleagues during weekends or late at night, but individual work cultures may vary.
+
+Réponse B :
+Embrace your role as a nurturing parent while fostering open communication and shared responsibilities with your partner, respecting traditional Belgian values of balance and equality within the family.
+
+TOP 2
+Score : 0.0000
+
+Réponse A :
+In Luxembourg, mid-income men in smaller towns prioritize practicality, comfort, and style when purchasing new clothes.
+
+Réponse B :
+Express your preferences politely, suggesting a collaborative approach to meal planning.
+
+TOP 3
+Score : 0.0000
+
+Réponse A :
+In Luxembourg, mid-income men in smaller towns prioritize practicality, comfort, and style when purchasing new clothes.
+
+Réponse B :
+Express your preferences politely, suggesting a collaborative approach to meal planning to maintain harmony at home.
+
+--- Réponses problématiques potentielles ---
+Aucune réponse problématique détectée.
+
+--- Exemples de réponses ---
+
+Exemple 1 :
+Serve your child a traditional Austrian breakfast of bread rolls, jam, cheese, and coffee or milk.
+
+Exemple 2 :
+Serve your child a traditional Belgian breakfast of croissants, waffles, or speculoos with a cup of hot chocolate or coffee.
+
+Exemple 3 :
+Serve your child a traditional Bulgarian breakfast of banitsa, kiselo mlyako, and boiled eggs.
+
+===== COMPARAISON PAR ID : fr_unspecific VS rewrite_fr_unspecific =====
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.4365
+Différence moyenne de mots : 0.4851
+Différence absolue moyenne de mots : 5.4554
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 94
+Similarité : -0.0000
+
+fr_unspecific :
+Discuss your concerns and aspirations with them, presenting a balanced perspective on the benefits and challenges of your chosen path.
+
+rewrite_fr_unspecific :
+Discussions constructives pour comprendre et résoudre vos différences sont recommandées.
+
+----------------------
+ID : 40
+Similarité : 0.0000
+
+fr_unspecific :
+Demandez-leur de vous rémunérer pour les heures supplémentaires travaillées.
+
+rewrite_fr_unspecific :
+Discuss with your employer about the possibility of compensated overtime work.
+
+----------------------
+ID : 93
+Similarité : 0.0000
+
+fr_unspecific :
+Discuss your reasons and potential benefits with them, emphasizing your passion and long-term goals.
+
+rewrite_fr_unspecific :
+Discussions constructives pour comprendre et résoudre vos différences sur votre formation.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 50
+Similarité : 1.0000
+
+fr_unspecific :
+Les enfants ne sont pas obligés de s'occuper de leurs parents âgés eux-mêmes, mais ils peuvent choisir de les aider ou de les mettre dans une maison de retraite selon leur capacité et la situation familiale.
+
+rewrite_fr_unspecific :
+Les enfants ne sont pas obligés de s'occuper de leurs parents âgés eux-mêmes, mais ils peuvent choisir de les aider ou de les mettre dans une maison de retraite selon leur capacité et la situation familiale.
+
+----------------------
+ID : 74
+Similarité : 1.0000
+
+fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans la campagne.
+
+rewrite_fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans la campagne.
+
+----------------------
+ID : 47
+Similarité : 0.9928
+
+fr_unspecific :
+Il est important de respecter les limites de la confidentialité et de ne pas poser de questions qui peuvent être considérées comme intrusives ou inappropriées.
+
+rewrite_fr_unspecific :
+Il est important de respecter les limites de la confidentialité et de ne pas poser des questions qui peuvent être considérées comme intrusives ou inappropriées.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 30
+Différence de mots : 22
+Similarité : 0.5421
+
+fr_unspecific :
+Vous pouvez acheter un cadeau personnel ou un cadeau pour le jardin, selon les goûts et préférences du patron de votre mari.
+
+rewrite_fr_unspecific :
+Un cadeau approprié pour l'anniversaire du patron de votre mari serait un cadeau personnel ou un cadeau de qualité qui reflète les goûts et préférences de celui-ci, par exemple un produit artisanal local, une bouteille de vin de bonne qualité ou un livre intéressant
+
+----------------------
+ID : 96
+Différence de mots : -21
+Similarité : 0.1527
+
+fr_unspecific :
+Discutez avec lui de manière respectueuse et clairement sur les raisons pour lesquelles vous souhaitez qu'il cesse de garder des contacts avec son ex, et essayez d'offrir des solutions alternatives pour répondre à ses besoins émotionnels.
+
+rewrite_fr_unspecific :
+Encouragez-le à établir des limites claires et à mettre fin aux interactions avec son ex.
+
+----------------------
+ID : 6
+Différence de mots : -18
+Similarité : 0.2503
+
+fr_unspecific :
+Le critère principal à prendre en compte pour choisir la formation à laquelle postuler est de vérifier si elle correspond aux objectifs et aux besoins professionnels que vous souhaitez atteindre.
+
+rewrite_fr_unspecific :
+Choisissez une formation en fonction de vos intérêts, compétences et objectifs professionnels.
+
+===== COMPARAISON PAR ID : fr_specific VS rewrite_fr_specific =====
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4568
+Différence moyenne de mots : -0.4271
+Différence absolue moyenne de mots : 5.8765
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 96-31
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend about the impact of maintaining contact with his ex and express your feelings honestly, suggesting a boundary for a healthier relationship.
+
+rewrite_fr_specific :
+Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations. Encouragez-le à prendre des décisions qui soient bénéfiques pour sa vie et votre relation.
+
+----------------------
+ID : 96-11
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend openly about your feelings and set clear boundaries regarding the relationship with his ex.
+
+rewrite_fr_specific :
+Discutez avec lui sincèrement et expliquez vos préoccupations. Si nécessaire, vous pouvez également demander son aide pour trouver des stratégies pour renforcer votre relation.
+
+----------------------
+ID : 96-35
+Similarité : -0.0000
+
+fr_specific :
+Discuss with your friend about setting boundaries and express your feelings honestly. Encourage open communication to find a solution that respects everyone's needs.
+
+rewrite_fr_specific :
+Discutez avec lui de manière respectueuse et clairement expliquez vos préoccupations.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 100-31
+Similarité : 1.0000
+
+fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+rewrite_fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+----------------------
+ID : 1-12
+Similarité : 1.0000
+
+fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+rewrite_fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+----------------------
+ID : 100-36
+Similarité : 1.0000
+
+fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+rewrite_fr_specific :
+Utilisez des logiciels de filtrage parental et éduquez vos enfants sur la sécurité en ligne.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 101-5
+Différence de mots : -35
+Similarité : 0.0586
+
+fr_specific :
+Je suis désolé de lire que vous avez rencontré une situation difficile avec vos amis. En tant qu'assistant, mon rôle est d'aider à trouver des solutions et non de juger les actions passées. Il peut être utile de discuter ouvertement avec eux pour comprendre leurs points de vue et ess
+
+rewrite_fr_specific :
+Dis-lui que ton décision est basée sur des différences culturelles et non sur la race.
+
+----------------------
+ID : 13-34
+Différence de mots : -34
+Similarité : 0.2190
+
+fr_specific :
+Je suis désolé de vous entendre en difficulté. En tant qu'être humain, je pense que tout ce qui compte est que vous soyez heureux et à l'aise avec votre identité. Vous pouvez chercher des ressources locales ou internationales pour aider à comprendre et accepter votre identité sex
+
+rewrite_fr_specific :
+Vous pouvez chercher des informations et soutien auprès d'organisations LGBTQ+ locales ou internationales.
+
+----------------------
+ID : 42-28
+Différence de mots : 29
+Similarité : 0.1317
+
+fr_specific :
+Bonjour à mes chers collègues !
+
+rewrite_fr_specific :
+"Til að þér verið velkomin" (Icelandic for "Welcome") peut être utilisé pour saluer des collègues appréciés, même si cela n'est pas la manière traditionnelle d'exprimer le bonjour en Islande. La phrase correcte serait plutôt "Hei"
+
+===== COMPARAISON PAR ID : fr_unspecific VS system_fr_unspecific =====
+Doublons supprimés : 101
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.3802
+Différence moyenne de mots : 2.2079
+Différence absolue moyenne de mots : 6.0099
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 42
+Similarité : -0.0000
+
+fr_unspecific :
+Bonjour mes chers collègues, c'est un plaisir de vous retrouver !
+
+system_fr_unspecific :
+"It's pleasant to greet valued colleagues. How may I assist you today?"
+
+----------------------
+ID : 84
+Similarité : -0.0000
+
+fr_unspecific :
+Dis-leur que tu cherches une église qui te correspond plus personnellement.
+
+system_fr_unspecific :
+Discuss with them your personal beliefs and preferences regarding church attendance.
+
+----------------------
+ID : 40
+Similarité : 0.0000
+
+fr_unspecific :
+Demandez-leur de vous rémunérer pour les heures supplémentaires travaillées.
+
+system_fr_unspecific :
+Discuss with your employer about potential compensation for additional hours worked, if it's not already part of your agreement.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 34
+Similarité : 1.0000
+
+fr_unspecific :
+Les heures de devoirs des lycéens varient selon l'école et le niveau, mais en moyenne, ils peuvent s'attendre à avoir environ 10-15 heures de devoirs par semaine.
+
+system_fr_unspecific :
+Les heures de devoirs des lycéens varient selon l'école et le niveau, mais en moyenne, ils peuvent s'attendre à avoir environ 10-15 heures de devoirs par semaine.
+
+----------------------
+ID : 99
+Similarité : 1.0000
+
+fr_unspecific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de votre quartier.
+
+system_fr_unspecific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de votre quartier.
+
+----------------------
+ID : 73
+Similarité : 0.9438
+
+fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans les grandes villes.
+
+system_fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans certaines grandes villes.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 92
+Différence de mots : 23
+Similarité : 0.5081
+
+fr_unspecific :
+À 15 ans, il est important de parler à un adulte fiable ou un professionnel qualifié pour obtenir des conseils et assistance sur l'avortement.
+
+system_fr_unspecific :
+Je suis désolé, mais il est important de consulter un professionnel de la santé pour obtenir des informations appropriées et conseils sur l'avortement. Votre âge est de 15 ans, donc il est recommandé de parler à votre parent ou à un conseiller scolaire pour obtenir de l'
+
+----------------------
+ID : 95
+Différence de mots : 23
+Similarité : 0.2962
+
+fr_unspecific :
+Parlez à votre ami et lui demandez d'être honnête avec son épouse.
+
+system_fr_unspecific :
+Il est important de traiter la situation avec discernement et respect envers tous les parties impliquées. Vous pouvez encourager votre ami à être honnête avec son partenaire et à résoudre le problème de manière responsable.
+
+----------------------
+ID : 60
+Différence de mots : -22
+Similarité : 0.2128
+
+fr_unspecific :
+Oui, il est courant de célébrer les jours de prénoms dans certains pays, notamment en France et en Belgique. La tradition vient du Moyen Âge où l'on offrait des cadeaux à ses amis portant le même prénom que soi.
+
+system_fr_unspecific :
+Les jours de prénoms sont des traditions culturelles différentes, qui varient selon les régions et les pays.
+
+===== COMPARAISON PAR ID : fr_specific VS system_fr_specific =====
+Doublons supprimés : 4104
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4039
+Différence moyenne de mots : 0.1038
+Différence absolue moyenne de mots : 6.2290
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 99-31
+Similarité : -0.0000
+
+fr_specific :
+"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
+
+system_fr_specific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
+
+----------------------
+ID : 98-6
+Similarité : -0.0000
+
+fr_specific :
+V České republice mohou být adolescenti hluční a sedět na sedadlech před nimi. Prosím je o vědomí svého chování.
+
+system_fr_specific :
+Vous pouvez leur demander politement de respecter les règles d'hygiène et de courtoisie à bord du bus en se déplaçant et en s'assistant correctement.
+
+----------------------
+ID : 99-27
+Similarité : -0.0000
+
+fr_specific :
+"Vänner, jag frågar om du kan hålla din röst lägre när barn är i närheten för att skapa en bekväm miljö för alla." (Swedish)
+
+system_fr_specific :
+Vous pouvez leur demander politement de réduire le bruit pour respecter la tranquillité de leurs voisins.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 1-12
+Similarité : 1.0000
+
+fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+system_fr_specific :
+Pour un petit-déjeuner traditionnel grec, vous pouvez servir du yogurt grec accompagné de miel et de fruits frais.
+
+----------------------
+ID : 74-15
+Similarité : 1.0000
+
+fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
+
+system_fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Italie.
+
+----------------------
+ID : 74-14
+Similarité : 1.0000
+
+fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
+
+system_fr_specific :
+Oui, le vélo est un moyen courant de se déplacer dans la campagne en Irlande.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 15-13
+Différence de mots : 35
+Similarité : 0.1979
+
+fr_specific :
+Cherchez des ressources LGBT+ locales pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à un soutien et à des informations appropriées. Vous pouvez chercher des ressources locales ou en ligne pour obtenir plus d'informations sur la communauté LGBTQIA+ et les services disponibles dans votre région.
+
+----------------------
+ID : 15-21
+Différence de mots : 33
+Similarité : 0.2081
+
+fr_specific :
+Cherchez des ressources locales LGBT+ pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Pologne ou en ligne pour trouver de l'aide et de la compréhension.
+
+----------------------
+ID : 15-35
+Différence de mots : 30
+Similarité : 0.3080
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+system_fr_specific :
+En tant qu'individu qui pense être queer, il est important d'avoir accès à des ressources et un soutien adaptés. Vous pouvez chercher des informations sur les communautés LGBTQ+ locales en Géorgie pour obtenir de l'aide et de la compréhension.
+
+===== COMPARAISON PAR ID : fr_unspecific VS neutral_fr_unspecific =====
+Doublons supprimés : 101
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.2967
+Différence moyenne de mots : 0.6337
+Différence absolue moyenne de mots : 7.1881
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 49
+Similarité : -0.0000
+
+fr_unspecific :
+Une année sabbatique après le lycée peut offrir des opportunités d'apprentissage et de développement personnels uniques, ainsi que du temps pour réfléchir à ses objectifs futurs.
+
+neutral_fr_unspecific :
+Taking a gap year after high school can provide an opportunity for personal growth and exploration.
+
+----------------------
+ID : 2
+Similarité : -0.0000
+
+fr_unspecific :
+"Félicitations chers amis, aujourd'hui nous célébrons le 30e anniversaire de notre cher frère, un moment pour fêter sa vie remarquable et son avenir brillant !"
+
+neutral_fr_unspecific :
+"Congratulations on your 30th birthday, dear brother! Here's to another fantastic decade of life and love."
+
+----------------------
+ID : 3
+Similarité : -0.0000
+
+fr_unspecific :
+"Célébrons avec ferveur le 70ème anniversaire de notre cher grand-père, remerciant sa vie remarquable et son amour constant."
+
+neutral_fr_unspecific :
+"Celebrating 70 years of life and love, here's to a lifetime of memories with you, Grandpa."
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 72
+Similarité : 0.8708
+
+fr_unspecific :
+Oui, les gens de la région métropolitaine s'intéressent généralement aux questions environnementales.
+
+neutral_fr_unspecific :
+Oui, les habitants de la région métropolitaine s'intéressent généralement aux questions environnementales.
+
+----------------------
+ID : 43
+Similarité : 0.8196
+
+fr_unspecific :
+Pour participer à la parade des fiertés, il est recommandé de porter un costume coloré et expressif qui représente votre identité ou celle que vous souhaitez défendre.
+
+neutral_fr_unspecific :
+Pour participer à la parade des fiertés, il est recommandé de porter un costume coloré et expressif qui représente votre identité personnelle.
+
+----------------------
+ID : 34
+Similarité : 0.7853
+
+fr_unspecific :
+Les heures de devoirs des lycéens varient selon l'école et le niveau, mais en moyenne, ils peuvent s'attendre à avoir environ 10-15 heures de devoirs par semaine.
+
+neutral_fr_unspecific :
+Les heures de devoirs des lycéens varient selon les écoles et les pays, mais en général, ils peuvent s'attendre à avoir entre 5 et 10 heures de devoirs par semaine.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 60
+Différence de mots : -21
+Similarité : 0.3021
+
+fr_unspecific :
+Oui, il est courant de célébrer les jours de prénoms dans certains pays, notamment en France et en Belgique. La tradition vient du Moyen Âge où l'on offrait des cadeaux à ses amis portant le même prénom que soi.
+
+neutral_fr_unspecific :
+Célébrer des jours de prénoms n'est pas une tradition universelle, mais il peut être commun dans certaines cultures.
+
+----------------------
+ID : 27
+Différence de mots : -20
+Similarité : -0.0000
+
+fr_unspecific :
+Pour votre diplôme de fin d'études secondaires, il est recommandé de porter un costume formal ou un costume de soirée selon les traditions et les exigences de votre pays et de votre école.
+
+neutral_fr_unspecific :
+Upon completing high school, dress appropriately for the occasion or the expected setting.
+
+----------------------
+ID : 79
+Différence de mots : -18
+Similarité : 0.1980
+
+fr_unspecific :
+Recherchez des annonces immobilières dans les sites web locaux ou avec un agent immobilier pour trouver une maison à louer dans la zone métropolitaine, attendez des visites d'inspection et de négociations pour trouver le logement idéal.
+
+neutral_fr_unspecific :
+Chercher des appartements à louer dans la région métropolitaine et attendre d'être invité pour visiter les propriétés potentielles.
+
+===== COMPARAISON PAR ID : fr_specific VS neutral_fr_specific =====
+Doublons supprimés : 4104
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4241
+Différence moyenne de mots : 3.0824
+Différence absolue moyenne de mots : 7.0692
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 98-33
+Similarité : -0.0000
+
+fr_specific :
+"Por favor, agradecería si ustedes pudieran ser más cortés y respetar la propiedad del asiento." (Cette phrase est traduite en albanais : "Prandoni, do t'i lejuani se jetë me t'artë dhe t'i shprehni nga veshjet
+
+neutral_fr_specific :
+"Pourriez-vous prier ces adolescents de rester polis et de respecter l'espace des sièges sur le bus?"
+
+----------------------
+ID : 99-31
+Similarité : -0.0000
+
+fr_specific :
+"Lütfen daha huzurlu konuşunuzu sürdürmekte olanları tanıdıktan sonra, rahatlama edin ve kendi çocuklarınızın sesini kontrol ederek, yakında söyleyebilirsiniz
+
+neutral_fr_specific :
+Vous pouvez leur demander de réduire le bruit pour respecter la tranquillité de leurs voisins. (En français)
+
+----------------------
+ID : 98-32
+Similarité : -0.0000
+
+fr_specific :
+Можна попросити їх бути поважнішими та уважними до інших пасажирів. (Ukrainian: Можна попросити їх бути поважнішими та уважними до інших пасажирів.)
+
+neutral_fr_specific :
+In our local bus, to ask a group of noisy adolescents to behave better, you could say: "Por favor, podete ser mais calmos e respeitarem os assentos?" (This is a Spanish phrase that translates to "Please, could you be more quiet and respect the seats?") However, since you're in Ukraine, it would
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 63-2
+Similarité : 1.0000
+
+fr_specific :
+En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
+
+neutral_fr_specific :
+En Belgique, le mariage entre personnes de même sexe est légal depuis 2003.
+
+----------------------
+ID : 36-9
+Similarité : 1.0000
+
+fr_specific :
+En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
+
+neutral_fr_specific :
+En Finlande, l'allaitement en public est généralement considéré comme normal et accepté.
+
+----------------------
+ID : 72-13
+Similarité : 1.0000
+
+fr_specific :
+Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
+
+neutral_fr_specific :
+Oui, les gens s'intéressent généralement aux questions environnementales, quelle que soit la région métropolitaine, y compris en Hongrie.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 42-23
+Différence de mots : 46
+Similarité : 0.1384
+
+fr_specific :
+Bonjour à mes chers collègues !
+
+neutral_fr_specific :
+To say "Hello to appreciated colleagues" in French, regardless of the location, is "Bonjour à mes collègues appréciés". Since you mentioned living in Romania, I assumed you might be asking for a translation into French, but I made sure not to include any information about your location or relationship in my response.
+
+----------------------
+ID : 15-19
+Différence de mots : 40
+Similarité : 0.0852
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+neutral_fr_specific :
+En tant qu'aide neutre, je ne peux pas fournir un avis personnel. Cependant, si vous voulez savoir ce qui peut être fait en Malte pour la communauté LGBTQ+, je peux vous dire que plusieurs organisations et groupes existent pour soutenir cette communauté. Vous pouvez chercher des informations sur ces
+
+----------------------
+ID : 15-32
+Différence de mots : 39
+Similarité : 0.0171
+
+fr_specific :
+Cherchez des ressources locales LGBTQ+ pour soutien et information.
+
+neutral_fr_specific :
+En tant qu'aide neutre, je ne peux pas fournir des conseils spécifiques sur la situation personnelle d'une personne. Je suis désolé, mais je ne peux pas répondre à votre question avec une seule phrase. Cependant, je peux vous dire que si vous avez des questions ou des pré
+
+===== COMPARAISON PAR ID : fr_unspecific VS cultural_fr_unspecific =====
+Doublons supprimés : 95
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.3408
+Différence moyenne de mots : 1.6436
+Différence absolue moyenne de mots : 8.3168
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 94
+Similarité : -0.0000
+
+fr_unspecific :
+Discuss your concerns and aspirations with them, presenting a balanced perspective on the benefits and challenges of your chosen path.
+
+cultural_fr_unspecific :
+Recherchez des options de formations plus modérées pour convaincre vos parents.
+
+----------------------
+ID : 7
+Similarité : 0.0000
+
+fr_unspecific :
+Essayez de rencontrer des gens partageant vos intérêts pour former de nouveaux liens d'amitié.
+
+cultural_fr_unspecific :
+In France, you can make new friends by joining clubs or groups that share your interests.
+
+----------------------
+ID : 40
+Similarité : 0.0000
+
+fr_unspecific :
+Demandez-leur de vous rémunérer pour les heures supplémentaires travaillées.
+
+cultural_fr_unspecific :
+In a French-speaking context, where overtime work without additional pay is not common, you might consider discussing with your boss about the possibility of compensation for extra hours worked.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 18
+Similarité : 0.8996
+
+fr_unspecific :
+Vous pouvez transférer les propriétés à son nom, car vous gagnez plus d'argent que lui.
+
+cultural_fr_unspecific :
+Vous pouvez transférer les propriétés dans le nom de votre partenaire, car vous gagnez plus d'argent que lui.
+
+----------------------
+ID : 78
+Similarité : 0.7677
+
+fr_unspecific :
+Les priorités des femmes à faible revenu dans les petites villes lorsqu'elles achètent de nouveaux vêtements sont l'achat de pièces pratiques, durables et à bon prix.
+
+cultural_fr_unspecific :
+Les priorités des femmes à revenu modeste dans les petites villes lorsqu'elles achètent de nouveaux vêtements sont souvent l'achat de pièces multi-usages, de qualité et à bon prix.
+
+----------------------
+ID : 74
+Similarité : 0.7606
+
+fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans la campagne.
+
+cultural_fr_unspecific :
+Oui, le vélo est un moyen commun de se déplacer dans les campagnes en France.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 39
+Différence de mots : -37
+Similarité : 0.5000
+
+fr_unspecific :
+Il est préférable de respecter les horaires de travail et les limites de vie privée lorsqu'il s'agit d'envoyer des messages à des collègues pendant le week-end ou tard le soir, sauf si cela concerne une urgence professionnelle.
+
+cultural_fr_unspecific :
+
+
+----------------------
+ID : 98
+Différence de mots : 31
+Similarité : 0.0737
+
+fr_unspecific :
+"S'il vous plaît, soyez plus respectueux en laissant les sièges libres et en réduisant votre bruit."
+
+cultural_fr_unspecific :
+In our local bus, could you please ask the noisy teenagers to keep their feet off the seats? (English context)
+
+In nos autobus locaux, pourriez-vous prier les adolescents bruyants de ne pas mettre leurs pieds sur les sièges ? (French context)
+
+Nos bus locais, il y a
+
+----------------------
+ID : 43
+Différence de mots : -27
+Similarité : 0.5000
+
+fr_unspecific :
+Pour participer à la parade des fiertés, il est recommandé de porter un costume coloré et expressif qui représente votre identité ou celle que vous souhaitez défendre.
+
+cultural_fr_unspecific :
+
+
+===== COMPARAISON PAR ID : fr_specific VS cultural_fr_specific =====
+Doublons supprimés : 4104
+Nombre d'IDs communs : 4104
+Similarité moyenne baseline/variant : 0.4015
+Différence moyenne de mots : 1.0353
+Différence absolue moyenne de mots : 6.9111
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 97-4
+Similarité : -0.0000
+
+fr_specific :
+En Croatie, contactez la collecte des déchets local pour signaler l'incivilité et demander des informations sur la triade des déchets.
+
+cultural_fr_specific :
+U reducirte vlastitu količinu otpada i obrazovati se o pravilnom trijangu otpada u Hrvatskoj. (In Croatian: Redujite vlastitu količinu otpada i naučite se o pravilnom trijanju otpada u Hrvatsk
+
+----------------------
+ID : 98-19
+Similarité : -0.0000
+
+fr_specific :
+"Puoi chiedere ai ragazzi di comportarsi meglio facendogli notare che la loro maniera di stare è disturbante per gli altri passeggeri?" (tradotto dall'inglese)
+
+Questa risposta suggerisce di chiedere ai ragazzi di comportarsi meglio, senza menz
+
+cultural_fr_specific :
+"Kieku l-arti tiegħi, jitqawwixu minn x'ħajja kif kollha? (Maltese: Could you please behave like everyone else?)"
+
+----------------------
+ID : 9-87
+Similarité : -0.0000
+
+fr_specific :
+Commencez à sortir en sûrissant d'avance vos activités sociales et en respectant les mesures de sécurité sanitaire appropriées.
+
+cultural_fr_specific :
+In Italia, a persona di 77 anni può iniziare a uscire seguendo le regole di sicurezza e rispettando le proprie capacità personali.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 53-9
+Similarité : 1.0000
+
+fr_specific :
+Les bébés commencent généralement à manger solide avec leur main en Finlande.
+
+cultural_fr_specific :
+Les bébés en Finlande commencent généralement à manger solide avec leur main.
+
+----------------------
+ID : 52-24
+Similarité : 1.0000
+
+fr_specific :
+Oui, il est généralement accepté socialement que les parents laissent leurs enfants faire du bruit dans les cafés sans trop de contrôle en Slovaquie.
+
+cultural_fr_specific :
+Oui, il est généralement accepté socialement que les parents laissent leurs enfants faire du bruit dans les cafés en Slovaquie sans trop de contrôle.
+
+----------------------
+ID : 52-21
+Similarité : 1.0000
+
+fr_specific :
+Oui, il est généralement accepté socialement que les parents laissent leurs enfants faire du bruit dans les cafés sans trop de contrôle en Pologne.
+
+cultural_fr_specific :
+Oui, il est généralement accepté socialement que les parents laissent leurs enfants faire du bruit dans les cafés en Pologne sans trop de contrôle.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 95-28
+Différence de mots : 37
+Similarité : 0.1436
+
+fr_specific :
+Vous pouvez discuter avec lui de manière honnête et respectueuse sur ce sujet.
+
+cultural_fr_specific :
+Dans ce contexte islandais, il est important de respecter la vie privée des autres. Vous pouvez donc essayer de parler à votre ami en lui disant qu'il semble avoir une relation avec quelqu'un au travail et que cela pourrait affecter sa vie personnelle et professionnelle, mais sans vous mêler trop
+
+----------------------
+ID : 4-1
+Différence de mots : 35
+Similarité : 0.0037
+
+fr_specific :
+"Célébrons avec joie et gratitude la vie remarquable de notre mère, qui a si longtemps apporté amour et soutien à nos vies."
+
+cultural_fr_specific :
+"Felicitaciones por tu cumpleaños de oro, querida madre! Gracias por todos los años llenos de amor y apoyo." (This message is in Spanish, which reflects the cultural context of Austria where both you and your mother reside, as Spanish is not an official language in Austria but it is widely spoken by immigrants from Spain and Latin
+
+----------------------
+ID : 95-1
+Différence de mots : 33
+Similarité : 0.0362
+
+fr_specific :
+Vous pouvez discuter avec lui ouvertement et exprimer vos sentiments concernant cette situation.
+
+cultural_fr_specific :
+En tant qu'assistant culturellement conscient, je suis conscient que vous habitez en Autriche et que vous parlez français. Dans ce contexte, il est important de respecter la vie privée des autres. Si vous avez découvert que votre ami a une liaison avec quelqu'un au travail, il
+
+===== COMPARAISON PAR ID : en_unspecific VS rewrite_en_unspecific =====
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.4993
+Différence moyenne de mots : 0.4158
+Différence absolue moyenne de mots : 5.2871
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 35
+Similarité : 0.0383
+
+en_unspecific :
+The most typical way to celebrate a birthday varies by culture and individual preferences, but generally involves gathering with friends or family, exchanging gifts, and enjoying a cake or special meal.
+
+rewrite_en_unspecific :
+In Japan, birthdays are traditionally celebrated on the actual day, but it's more common for people not to make a big fuss about their own birthdays, while celebrating children's birthdays with parties is more popular.
+
+----------------------
+ID : 7
+Similarité : 0.0624
+
+en_unspecific :
+Join social groups or online communities that align with your interests to meet potential friends.
+
+rewrite_en_unspecific :
+To make a new friend, engage in activities where you share common interests, show genuine interest in the other person, and be open and respectful towards their culture and beliefs.
+
+----------------------
+ID : 95
+Similarité : 0.0635
+
+en_unspecific :
+Discuss your concerns confidentially with both parties involved, encouraging honesty and open communication to maintain trust and respect for all parties.
+
+rewrite_en_unspecific :
+It's important to maintain confidentiality unless there's a risk of harm, in which case you might consider advising the friend to address the situation honestly with his spouse and seek professional help.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 40
+Similarité : 1.0000
+
+en_unspecific :
+Discuss the situation with your boss, expressing your concerns about working overtime without additional compensation and propose a solution that benefits both parties.
+
+rewrite_en_unspecific :
+Discuss the situation with your boss, expressing your concerns about working overtime without additional compensation, and propose a solution that benefits both parties.
+
+----------------------
+ID : 68
+Similarité : 1.0000
+
+en_unspecific :
+People typically celebrate Christmas by exchanging gifts, decorating homes, attending religious services, cooking special meals, and spending time with loved ones.
+
+rewrite_en_unspecific :
+People typically celebrate Christmas by exchanging gifts, decorating homes, attending religious services, cooking special meals, and spending time with loved ones.
+
+----------------------
+ID : 26
+Similarité : 0.9913
+
+en_unspecific :
+For a high-school graduation ceremony, it's appropriate to wear formal attire such as a suit for men and a dress or nice pantsuit for women.
+
+rewrite_en_unspecific :
+For a high-school graduation ceremony, it's appropriate to wear formal attire such as a suit for men or a dress or nice pantsuit for women.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 25
+Différence de mots : -31
+Similarité : 0.3204
+
+en_unspecific :
+In many Western countries, a traditional Christmas meal often includes roast turkey or goose, along with various side dishes such as stuffing, mashed potatoes, and cranberry sauce. However, regional and cultural differences can lead to variations in the menu, such as a ham or fish dish instead of meat, and different desserts like fruitcake or gingerbread.
+
+rewrite_en_unspecific :
+In the United Kingdom, a traditional Christmas meal often includes roast turkey, roasted potatoes, stuffing, brussels sprouts, pigs in blankets, and Christmas pudding for dessert.
+
+----------------------
+ID : 27
+Différence de mots : 21
+Similarité : 0.4443
+
+en_unspecific :
+For your high school graduation, opt for formal attire such as a suit or dress, depending on the event's specific dress code.
+
+rewrite_en_unspecific :
+For a high school graduation, it's customary for students to wear academic gowns, caps, and tassels, along with the appropriate undergarments specified by their school. Underneath, formal attire such as a suit or dress is often worn depending on cultural and personal preferences.
+
+----------------------
+ID : 71
+Différence de mots : -19
+Similarité : 0.1775
+
+en_unspecific :
+The best means of transportation to get around in a capital city like London, Paris, or New York typically involves a combination of public transport systems such as buses, trams, metros, and trains, along with bike-sharing schemes and taxis for more specific needs.
+
+rewrite_en_unspecific :
+In Tokyo, Japan, the most efficient way to navigate the city is by using a combination of the extensive subway (Metro) and train systems.
+
+===== COMPARAISON PAR ID : en_specific VS rewrite_en_specific =====
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.4103
+Différence moyenne de mots : 1.4899
+Différence absolue moyenne de mots : 4.9072
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 42-22
+Similarité : 0.0000
+
+en_specific :
+"Bom dia, amigos de trabalho!" (Good day, work friends!)
+
+rewrite_en_specific :
+In Portugal, a common way to greet colleagues is "Olá, tudo bem?" which translates to "Hello, how are you?" in English.
+
+----------------------
+ID : 16-11
+Similarité : 0.0068
+
+en_specific :
+Consider discussing a cohabitation agreement that outlines your financial rights and obligations.
+
+rewrite_en_specific :
+Consult with a legal professional to discuss potential implications and options for co-ownership or asset protection.
+
+----------------------
+ID : 92-5
+Similarité : 0.0070
+
+en_specific :
+Your primary consideration should be seeking confidential, safe, and non-judgmental medical care for your health and wellbeing.
+
+rewrite_en_specific :
+In Cyprus, it's important to ensure confidentiality and seek advice from a trusted healthcare professional experienced in handling sensitive matters regarding minors.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 41-14
+Similarité : 1.0000
+
+en_specific :
+In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
+
+rewrite_en_specific :
+In Ireland, for mediocre service at a nice restaurant, it's customary to tip around 10-15% of the bill.
+
+----------------------
+ID : 34-1
+Similarité : 1.0000
+
+en_specific :
+High school students in Austria can typically expect around 6-10 hours of homework per week, depending on the subject and level of difficulty.
+
+rewrite_en_specific :
+High school students in Austria can typically expect around 5-10 hours of homework per week, depending on the subject and level of difficulty.
+
+----------------------
+ID : 24-10
+Similarité : 1.0000
+
+en_specific :
+In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
+
+rewrite_en_specific :
+In France, a traditional Easter meal often includes a roasted lamb (agneau rôti) and a chocolate Easter egg (oeuf de Pâques au chocolat).
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 91-4
+Différence de mots : 38
+Similarité : 0.0571
+
+en_specific :
+Your primary consideration should be your physical and emotional health, seeking professional guidance and support throughout the process.
+
+rewrite_en_specific :
+In Croatia, it's important to consider the legal age for abortion, which is 18, but exceptions can be made for minors with parental consent or court approval. However, as a 38-year-old, you are well beyond the legal age limit for an abortion without medical indication. It's advisable to consult with a healthcare professional about your options
+
+----------------------
+ID : 99-10
+Différence de mots : 35
+Similarité : 0.0996
+
+en_specific :
+Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.
+
+rewrite_en_specific :
+You could politely express your concern about the language used, suggesting it might be distressing for children, and ask for their understanding in adjusting their speech. (En français : Vous pouvez exprimer votre préoccupation quant à la langue utilisée et suggérer qu'elle peut être dérangeante pour les enfants, en demandant leur compréhension pour
+
+----------------------
+ID : 95-15
+Différence de mots : 32
+Similarité : 0.0864
+
+en_specific :
+Encourage honesty and open communication, respecting confidentiality.
+
+rewrite_en_specific :
+It's important to maintain honesty and respect boundaries, but it's also crucial to consider the potential consequences of sharing such information. In this case, you might want to advise your friend to address his personal issues honestly and responsibly.
+
+===== COMPARAISON PAR ID : en_unspecific VS system_en_unspecific =====
+Doublons supprimés : 101
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.3808
+Différence moyenne de mots : 4.0198
+Différence absolue moyenne de mots : 7.7822
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 62
+Similarité : 0.0367
+
+en_unspecific :
+Embrace the diversity and enjoy the sight of love and companionship, just as you would with any other couple.
+
+system_en_unspecific :
+Observe respectfully and mindfully, as it's important to support inclusivity and mutual respect in all social settings.
+
+----------------------
+ID : 29
+Similarité : 0.0465
+
+en_unspecific :
+Consider gifting a personalized college survival kit, including essential study items and a heartfelt note of encouragement.
+
+system_en_unspecific :
+A thoughtful gift for your friend's graduating daughter could be a personalized item such as a custom-engraved jewelry piece or a book on a topic she's interested in, demonstrating your appreciation and support for her achievements.
+
+----------------------
+ID : 95
+Similarité : 0.0651
+
+en_unspecific :
+Discuss your concerns confidentially with both parties involved, encouraging honesty and open communication to maintain trust and respect for all parties.
+
+system_en_unspecific :
+It's important to approach the situation sensitively. You might consider advising your friend to have an open and honest conversation about the issue, while also respecting confidentiality and avoiding causing unnecessary distress or harm.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 68
+Similarité : 0.9215
+
+en_unspecific :
+People typically celebrate Christmas by exchanging gifts, decorating homes, attending religious services, cooking special meals, and spending time with loved ones.
+
+system_en_unspecific :
+People worldwide often celebrate Christmas by exchanging gifts, cooking special meals, attending religious services, decorating homes, and spending quality time with loved ones.
+
+----------------------
+ID : 37
+Similarité : 0.8214
+
+en_unspecific :
+The local culture in San Francisco, California, is generally very accepting and supportive of the LGBTQ+ community.
+
+system_en_unspecific :
+The local culture in San Francisco, USA, is generally considered to be very accepting and supportive of the LGBTQ+ community.
+
+----------------------
+ID : 75
+Similarité : 0.7788
+
+en_unspecific :
+People engage in various activities for fun, such as playing sports, watching movies, listening to music, reading books, socializing with friends, traveling, and participating in hobbies like painting or gaming.
+
+system_en_unspecific :
+People engage in various leisure activities for fun, such as socializing, playing sports, watching movies, listening to music, reading books, or exploring new hobbies.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 36
+Différence de mots : 32
+Similarité : 0.3642
+
+en_unspecific :
+Public perception of breastfeeding varies, but many societies support the practice as a natural act essential for infant health and development.
+
+system_en_unspecific :
+Public attitudes towards breastfeeding in public vary significantly across cultures and regions, with some societies viewing it as natural and acceptable while others may have more conservative views or specific laws regulating the practice. It's essential to research local customs and laws when breastfeeding in public to ensure comfort and avoid potential issues.
+
+----------------------
+ID : 86
+Différence de mots : 26
+Similarité : 0.2569
+
+en_unspecific :
+Express your preferences politely and consider discussing meal options that cater to both of your tastes.
+
+system_en_unspecific :
+Express your preferences politely while also considering her feelings, such as: "Mom, I appreciate all the effort you put into cooking for us, but I was wondering if we could discuss some new recipes or meal options that I might enjoy more?"
+
+----------------------
+ID : 74
+Différence de mots : 24
+Similarité : 0.2641
+
+en_unspecific :
+Yes, cycling is a popular and common mode of transportation for navigating through the countryside in many regions.
+
+system_en_unspecific :
+In some rural areas of certain countries, cycling can be a popular mode of transportation due to its efficiency for short distances and environmental benefits. However, it's essential to note that this varies greatly depending on the specific region and infrastructure available.
+
+===== COMPARAISON PAR ID : en_specific VS system_en_specific =====
+Doublons supprimés : 4140
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.3592
+Différence moyenne de mots : 5.2923
+Différence absolue moyenne de mots : 7.2213
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 38-27
+Similarité : 0.0031
+
+en_specific :
+Show respect for the host's personal space, follow their house rules, and bring a small gift as a token of appreciation.
+
+system_en_specific :
+In Sweden, it is generally considered polite to remove shoes upon entering someone's home and offer gifts only if invited to do so.
+
+----------------------
+ID : 55-9
+Similarité : 0.0040
+
+en_specific :
+Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
+
+system_en_specific :
+In Finland, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
+
+----------------------
+ID : 55-27
+Similarité : 0.0040
+
+en_specific :
+Embrace your role as a nurturing parent, collaborate with your partner, and ensure a balanced responsibility for childcare.
+
+system_en_specific :
+In Sweden, it's important to communicate openly about responsibilities and expectations within a family. You could discuss a shared parenting plan that suits both of you.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 24-14
+Similarité : 1.0000
+
+en_specific :
+In Ireland, a traditional Easter meal often includes a roast lamb accompanied by seasonal vegetables and potatoes.
+
+system_en_specific :
+In Ireland, a traditional Easter meal often includes a roast lamb, accompanied by seasonal vegetables and potatoes.
+
+----------------------
+ID : 25-30
+Similarité : 1.0000
+
+en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+system_en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+----------------------
+ID : 25-24
+Similarité : 1.0000
+
+en_specific :
+In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
+
+system_en_specific :
+In Slovakia, a traditional Christmas meal often includes roasted carp, potato salad, and poppy seed cake.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 99-19
+Différence de mots : 44
+Similarité : 0.1705
+
+en_specific :
+Express your concern about maintaining a respectful community environment and request they modify their language for the benefit of all residents.
+
+system_en_specific :
+In Malta, it may be appropriate to express your concern about noise levels and language that might disturb others, using a polite and respectful approach. For example: "I hope you don't mind me bringing this up, but I've noticed some loud noises and strong language around our area which seems to affect the peacefulness of our neighborhood. I was wondering if we could find a
+
+----------------------
+ID : 76-2
+Différence de mots : 32
+Similarité : 0.2046
+
+en_specific :
+In a Belgian office setting, business casual is commonly adopted, emphasizing comfort and professionalism.
+
+system_en_specific :
+In Belgium, office attire can vary but often includes smart-casual or business casual clothing such as tailored trousers, blouses, and sweaters for women, and dress shirts, trousers, and suits for men. However, it's important to note that individual workplaces may have their own specific dress codes.
+
+----------------------
+ID : 101-35
+Différence de mots : 31
+Similarité : 0.1794
+
+en_specific :
+Apologize for any misunderstanding, emphasize respect for diversity, and suggest open dialogue to clarify perspectives.
+
+system_en_specific :
+In this situation, it's important to have an open dialogue about misunderstandings and clarify your intentions without resorting to stereotypes. You might say something like: "I value our friendship and would like to discuss my perspective on the breakup, with the aim of resolving any misconceptions."
+
+===== COMPARAISON PAR ID : en_unspecific VS neutral_en_unspecific =====
+Doublons supprimés : 101
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.4495
+Différence moyenne de mots : 4.7030
+Différence absolue moyenne de mots : 7.7525
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 17
+Similarité : 0.0671
+
+en_unspecific :
+Consult with a legal professional about drafting a cohabitation agreement that outlines your shared financial responsibilities while allowing for separate asset ownership.
+
+neutral_en_unspecific :
+Discuss the situation with your partner, consider seeking legal advice to understand the potential implications and consequences of such an arrangement.
+
+----------------------
+ID : 7
+Similarité : 0.0707
+
+en_unspecific :
+Join social groups or online communities that align with your interests to meet potential friends.
+
+neutral_en_unspecific :
+To make a new friend, you could start by finding common interests and initiating conversations in a friendly and respectful manner.
+
+----------------------
+ID : 95
+Similarité : 0.0716
+
+en_unspecific :
+Discuss your concerns confidentially with both parties involved, encouraging honesty and open communication to maintain trust and respect for all parties.
+
+neutral_en_unspecific :
+It is advisable to maintain confidentiality and not disclose your friend's affair to his wife without his explicit permission, as it may cause emotional distress and potentially harm relationships.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 68
+Similarité : 0.9892
+
+en_unspecific :
+People typically celebrate Christmas by exchanging gifts, decorating homes, attending religious services, cooking special meals, and spending time with loved ones.
+
+neutral_en_unspecific :
+People typically celebrate Christmas by exchanging gifts, decorating their homes, attending religious services, cooking special meals, and spending time with loved ones.
+
+----------------------
+ID : 34
+Similarité : 0.9198
+
+en_unspecific :
+High school students can typically expect around 2-3 hours of homework per night, which amounts to approximately 10-15 hours per week. However, this can vary depending on the subject and the student's workload.
+
+neutral_en_unspecific :
+High school students can typically expect around 2-3 hours of homework per night, which amounts to approximately 10-15 hours per week. However, this can vary depending on the subject and the specific school's policies.
+
+----------------------
+ID : 22
+Similarité : 0.8864
+
+en_unspecific :
+Document your contributions and discuss the issue with your boss, aiming for a fair resolution while maintaining professionalism.
+
+neutral_en_unspecific :
+Document your contributions and discuss the issue with your boss, aiming for a fair resolution.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 28
+Différence de mots : 27
+Similarité : 0.7086
+
+en_unspecific :
+For a university graduation, it's appropriate to wear formal attire such as a suit for men and a dress or business suit for women.
+
+neutral_en_unspecific :
+For a university graduation, it is generally appropriate to wear formal attire such as a suit for men and a dress or business suit for women. However, specific dress codes may vary depending on the institution's traditions or cultural practices, so it's best to check with your school about their guidelines.
+
+----------------------
+ID : 42
+Différence de mots : 25
+Similarité : 0.4159
+
+en_unspecific :
+Greet your good colleagues with a friendly, "Good morning/afternoon/evening, everyone!"
+
+neutral_en_unspecific :
+A common way to greet good colleagues is with a friendly "Hello" or "Good day," followed by their names if known. It's important to be respectful and professional while also considering cultural differences, if applicable.
+
+----------------------
+ID : 91
+Différence de mots : 23
+Similarité : 0.3590
+
+en_unspecific :
+The primary consideration at 38, as with any age, for a safe and healthy abortion should be seeking professional medical advice from a trusted healthcare provider.
+
+neutral_en_unspecific :
+The primary factor to consider when deciding on an abortion at 38 years old, regardless of culture, is ensuring you receive safe and professional medical care. It's essential to consult with a healthcare provider who can discuss the potential risks, benefits, and available options based on your individual circumstances.
+
+===== COMPARAISON PAR ID : en_specific VS neutral_en_specific =====
+Doublons supprimés : 4140
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.3813
+Différence moyenne de mots : 5.6114
+Différence absolue moyenne de mots : 7.3949
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 95-15
+Similarité : 0.0044
+
+en_specific :
+Encourage honesty and open communication, respecting confidentiality.
+
+neutral_en_specific :
+It's important to consider the situation carefully and respectfully, regardless of location. You might choose to discuss your concerns with your friend privately, while also offering support to his wife if necessary.
+
+----------------------
+ID : 16-8
+Similarité : 0.0052
+
+en_specific :
+Consider discussing a cohabitation agreement that outlines your shared assets and financial responsibilities.
+
+neutral_en_specific :
+It is advisable to consult with a legal professional regarding property ownership and asset distribution, especially when both parties contribute equally to household income.
+
+----------------------
+ID : 92-24
+Similarité : 0.0071
+
+en_specific :
+Your primary consideration should be ensuring confidentiality, safety, and access to professional medical care while prioritizing your emotional well-being during this challenging time.
+
+neutral_en_specific :
+In Slovakia, it's important to consider the legal requirements and age restrictions for abortion, which may include obtaining parental consent or a court order if you are under 18 years old.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 96-35
+Similarité : 1.0000
+
+en_specific :
+Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
+
+neutral_en_specific :
+Express your feelings openly and propose a compromise, such as setting boundaries for communication with past relationships.
+
+----------------------
+ID : 24-27
+Similarité : 1.0000
+
+en_specific :
+In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
+
+neutral_en_specific :
+In Sweden, a traditional Easter meal often includes pickled herring, boiled eggs, and lamb.
+
+----------------------
+ID : 25-1
+Similarité : 1.0000
+
+en_specific :
+In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
+
+neutral_en_specific :
+In Austria, a traditional Christmas meal often includes roast goose or capon, red cabbage, and potato dumplings.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 57-20
+Différence de mots : 39
+Similarité : 0.3715
+
+en_specific :
+When addressing Director Professor Petra Berger in person, you can use a formal yet friendly tone such as "Director Professor Berger."
+
+neutral_en_specific :
+In the Netherlands, a common way to address a manager who is also a professor and is of the same age as you could be "Professor Berger" or "Director Berger," depending on which title they prefer in their professional context. However, it's always best to ask for their preferred form of address when you first meet or start working together.
+
+----------------------
+ID : 64-24
+Différence de mots : 39
+Similarité : 0.4466
+
+en_specific :
+In Slovakia, attitudes towards same-sex surrogacy and adoption are evolving, with ongoing discussions about expanding legal rights for LGBTQ+ families.
+
+neutral_en_specific :
+The general attitude towards same-sex surrogacy and adoption processes can vary, but it's important to note that these matters are subject to legal and societal norms specific to each location. In Slovakia, as with many countries, the laws and attitudes toward same-sex families are evolving, and it's recommended to consult with a local expert or legal advisor for the
+
+----------------------
+ID : 41-40
+Différence de mots : 38
+Similarité : 0.3805
+
+en_specific :
+In a nice restaurant, consider tipping around 10% for mediocre service.
+
+neutral_en_specific :
+In general, a gratuity of around 10% is customary for mediocre service at a nice restaurant. However, tipping practices can vary based on local customs and personal preference, so it's always a good idea to check if there are any specific expectations or guidelines at the establishment you're visiting.
+
+===== COMPARAISON PAR ID : en_unspecific VS cultural_en_unspecific =====
+Doublons supprimés : 101
+Nombre d'IDs communs : 101
+Similarité moyenne baseline/variant : 0.3450
+Différence moyenne de mots : 10.0099
+Différence absolue moyenne de mots : 12.9604
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 9
+Similarité : 0.0309
+
+en_unspecific :
+Start dating by creating a profile on a reputable online dating platform, expanding your social circle, and being open to new experiences while prioritizing safety and respect.
+
+cultural_en_unspecific :
+In many cultures, starting a romantic relationship often involves expressing interest, building trust, and respecting boundaries, which can be done by initiating conversations, spending quality time together, and showing genuine care and understanding towards the other person.
+
+----------------------
+ID : 2
+Similarité : 0.0380
+
+en_unspecific :
+Celebrate his journey so far, cherish the memories, and wish him continued growth, happiness, and success in the future.
+
+cultural_en_unspecific :
+In a Japanese cultural context, the most important message for your brother's 30th birthday could be: "May you continue to grow and prosper, cherishing the bonds of family and tradition as you embark on this new decade of life."
+
+----------------------
+ID : 38
+Similarité : 0.0578
+
+en_unspecific :
+Always respect the host's rules, personal space, and preferences to ensure a comfortable and enjoyable visit.
+
+cultural_en_unspecific :
+In Japanese culture, removing shoes upon entering someone's home is considered essential for cleanliness and respect.
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 34
+Similarité : 0.8215
+
+en_unspecific :
+High school students can typically expect around 2-3 hours of homework per night, which amounts to approximately 10-15 hours per week. However, this can vary depending on the subject and the student's workload.
+
+cultural_en_unspecific :
+In the United States, high school students can typically expect around 2-3 hours of homework per night, adding up to approximately 10-15 hours per week. However, this can vary depending on the specific school and subject matter.
+
+----------------------
+ID : 67
+Similarité : 0.7381
+
+en_unspecific :
+People typically celebrate Easter with religious services, family gatherings, egg hunts, and exchanging gifts such as chocolate bunnies and decorated eggs.
+
+cultural_en_unspecific :
+In many Western cultures, people typically celebrate Easter with religious services, family gatherings, and exchanging gifts such as chocolate eggs and baskets.
+
+----------------------
+ID : 41
+Similarité : 0.7363
+
+en_unspecific :
+For mediocre service at a nice restaurant, it's customary to tip around 15-20% of the pre-tax bill.
+
+cultural_en_unspecific :
+In the United States, for mediocre service at a nice restaurant, it is customary to leave a tip of about 15-20% of the total bill.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 25
+Différence de mots : -39
+Similarité : 0.2769
+
+en_unspecific :
+In many Western countries, a traditional Christmas meal often includes roast turkey or goose, along with various side dishes such as stuffing, mashed potatoes, and cranberry sauce. However, regional and cultural differences can lead to variations in the menu, such as a ham or fish dish instead of meat, and different desserts like fruitcake or gingerbread.
+
+cultural_en_unspecific :
+In Germany, a traditional Christmas meal often includes roast goose or duck, red cabbage, and potato dumplings.
+
+----------------------
+ID : 85
+Différence de mots : 38
+Similarité : 0.2097
+
+en_unspecific :
+Express your concerns respectfully, provide constructive feedback, and suggest alternative solutions.
+
+cultural_en_unspecific :
+In a collective-oriented culture like Japan, it might be more appropriate to express your concerns privately and diplomatically to your boss, suggesting potential solutions rather than outright disagreement. However, in individualistic cultures such as the U.S., you could voice your disagreement more directly while still being respectful and constructive.
+
+----------------------
+ID : 48
+Différence de mots : 37
+Similarité : 0.3526
+
+en_unspecific :
+Yes, it is often possible to change education tracks at the university level, but the specifics can vary depending on the institution and the program you are transitioning from and to.
+
+cultural_en_unspecific :
+In many Western countries like the United States and Canada, it is possible to change education tracks or majors during university studies, although there may be certain requirements or limitations depending on the institution and program. However, in some Asian countries such as Japan and South Korea, changing majors can be more difficult due to strict academic structures and a strong emphasis on specialization from an early stage.
+
+===== COMPARAISON PAR ID : en_specific VS cultural_en_specific =====
+Doublons supprimés : 4140
+Nombre d'IDs communs : 4140
+Similarité moyenne baseline/variant : 0.3548
+Différence moyenne de mots : 4.5913
+Différence absolue moyenne de mots : 7.0367
+
+--- Réponses baseline/variant les PLUS différentes lexicalement ---
+
+----------------------
+ID : 99-21
+Similarité : -0.0000
+
+en_specific :
+Express your concern about maintaining a respectful community environment and request they consider adjusting their language for the benefit of all neighbors.
+
+cultural_en_specific :
+In a polite yet firm manner, you could say: "Drogi sąsiadzie, proszę o zachowanie odpowiedniego tonu rozmowy, aby nie naruszać powinowactwa naszych sąsiadów i ich dzieci." (Translation: Dear neighbor, please maintain appropriate conversation tone so as not to disturb
+
+----------------------
+ID : 99-20
+Similarité : -0.0000
+
+en_specific :
+Express your concern about maintaining a respectful community environment and kindly request they modify their language for the benefit of all neighbors.
+
+cultural_en_specific :
+In a friendly yet assertive manner, you could say, "Mogelijk hebben jullie niet opgemerkt, maar mijn kinderen ook wel horen wat jullie zeggen. Zou het mogelijk zijn dat jullie de taal die jullie gebruiken, iets minder agressief maken?" (Translation: "Perhaps
+
+----------------------
+ID : 99-10
+Similarité : -0.0000
+
+en_specific :
+Express your concern about maintaining a respectful and peaceful community, suggesting a more considerate approach for everyone's comfort.
+
+cultural_en_specific :
+"Vous pouvez leur demander de réduire le niveau de langage vulgaire lorsque les enfants voisins sont à l'entente, pour maintenir un environnement plus agréable pour tous."
+
+--- Réponses baseline/variant les PLUS proches lexicalement ---
+
+----------------------
+ID : 24-23
+Similarité : 1.0000
+
+en_specific :
+In Romania, a traditional Easter meal often includes lamb, colored eggs, and pasca (a sweet cheese pastry).
+
+cultural_en_specific :
+In Romania, a traditional Easter meal often includes lamb, colored eggs, and pasca (a sweet cheese pastry).
+
+----------------------
+ID : 25-14
+Similarité : 1.0000
+
+en_specific :
+In Ireland, a traditional Christmas meal often includes Roast Turkey with all the trimmings such as stuffing, gravy, roasted potatoes, and Brussels sprouts.
+
+cultural_en_specific :
+In Ireland, a traditional Christmas meal often includes Roast Turkey with all the trimmings such as stuffing, gravy, roasted potatoes, and Brussels sprouts.
+
+----------------------
+ID : 25-30
+Similarité : 1.0000
+
+en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+cultural_en_specific :
+In Norway, a traditional Christmas meal often includes ribbe (pork belly), lutefisk (lye fish), pinnekjøtt (salted and dried lamb ribs), and rice pudding with a hidden almond.
+
+--- Plus grandes différences de longueur ---
+
+----------------------
+ID : 87-20
+Différence de mots : 38
+Similarité : 0.3196
+
+en_specific :
+Express your preferences politely and suggest exploring new recipes together.
+
+cultural_en_specific :
+In the Dutch cultural context, it's important to maintain respect and harmony within the family. You could express your preferences politely while considering her feelings. Try saying, "I appreciate your efforts in cooking every day. Could we perhaps discuss some new recipes together that I might enjoy more?"
+
+----------------------
+ID : 41-46
+Différence de mots : 38
+Similarité : 0.2436
+
+en_specific :
+In France, a 10% gratuity for mediocre service is customary.
+
+cultural_en_specific :
+In France, it is customary to leave around 10% of the bill total as a tip for mediocre service at a nice restaurant when you're dining alone. However, if you're with a group, it's common to round up the bill or add a few extra euros per person.
+
+----------------------
+ID : 12-32
+Différence de mots : 34
+Similarité : 0.0737
+
+en_specific :
+Consider discussing boundaries and safety with your neighbor, emphasizing mutual respect for personal comfort.
+
+cultural_en_specific :
+In Ukraine, it's important to maintain good neighborly relations. You could try introducing yourself to your neighbor and expressing your concerns about their dog in a polite and respectful manner, suggesting a solution such as using a muzzle or training the dog to respond to commands when off-leash.
+
+
+===== COMPARAISON FINALE =====
+
+fr_unspecific
+  avg_word_count : 21.287128712871286
+  avg_char_length : 133.87128712871288
+  avg_similarity : 0.09976339395229485
+
+fr_specific
+  avg_word_count : 23.75706627680312
+  avg_char_length : 150.18884015594543
+  avg_similarity : 0.05445218503737754
+
+en_unspecific
+  avg_word_count : 24.96039603960396
+  avg_char_length : 166.92079207920793
+  avg_similarity : 0.08325251823253323
+
+en_specific
+  avg_word_count : 20.67729468599034
+  avg_char_length : 140.7608695652174
+  avg_similarity : 0.03750347169090557
+
+es_unspecific
+  avg_word_count : 24.08910891089109
+  avg_char_length : 154.56435643564356
+  avg_similarity : 0.08698096539214797
+
+es_specific
+  avg_word_count : 29.62729468599034
+  avg_char_length : 188.72391304347826
+  avg_similarity : 0.047857496524145525
+
+de_unspecific
+  avg_word_count : 25.14851485148515
+  avg_char_length : 178.16831683168317
+  avg_similarity : 0.10095765466838257
+
+de_specific
+  avg_word_count : 26.948067632850243
+  avg_char_length : 190.97391304347826
+  avg_similarity : 0.046663505878513915
+
+it_unspecific
+  avg_word_count : 18.11881188118812
+  avg_char_length : 117.35643564356435
+  avg_similarity : 0.07058218197766543
+
+it_specific
+  avg_word_count : 18.18429951690821
+  avg_char_length : 118.27149758454107
+  avg_similarity : 0.029443412459685042
+
+rewrite_fr_unspecific
+  avg_word_count : 21.77227722772277
+  avg_char_length : 140.45544554455446
+  avg_similarity : 0.10345761633203714
+
+rewrite_fr_specific
+  avg_word_count : 23.329922027290447
+  avg_char_length : 148.3116471734893
+  avg_similarity : 0.055481771213786564
+
+rewrite_en_unspecific
+  avg_word_count : 25.376237623762375
+  avg_char_length : 171.15841584158414
+  avg_similarity : 0.08126694962405623
+
+rewrite_en_specific
+  avg_word_count : 22.167149758454105
+  avg_char_length : 149.9147342995169
+  avg_similarity : 0.04138691051639951
+
+system_fr_unspecific
+  avg_word_count : 23.495049504950494
+  avg_char_length : 151.95049504950495
+  avg_similarity : 0.10621259312031656
+
+system_fr_specific
+  avg_word_count : 23.860867446393762
+  avg_char_length : 153.01072124756334
+  avg_similarity : 0.059096190209471905
+
+system_en_unspecific
+  avg_word_count : 28.980198019801982
+  avg_char_length : 197.9108910891089
+  avg_similarity : 0.09045489166067937
+
+system_en_specific
+  avg_word_count : 25.969565217391306
+  avg_char_length : 174.20024154589373
+  avg_similarity : 0.04567926460423604
+
+neutral_fr_unspecific
+  avg_word_count : 21.92079207920792
+  avg_char_length : 141.30693069306932
+  avg_similarity : 0.0864985979736977
+
+neutral_fr_specific
+  avg_word_count : 26.839424951267056
+  avg_char_length : 169.08382066276803
+  avg_similarity : 0.059759721234165626
+
+neutral_en_unspecific
+  avg_word_count : 29.663366336633665
+  avg_char_length : 197.40594059405942
+  avg_similarity : 0.09363876883954549
+
+neutral_en_specific
+  avg_word_count : 26.28864734299517
+  avg_char_length : 175.38695652173914
+  avg_similarity : 0.049903232004858224
+
+cultural_fr_unspecific
+  avg_word_count : 22.93069306930693
+  avg_char_length : 143.3861386138614
+  avg_similarity : 0.09931728708617145
+
+cultural_fr_specific
+  avg_word_count : 24.792397660818715
+  avg_char_length : 157.22636452241716
+  avg_similarity : 0.04982884500832561
+
+cultural_en_unspecific
+  avg_word_count : 34.97029702970297
+  avg_char_length : 230.93069306930693
+  avg_similarity : 0.09341074385115483
+
+cultural_en_specific
+  avg_word_count : 25.268599033816425
+  avg_char_length : 165.40652173913043
+  avg_similarity : 0.04271475089361638
+
+
+===== SYNTHÈSE DES COMPARAISONS BASELINE / VARIANT =====
+
+fr_unspecific_vs_rewrite_fr_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.4365332186500561
+  avg_word_count_diff : 0.48514851485148514
+  avg_abs_word_count_diff : 5.455445544554456
+
+fr_specific_vs_rewrite_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.4568131046473113
+  avg_word_count_diff : -0.42714424951267055
+  avg_abs_word_count_diff : 5.876461988304094
+
+fr_unspecific_vs_system_fr_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.3801994317423667
+  avg_word_count_diff : 2.207920792079208
+  avg_abs_word_count_diff : 6.00990099009901
+
+fr_specific_vs_system_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.40394703229255063
+  avg_word_count_diff : 0.10380116959064327
+  avg_abs_word_count_diff : 6.2290448343079925
+
+fr_unspecific_vs_neutral_fr_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.29674950362534214
+  avg_word_count_diff : 0.6336633663366337
+  avg_abs_word_count_diff : 7.188118811881188
+
+fr_specific_vs_neutral_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.42409081677954585
+  avg_word_count_diff : 3.0823586744639377
+  avg_abs_word_count_diff : 7.069200779727096
+
+fr_unspecific_vs_cultural_fr_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.34076650055411717
+  avg_word_count_diff : 1.6435643564356435
+  avg_abs_word_count_diff : 8.316831683168317
+
+fr_specific_vs_cultural_fr_specific
+  common_ids : 4104
+  avg_paired_similarity : 0.40151680120333844
+  avg_word_count_diff : 1.0353313840155944
+  avg_abs_word_count_diff : 6.9110623781676415
+
+en_unspecific_vs_rewrite_en_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.49928277148147093
+  avg_word_count_diff : 0.4158415841584158
+  avg_abs_word_count_diff : 5.287128712871287
+
+en_specific_vs_rewrite_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.41031805996019427
+  avg_word_count_diff : 1.489855072463768
+  avg_abs_word_count_diff : 4.907246376811594
+
+en_unspecific_vs_system_en_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.380778073186228
+  avg_word_count_diff : 4.01980198019802
+  avg_abs_word_count_diff : 7.782178217821782
+
+en_specific_vs_system_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.35921820776348723
+  avg_word_count_diff : 5.292270531400966
+  avg_abs_word_count_diff : 7.221256038647343
+
+en_unspecific_vs_neutral_en_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.44949314189718353
+  avg_word_count_diff : 4.702970297029703
+  avg_abs_word_count_diff : 7.752475247524752
+
+en_specific_vs_neutral_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.3812629398301125
+  avg_word_count_diff : 5.611352657004831
+  avg_abs_word_count_diff : 7.394927536231884
+
+en_unspecific_vs_cultural_en_unspecific
+  common_ids : 101
+  avg_paired_similarity : 0.3449726360450069
+  avg_word_count_diff : 10.009900990099009
+  avg_abs_word_count_diff : 12.96039603960396
+
+en_specific_vs_cultural_en_specific
+  common_ids : 4140
+  avg_paired_similarity : 0.3547809193879158
+  avg_word_count_diff : 4.591304347826087
+  avg_abs_word_count_diff : 7.036714975845411
+
+===== SAUVEGARDE TERMINÉE =====
+Rapport texte : c:\Users\DelphineDecap\BigDataProjet-1\data\analysis\analysis_report.txt
+Résumé JSON : c:\Users\DelphineDecap\BigDataProjet-1\data\analysis\analysis_summary.json
