@@ -1,9 +1,9 @@
-Current working dir: C:\Users\DelphineDecap\BigDataProjet-1
-Data dir: c:\Users\DelphineDecap\BigDataProjet-1\data\output
-Analysis dir: c:\Users\DelphineDecap\BigDataProjet-1\data\analysis
+Current working dir: C:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet
+Data dir: c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output
+Analysis dir: c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\analysis
 
 ===== ANALYSE : fr_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -95,7 +95,7 @@ Exemple 3 :
 "Célébrons avec ferveur le 70ème anniversaire de notre cher grand-père, remerciant sa vie remarquable et son amour constant."
 
 ===== ANALYSE : rewrite_fr_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_fr_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_fr_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -187,7 +187,7 @@ Exemple 3 :
 "Célébrons avec amour et gratitude la vie remarquable de notre grand-père, qui a marqué nos vies pendant 70 ans."
 
 ===== ANALYSE : system_fr_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_fr_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_fr_unspecific_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -284,7 +284,7 @@ Exemple 3 :
 "Célébrons la vie remarquable de notre grand-père, qui a marqué nos vies avec son amour et sa sagesse."
 
 ===== ANALYSE : neutral_fr_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_unspecific_neutral_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -299,7 +299,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.0864985979736977
+Average similarity: 0.08649859797369769
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.2776997302260265}
@@ -377,7 +377,7 @@ Exemple 3 :
 "Celebrating 70 years of life and love, here's to a lifetime of memories with you, Grandpa."
 
 ===== ANALYSE : cultural_fr_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_unspecific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_unspecific_cultural_output.jsonl
 Doublons supprimés : 95
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -499,7 +499,7 @@ Exemple 3 :
 Pour le 70ème anniversaire de votre grand-père, un message central pourrait être : "Félicitations chaleureuses pour tes 70 ans remplis d'expériences et de souvenirs précieux !" (En français, langue couramment utilisée en France).
 
 ===== ANALYSE : fr_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_specific_output.jsonl
 Nombre de réponses analysées : 4104
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -513,7 +513,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4104, 4104)
-Average similarity: 0.05445218503737754
+Average similarity: 0.05445218503737757
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.1317457251962571}
@@ -710,7 +710,7 @@ Exemple 3 :
 Pour un petit-déjeuner traditionnel bulgare, vous pouvez servir du yogurt bulgare avec des fruits frais et des pains roulés (бонушки).
 
 ===== ANALYSE : rewrite_fr_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_fr_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_fr_specific_output.jsonl
 Nombre de réponses analysées : 4104
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -724,7 +724,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4104, 4104)
-Average similarity: 0.055481771213786564
+Average similarity: 0.05548177121378651
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0034296268090197213, 'high_similarity': 0.13525428872998016}
@@ -802,7 +802,7 @@ Exemple 3 :
 Pour un petit-déjeuner traditionnel bulgare, vous pouvez servir du kiselo mlyako (yaourt acide) avec des compotes de fruits et du pain bulgare.
 
 ===== ANALYSE : system_fr_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_fr_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_fr_specific_output.jsonl
 Doublons supprimés : 4104
 Nombre de réponses analysées : 4104
 Calcul TF-IDF + similarité...
@@ -817,7 +817,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4104, 4104)
-Average similarity: 0.059096190209471905
+Average similarity: 0.059096190209471954
 
 --- Analyse qualitative ---
 {'low_similarity': 0.005229551632079376, 'high_similarity': 0.1419055444530397}
@@ -895,7 +895,7 @@ Exemple 3 :
 En Bulgarie, pour un petit-déjeuner traditionnel, vous pouvez servir du pain, du yaourt, des fromages et des fruits frais.
 
 ===== ANALYSE : neutral_fr_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_specific_neutral_output.jsonl
 Doublons supprimés : 4104
 Nombre de réponses analysées : 4104
 Calcul TF-IDF + similarité...
@@ -910,7 +910,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4104, 4104)
-Average similarity: 0.059759721234165626
+Average similarity: 0.0597597212341656
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.14347700765280974}
@@ -1002,7 +1002,7 @@ Exemple 3 :
 Pour un petit-déjeuner traditionnel bulgare pour un enfant, vous pouvez servir du kiselo mlyako (yaourt acide) avec des fruits frais et des petits pains bulgares (lekarma).
 
 ===== ANALYSE : cultural_fr_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\fr_specific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\fr_specific_cultural_output.jsonl
 Doublons supprimés : 4104
 Nombre de réponses analysées : 4104
 Calcul TF-IDF + similarité...
@@ -1017,7 +1017,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4104, 4104)
-Average similarity: 0.04982884500832561
+Average similarity: 0.049828845008325566
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.1295655036731137}
@@ -1095,7 +1095,7 @@ Exemple 3 :
 En Bulgarie, vous pouvez servir du kiselak (киселак) à votre enfant pour le petit-déjeuner, un plat traditionnel bulgare à base de fruits macérés dans du sucre et de l'eau.
 
 ===== ANALYSE : en_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -1187,7 +1187,7 @@ Exemple 3 :
 "Celebrating your 70th birthday, we honor your life of wisdom, love, and resilience, cherishing every moment spent with you."
 
 ===== ANALYSE : rewrite_en_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_en_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_en_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -1201,7 +1201,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.08126694962405623
+Average similarity: 0.08126694962405624
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0017595246332177445, 'high_similarity': 0.19381541551173848}
@@ -1279,7 +1279,7 @@ Exemple 3 :
 "Celebrating your 70th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and memories you have shared with us."
 
 ===== ANALYSE : system_en_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_en_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_en_unspecific_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -1294,7 +1294,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.09045489166067937
+Average similarity: 0.09045489166067935
 
 --- Analyse qualitative ---
 {'low_similarity': 0.011394091870673537, 'high_similarity': 0.19639410620522804}
@@ -1372,7 +1372,7 @@ Exemple 3 :
 "Celebrate your life's journey, cherish memories, and look forward to the continued growth of our family bonds."
 
 ===== ANALYSE : neutral_en_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_unspecific_neutral_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -1465,7 +1465,7 @@ Exemple 3 :
 "Celebrating your 70th birthday is a testament to a life well-lived, and we are grateful for the love, wisdom, and memories you have shared with us."
 
 ===== ANALYSE : cultural_en_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_unspecific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_unspecific_cultural_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -1480,7 +1480,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.09341074385115483
+Average similarity: 0.09341074385115485
 
 --- Analyse qualitative ---
 {'low_similarity': 0.009499295989923384, 'high_similarity': 0.2052546431780318}
@@ -1558,7 +1558,7 @@ Exemple 3 :
 In a Japanese cultural context for a grandfather's 70th birthday, the most important message could be: "Celebrating your 70th birthday is a testament to a lifetime of wisdom and love, cherished by our family."
 
 ===== ANALYSE : en_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -1572,7 +1572,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.03750347169090557
+Average similarity: 0.03750347169090556
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.10341568517343366}
@@ -1650,7 +1650,7 @@ Exemple 3 :
 Enjoy a traditional Bulgarian breakfast with banitsa, a flaky pastry filled with cheese or spinach.
 
 ===== ANALYSE : rewrite_en_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_en_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_en_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -1664,7 +1664,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.04138691051639951
+Average similarity: 0.0413869105163996
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.10973661478276793}
@@ -1742,7 +1742,7 @@ Exemple 3 :
 Start your day like Bulgarians with a traditional breakfast of banitsa, a flaky pastry filled with cheese or spinach.
 
 ===== ANALYSE : system_en_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_en_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_en_specific_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -1835,7 +1835,7 @@ Exemple 3 :
 A traditional Bulgarian breakfast often includes a variety of dairy products such as yogurt, cheese, and/or ayran (a yogurt drink), accompanied by bread, honey, and fruits like kiwi or peaches.
 
 ===== ANALYSE : neutral_en_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_specific_neutral_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -1850,7 +1850,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.049903232004858224
+Average similarity: 0.04990323200485817
 
 --- Analyse qualitative ---
 {'low_similarity': 0.003668666002440772, 'high_similarity': 0.12464327827570995}
@@ -1928,7 +1928,7 @@ Exemple 3 :
 A traditional Bulgarian breakfast option could include a variety of foods such as yogurt with honey, banitsa (a flaky pastry filled with cheese), and boiled eggs.
 
 ===== ANALYSE : cultural_en_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\en_specific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\en_specific_cultural_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -1943,7 +1943,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.04271475089361638
+Average similarity: 0.04271475089361642
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0035210895588150526, 'high_similarity': 0.1109549756841624}
@@ -2021,7 +2021,7 @@ Exemple 3 :
 Serve your child a traditional Bulgarian breakfast of banitsa, kiselo mlyako, and boiled eggs.
 
 ===== ANALYSE : es_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -2117,7 +2117,7 @@ Exemple 3 :
 "El amor y la gratitud que tú has transmitido a lo largo de los años siguen siendo nuestra fuente de inspiración. Feliz cumpleaños, abuelo querido!"
 
 ===== ANALYSE : rewrite_es_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_es_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_es_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -2209,7 +2209,7 @@ Exemple 3 :
 "Agradezco tu vida, tus logros y tu amor; feliz cumpleaños, abuelo."
 
 ===== ANALYSE : system_es_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_es_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_es_unspecific_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -2302,7 +2302,7 @@ Exemple 3 :
 "Agradezco a todos por su apoyo y amor a lo largo de los años, y espero que este día sea un recuerdo agradable para siempre."
 
 ===== ANALYSE : neutral_es_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_unspecific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_unspecific_neutral_output.jsonl
 Doublons supprimés : 100
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -2399,7 +2399,7 @@ Exemple 3 :
 "Celebrating your 70th birthday is a testament to a life well-lived. Here's to cherishing memories, creating more, and wishing you continued happiness."
 
 ===== ANALYSE : cultural_es_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_unspecific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_unspecific_cultural_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -2492,7 +2492,7 @@ Exemple 3 :
 "El amor familiar es la fuente más preciosa de nuestra felicidad." (This phrase is in Spanish, which suggests a Latin American or Hispanic cultural context.)
 
 ===== ANALYSE : es_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -2506,7 +2506,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.047857496524145525
+Average similarity: 0.04785749652414564
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.1188634945013792}
@@ -2584,7 +2584,7 @@ Exemple 3 :
 Para desayunar como los locales en Bulgaria, puedes servirle a tu hijo un plato tradicional como el menemen (huevos cocidos con pimientos rojos y cebolla), pan de centeno o pan de trigo, y jugos frescos de frutas como la manzana o la naranja.
 
 ===== ANALYSE : rewrite_es_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_es_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_es_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -2598,7 +2598,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.03928389575414753
+Average similarity: 0.0392838957541475
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.10677293426797815}
@@ -2676,7 +2676,7 @@ Exemple 3 :
 En Bulgaria, un desayuno típico incluye yogurto con miel, pan con queso o mermelada, y café o té.
 
 ===== ANALYSE : system_es_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_es_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_es_specific_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -2691,7 +2691,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.04427988624156825
+Average similarity: 0.044279886241568284
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.1154164957691814}
@@ -2769,7 +2769,7 @@ Exemple 3 :
 En Bulgaria, un desayuno típico puede incluir pan con queso, yogurto o huevos cocidos.
 
 ===== ANALYSE : neutral_es_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_specific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_specific_neutral_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -2784,7 +2784,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.05485875581284326
+Average similarity: 0.054858755812843316
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.13466506486202512}
@@ -2862,7 +2862,7 @@ Exemple 3 :
 Para el desayuno, puedes servirle a tu hijo un plato tradicional búlgaro como el menemen (un plato hecho con huevos, pimientos rojos, cebolla y especias) o el kiselo mlyako (yogurto agrio con miel).
 
 ===== ANALYSE : cultural_es_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\es_specific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\es_specific_cultural_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -2955,7 +2955,7 @@ Exemple 3 :
 Para desayunar como los locales en Bulgaria, podrías servirle a tu hijo un plato tradicional como el menemen (huevos cocidos con pimientos rojos y cebolla), pan de centeno o pan de trigo, y queso búlgaro.
 
 ===== ANALYSE : de_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -3047,7 +3047,7 @@ Exemple 3 :
 Die wichtigste Aussage Ihrer Rede auf dem 70. Geburtstag Ihres Opas lautet: "Ich bin stolz darauf, dass ich Ihren Geburtstag mit Ihnen feiern kann und ich hoffe, dass wir noch viele weitere Jahre zusammen leben werden."
 
 ===== ANALYSE : rewrite_de_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_de_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_de_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -3139,7 +3139,7 @@ Exemple 3 :
 Die wichtigste Aussage Ihrer Rede zum 70. Geburtstag deines Opas ist: "Ich danken dir für die unvergesslichen Erinnerungen und die Stärke, die du unsere Familie gegeben hast."
 
 ===== ANALYSE : system_de_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_de_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_de_unspecific_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -3232,7 +3232,7 @@ Exemple 3 :
 Die wichtigste Aussage Ihrer Rede zum 70. Geburtstag deines Opas betont seine persönlichen Erfolge und Beiträge, aber auch die tiefe Bindung an seine Familie und Freunde.
 
 ===== ANALYSE : neutral_de_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_unspecific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_unspecific_neutral_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -3325,7 +3325,7 @@ Exemple 3 :
 The most important statement in my speech on my grandfather's 70th birthday is a celebration of his life, achievements, and the love he has shared with our family throughout the years.
 
 ===== ANALYSE : cultural_de_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_unspecific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_unspecific_cultural_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -3420,7 +3420,7 @@ Exemple 3 :
 Die wichtigste Aussage Ihrer Rede auf dem 70. Geburtstag Ihres Opas könnte sein, dass die Familie und seine Liebe zu ihm die größte Erinnerung an ihn bleiben wird. (German context)
 
 ===== ANALYSE : de_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -3434,7 +3434,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.046663505878513915
+Average similarity: 0.046663505878513985
 
 --- Analyse qualitative ---
 {'low_similarity': 0.002701351054623433, 'high_similarity': 0.11454950119861339}
@@ -3514,7 +3514,7 @@ Exemple 3 :
 Für ein traditionelles bulgarisches Frühstück könnten Sie Brot, Käse und Joghurt servieren, zusätzlich können Sie Marmelade oder Konfitüre anbieten. Ein typischer bulgarischer Tee ist der Scharbanowski-Tee.
 
 ===== ANALYSE : rewrite_de_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_de_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_de_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -3528,7 +3528,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.041453829991190856
+Average similarity: 0.041453829991190946
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.11172404342506882}
@@ -3606,7 +3606,7 @@ Exemple 3 :
 Morgens können Sie Ihrem Kind traditionelle bulgarische Gerichte wie Kiselo mlyako (Joghurt mit Zitronen), Banitsa (Käse- und Eierpuff) oder Mekitsi (Fritters aus Mehl und Joghurt) servieren.
 
 ===== ANALYSE : system_de_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_de_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_de_specific_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -3621,7 +3621,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.05278331121839413
+Average similarity: 0.052783311218394184
 
 --- Analyse qualitative ---
 {'low_similarity': 0.003810272430931106, 'high_similarity': 0.13529205630398936}
@@ -3699,7 +3699,7 @@ Exemple 3 :
 Ein traditionelles bulgarisches Frühstück kann aus Brot, Joghurt, Käse und Marmelade bestehen.
 
 ===== ANALYSE : neutral_de_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_specific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_specific_neutral_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -3714,7 +3714,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.04369372768035667
+Average similarity: 0.04369372768035666
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.14180973462761276}
@@ -3796,7 +3796,7 @@ Exemple 3 :
 Um wie Einheimische in Bulgarien zu essen, könnten Sie Ihrem Kind für Frühstück traditionelle bulgarische Gerichte wie Maisbrei (Кукурджулия), Joghurt mit Honig und Nüssen oder Brot mit Schinken und Käse geben.
 
 ===== ANALYSE : cultural_de_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\de_specific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\de_specific_cultural_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -3811,7 +3811,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.03455639684925694
+Average similarity: 0.034556396849256946
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.11176865845461204}
@@ -3893,7 +3893,7 @@ Exemple 3 :
 Für ein traditionelles bulgarisches Frühstück solltest Du deinem Kind Kisel (eine rote Birne-Süßspeise), Meshana Salata (Gemischtes Gemüse) und Sirene (bulgarischer Weichkäse) geben.
 
 ===== ANALYSE : it_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -3985,7 +3985,7 @@ Exemple 3 :
 "Grazie per averci portati lontano e avanti, la tua storia sarà sempre un'ispirazione per noi."
 
 ===== ANALYSE : rewrite_it_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_it_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_it_unspecific_output.jsonl
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -4077,7 +4077,7 @@ Exemple 3 :
 "Grazie per aver costruito la base della nostra famiglia e per aver trasmesso i valori che ci guidano ancora oggi."
 
 ===== ANALYSE : system_it_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_it_unspecific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_it_unspecific_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -4170,7 +4170,7 @@ Exemple 3 :
 Il tuo messaggio più importante per il 70º compleanno del nonno potrebbe essere: "Grazie per aver costruito la base della nostra famiglia e per averci insegnato a valutare ciò che veramente importa."
 
 ===== ANALYSE : neutral_it_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_unspecific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_unspecific_neutral_output.jsonl
 Doublons supprimés : 101
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -4185,7 +4185,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.06556761019992606
+Average similarity: 0.06556761019992607
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.23901372845124616}
@@ -4263,7 +4263,7 @@ Exemple 3 :
 "Celebrating your 70th birthday is a testament to a life well-lived, cherished memories shared, and love that endures."
 
 ===== ANALYSE : cultural_it_unspecific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_unspecific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_unspecific_cultural_output.jsonl
 Doublons supprimés : 100
 Nombre de réponses analysées : 101
 Calcul TF-IDF + similarité...
@@ -4278,7 +4278,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (101, 101)
-Average similarity: 0.08283947591801236
+Average similarity: 0.08283947591801237
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.2137869810986748}
@@ -4360,7 +4360,7 @@ Exemple 3 :
 "Ricordando con affetto i nostri ricordi passati, auguro un compleanno felice e pieno di amore." (Italian)
 
 ===== ANALYSE : it_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -4374,7 +4374,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.029443412459685042
+Average similarity: 0.02944341245968504
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.09308082723883339}
@@ -4452,7 +4452,7 @@ Exemple 3 :
 Per colazione, servire Panino con formaggio sveglia e yogurt bulgaro.
 
 ===== ANALYSE : rewrite_it_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_rewrite_it_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_rewrite_it_specific_output.jsonl
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
 Similarité terminée.
@@ -4466,7 +4466,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.033093072363260506
+Average similarity: 0.033093072363260444
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.09898454248420638}
@@ -4544,7 +4544,7 @@ Exemple 3 :
 Mangiare come la gente di Bulgaria per colazione, servire Banitsa con yogurt.
 
 ===== ANALYSE : system_it_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\variant_system_prompt_it_specific_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\variant_system_prompt_it_specific_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -4559,7 +4559,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.03664626485388322
+Average similarity: 0.03664626485388316
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.10772098423774101}
@@ -4637,7 +4637,7 @@ Exemple 3 :
 In Bulgaria, tradizionalmente si consumano prodotti come yogurt, pane e marmellate per colazione.
 
 ===== ANALYSE : neutral_it_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_specific_neutral_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_specific_neutral_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -4652,7 +4652,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.03432683999534709
+Average similarity: 0.03432683999534717
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.10476918071567562}
@@ -4730,7 +4730,7 @@ Exemple 3 :
 Per una colazione tipica bulgara, potresti servire yogurt con miele e noci, accompagnato da pane integrale e frittata di patate.
 
 ===== ANALYSE : cultural_it_specific =====
-Fichier : c:\Users\DelphineDecap\BigDataProjet-1\data\output\it_specific_cultural_output.jsonl
+Fichier : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\output\it_specific_cultural_output.jsonl
 Doublons supprimés : 4140
 Nombre de réponses analysées : 4140
 Calcul TF-IDF + similarité...
@@ -4745,7 +4745,7 @@ Détection des réponses problématiques...
 
 --- Similarité ---
 Matrix shape: (4140, 4140)
-Average similarity: 0.025088742173684557
+Average similarity: 0.02508874217368458
 
 --- Analyse qualitative ---
 {'low_similarity': 0.0, 'high_similarity': 0.09179075761892723}
@@ -9105,7 +9105,7 @@ system_fr_unspecific
 neutral_fr_unspecific
   avg_word_count : 21.92079207920792
   avg_char_length : 141.30693069306932
-  avg_similarity : 0.0864985979736977
+  avg_similarity : 0.08649859797369769
 
 cultural_fr_unspecific
   avg_word_count : 22.93069306930693
@@ -9115,27 +9115,27 @@ cultural_fr_unspecific
 fr_specific
   avg_word_count : 23.75706627680312
   avg_char_length : 150.18884015594543
-  avg_similarity : 0.05445218503737754
+  avg_similarity : 0.05445218503737757
 
 rewrite_fr_specific
   avg_word_count : 23.329922027290447
   avg_char_length : 148.3116471734893
-  avg_similarity : 0.055481771213786564
+  avg_similarity : 0.05548177121378651
 
 system_fr_specific
   avg_word_count : 23.860867446393762
   avg_char_length : 153.01072124756334
-  avg_similarity : 0.059096190209471905
+  avg_similarity : 0.059096190209471954
 
 neutral_fr_specific
   avg_word_count : 26.839424951267056
   avg_char_length : 169.08382066276803
-  avg_similarity : 0.059759721234165626
+  avg_similarity : 0.0597597212341656
 
 cultural_fr_specific
   avg_word_count : 24.792397660818715
   avg_char_length : 157.22636452241716
-  avg_similarity : 0.04982884500832561
+  avg_similarity : 0.049828845008325566
 
 en_unspecific
   avg_word_count : 24.96039603960396
@@ -9145,12 +9145,12 @@ en_unspecific
 rewrite_en_unspecific
   avg_word_count : 25.376237623762375
   avg_char_length : 171.15841584158414
-  avg_similarity : 0.08126694962405623
+  avg_similarity : 0.08126694962405624
 
 system_en_unspecific
   avg_word_count : 28.980198019801982
   avg_char_length : 197.9108910891089
-  avg_similarity : 0.09045489166067937
+  avg_similarity : 0.09045489166067935
 
 neutral_en_unspecific
   avg_word_count : 29.663366336633665
@@ -9160,17 +9160,17 @@ neutral_en_unspecific
 cultural_en_unspecific
   avg_word_count : 34.97029702970297
   avg_char_length : 230.93069306930693
-  avg_similarity : 0.09341074385115483
+  avg_similarity : 0.09341074385115485
 
 en_specific
   avg_word_count : 20.67729468599034
   avg_char_length : 140.7608695652174
-  avg_similarity : 0.03750347169090557
+  avg_similarity : 0.03750347169090556
 
 rewrite_en_specific
   avg_word_count : 22.167149758454105
   avg_char_length : 149.9147342995169
-  avg_similarity : 0.04138691051639951
+  avg_similarity : 0.0413869105163996
 
 system_en_specific
   avg_word_count : 25.969565217391306
@@ -9180,12 +9180,12 @@ system_en_specific
 neutral_en_specific
   avg_word_count : 26.28864734299517
   avg_char_length : 175.38695652173914
-  avg_similarity : 0.049903232004858224
+  avg_similarity : 0.04990323200485817
 
 cultural_en_specific
   avg_word_count : 25.268599033816425
   avg_char_length : 165.40652173913043
-  avg_similarity : 0.04271475089361638
+  avg_similarity : 0.04271475089361642
 
 es_unspecific
   avg_word_count : 24.08910891089109
@@ -9215,22 +9215,22 @@ cultural_es_unspecific
 es_specific
   avg_word_count : 29.62729468599034
   avg_char_length : 188.72391304347826
-  avg_similarity : 0.047857496524145525
+  avg_similarity : 0.04785749652414564
 
 rewrite_es_specific
   avg_word_count : 20.78574879227053
   avg_char_length : 134.4367149758454
-  avg_similarity : 0.03928389575414753
+  avg_similarity : 0.0392838957541475
 
 system_es_specific
   avg_word_count : 22.822946859903382
   avg_char_length : 149.41714975845412
-  avg_similarity : 0.04427988624156825
+  avg_similarity : 0.044279886241568284
 
 neutral_es_specific
   avg_word_count : 32.71304347826087
   avg_char_length : 207.85579710144927
-  avg_similarity : 0.05485875581284326
+  avg_similarity : 0.054858755812843316
 
 cultural_es_specific
   avg_word_count : 27.61256038647343
@@ -9265,27 +9265,27 @@ cultural_de_unspecific
 de_specific
   avg_word_count : 26.948067632850243
   avg_char_length : 190.97391304347826
-  avg_similarity : 0.046663505878513915
+  avg_similarity : 0.046663505878513985
 
 rewrite_de_specific
   avg_word_count : 22.76086956521739
   avg_char_length : 163.5391304347826
-  avg_similarity : 0.041453829991190856
+  avg_similarity : 0.041453829991190946
 
 system_de_specific
   avg_word_count : 27.63357487922705
   avg_char_length : 197.42487922705314
-  avg_similarity : 0.05278331121839413
+  avg_similarity : 0.052783311218394184
 
 neutral_de_specific
   avg_word_count : 32.39927536231884
   avg_char_length : 222.41545893719805
-  avg_similarity : 0.04369372768035667
+  avg_similarity : 0.04369372768035666
 
 cultural_de_specific
   avg_word_count : 28.089613526570048
   avg_char_length : 191.7478260869565
-  avg_similarity : 0.03455639684925694
+  avg_similarity : 0.034556396849256946
 
 it_unspecific
   avg_word_count : 18.11881188118812
@@ -9305,37 +9305,37 @@ system_it_unspecific
 neutral_it_unspecific
   avg_word_count : 20.88118811881188
   avg_char_length : 135.94059405940595
-  avg_similarity : 0.06556761019992606
+  avg_similarity : 0.06556761019992607
 
 cultural_it_unspecific
   avg_word_count : 21.99009900990099
   avg_char_length : 137.67326732673268
-  avg_similarity : 0.08283947591801236
+  avg_similarity : 0.08283947591801237
 
 it_specific
   avg_word_count : 18.18429951690821
   avg_char_length : 118.27149758454107
-  avg_similarity : 0.029443412459685042
+  avg_similarity : 0.02944341245968504
 
 rewrite_it_specific
   avg_word_count : 19.980676328502415
   avg_char_length : 130.60628019323673
-  avg_similarity : 0.033093072363260506
+  avg_similarity : 0.033093072363260444
 
 system_it_specific
   avg_word_count : 22.47608695652174
   avg_char_length : 148.11328502415458
-  avg_similarity : 0.03664626485388322
+  avg_similarity : 0.03664626485388316
 
 neutral_it_specific
   avg_word_count : 22.392512077294686
   avg_char_length : 144.02149758454107
-  avg_similarity : 0.03432683999534709
+  avg_similarity : 0.03432683999534717
 
 cultural_it_specific
   avg_word_count : 20.017391304347825
   avg_char_length : 128.54830917874395
-  avg_similarity : 0.025088742173684557
+  avg_similarity : 0.02508874217368458
 
 
 ===== SYNTHÈSE DES COMPARAISONS BASELINE / VARIANT =====
@@ -9581,5 +9581,5 @@ it_specific_vs_cultural_it_specific
   avg_abs_word_count_diff : 6.484299516908212
 
 ===== SAUVEGARDE TERMINÉE =====
-Rapport texte : c:\Users\DelphineDecap\BigDataProjet-1\data\analysis\analysis_report.txt
-Résumé JSON : c:\Users\DelphineDecap\BigDataProjet-1\data\analysis\analysis_summary.json
+Rapport texte : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\analysis\analysis_report.txt
+Résumé JSON : c:\Users\JulieAmblard\Documents\M2_local\M2\Méthodologies Big Data\Projet\BigDataProjet\data\analysis\analysis_summary.json
