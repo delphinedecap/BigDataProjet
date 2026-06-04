@@ -24,7 +24,7 @@ Le projet permet de :
 Le projet couvre les lots suivants :
 
 - **Lot A** : pipeline backend multi-provider ;
-- **Lot B** : interface utilisateur Streamlit, en cours de développement ;
+- **Lot B** : interface utilisateur Streamlit ;
 - **Lot C** : variantes de prompting et de reformulation ;
 - **Lot D** : analyse quantitative et qualitative ;
 - **Lot E** : export des résultats, métadonnées et rapport final.
