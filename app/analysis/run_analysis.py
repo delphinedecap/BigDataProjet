@@ -17,6 +17,12 @@ from qualitative import (
     detect_problematic_answers
 )
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 
 # =========================
 # CHEMINS DE BASE DU PROJET
@@ -42,6 +48,7 @@ SUMMARY_PATH = os.path.join(ANALYSIS_DIR, "analysis_summary.json")
 class Tee:
     """
     Permet d'afficher dans le terminal ET d'écrire dans un fichier texte.
+    Sécurise l'écriture contre les erreurs d'encodage Windows.
     """
 
     def __init__(self, *files):
@@ -49,13 +56,29 @@ class Tee:
 
     def write(self, data):
         for file in self.files:
-            file.write(data)
+            try:
+                file.write(data)
+            except UnicodeEncodeError:
+                safe_data = str(data).encode(
+                    "utf-8",
+                    errors="replace"
+                ).decode(
+                    "utf-8",
+                    errors="replace"
+                )
+                try:
+                    file.write(safe_data)
+                except UnicodeEncodeError:
+                    file.write(str(data).encode(
+                        "ascii",
+                        errors="replace"
+                    ).decode("ascii"))
+
             file.flush()
 
     def flush(self):
         for file in self.files:
             file.flush()
-
 
 def make_json_serializable(obj):
     """

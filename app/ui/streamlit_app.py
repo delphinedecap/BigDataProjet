@@ -223,6 +223,8 @@ def run_analysis_script() -> subprocess.CompletedProcess:
         capture_output=True,
         text=True,
         check=False,
+        encoding="utf-8",
+        errors="replace"
     )
 
 
